@@ -1,0 +1,32 @@
+GET https://www.arkoselabs.com
+
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+< Vary: Accept-Encoding
+< Vary: Accept-Encoding
+< Vary: Accept-Encoding,Cookie
+< X-Powered-By: WP Engine
+< Cross-Origin-Resource-Policy: cross-origin
+< Alt-Svc: h3=":443"; ma=86400
+< Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:
+< Server-Timing: cfL4;desc="?proto=TCP&rtt=9311&min_rtt=8718&rtt_var=2982&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3095&recv_bytes=474&delivery_rate=497879&cwnd=215&unsent_bytes=0&cid=cf2234ad46025669&ts=568&x=0"
+< Strict-Transport-Security: max-age=31536000;
+< X-Frame-Options: SAMEORIGIN
+< Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), browsing-topics=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()
+< X-Cacheable: SHORT
+< Referrer-Policy: origin-when-cross-origin
+< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=JvbvfUE3Ekldn%2B2CYb6Ru4kEnI2ZUbmJHlmc92ZINvRm8Y6JENh%2FKY4len6%2FcerB5GdBh%2BW7zRPAmV%2FQ9b4QvJIBBFMDYRU%2F7d52s1ZIy%2FKjY8iVAAZvHU%2Fw1kUMqZkeA1iQDh0%3D"}],"group":"cf-nel","max_age":604800}
+< Server: cloudflare
+< X-Content-Type-Options: nosniff
+< X-Cache-Group: normal
+< Cf-Cache-Status: DYNAMIC
+< Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+< Content-Type: text/html; charset=UTF-8
+< Link: <https://www.arkoselabs.com/>; rel=shortlink
+< Cf-Ray: 907a52367d82d08f-CDG
+< Date: Sat, 25 Jan 2025 18:28:07 GMT
+< X-Ua-Compatible: IE=edge
+< Cache-Control: max-age=600, must-revalidate
+< X-Cache: HIT: 272
+< Cross-Origin-Opener-Policy: same-origin

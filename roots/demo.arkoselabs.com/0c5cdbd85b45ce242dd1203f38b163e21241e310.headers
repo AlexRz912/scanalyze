@@ -1,0 +1,22 @@
+GET https://demo.arkoselabs.com
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Referrer-Policy: strict-origin-when-cross-origin
+< Via: 1.1 0bc2333fffd653246981521608e29ea0.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: CDG55-P2
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: default-src 'self' *.arkoselabs.com; script-src 'self' 'nonce-k46vvKTbyPf7rh3VkyraOQ==' *.arkoselabs.com; style-src 'self' 'nonce-k46vvKTbyPf7rh3VkyraOQ=='; img-src 'self'; font-src 'self'; connect-src 'self' *.arkoselabs.com; object-src 'self'
+< X-Amz-Cf-Id: KCo-nvLbAsOY8Xw7y3fx9SfPZRkF0fCalK1GEkrjEbwgZQNLx9ganA==
+< Server: cloudfront
+< Date: Sat, 25 Jan 2025 18:28:06 GMT
+< Permissions-Policy: accelerometer=(),autoplay=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(),usb=(),web-share=(),xr-spatial-tracking=()
+< Alt-Svc: h3=":443"; ma=86400
+< X-Xss-Protection: 1; mode=block
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
+< Content-Type: text/html
+< Content-Length: 900
+< Cache-Control: public, no-cache
+< X-Frame-Options: SAMEORIGIN
+< X-Cache: Miss from cloudfront
