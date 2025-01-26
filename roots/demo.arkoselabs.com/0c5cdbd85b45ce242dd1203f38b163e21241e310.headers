@@ -1,0 +1,23 @@
+GET https://demo.arkoselabs.com
+
+
+< HTTP/1.1 200 OK
+< Cache-Control: public, no-cache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Content-Type-Options: nosniff
+< X-Amz-Cf-Pop: CDG55-P2
+< Content-Length: 900
+< Server: cloudfront
+< Date: Sun, 26 Jan 2025 15:12:00 GMT
+< X-Amz-Cf-Id: QRrv_anwPnCfv7yvNdSWmFtT8ufXLe6HktjXHNvhI2LTVf8XTfjIGw==
+< Content-Type: text/html
+< X-Frame-Options: SAMEORIGIN
+< X-Cache: Miss from cloudfront
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
+< Content-Security-Policy: default-src 'self' *.arkoselabs.com; script-src 'self' 'nonce-jVpID5ivL4jq72JFISEv/g==' *.arkoselabs.com; style-src 'self' 'nonce-jVpID5ivL4jq72JFISEv/g=='; img-src 'self'; font-src 'self'; connect-src 'self' *.arkoselabs.com; object-src 'self'
+< X-Xss-Protection: 1; mode=block
+< Alt-Svc: h3=":443"; ma=86400
+< Server-Timing: cdn-cache-hit,cdn-pop;desc="CDG55-P2",cdn-rid;desc="QRrv_anwPnCfv7yvNdSWmFtT8ufXLe6HktjXHNvhI2LTVf8XTfjIGw==",cdn-hit-layer;desc="REC",cdn-downstream-fbl;dur=23
+< Referrer-Policy: strict-origin-when-cross-origin
+< Permissions-Policy: accelerometer=(),autoplay=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(),usb=(),web-share=(),xr-spatial-tracking=()
+< Via: 1.1 9276702fee01c12b5affcc505e68b2d4.cloudfront.net (CloudFront)

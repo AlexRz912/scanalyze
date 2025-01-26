@@ -1,5 +1,5 @@
 import os
-from secure_run_wrapper import wrapper
+from tool_wrapper import wrapper
 
 command= "cat domains | assetfinder --subs-only | tee newmdomains"
 wrapper(command, "assetfinder")
