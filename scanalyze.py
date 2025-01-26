@@ -3,6 +3,9 @@ from banner import display_banner
 
 display_banner()
 
+import set_mode
+
+
 from tools import assetfinder
 from tools import httpx
 import save

@@ -1,19 +1,19 @@
 < Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
 < Accept-Ranges: bytes
-< Age: 51524
+< Age: 52509
 < Alt-Svc: h3=":443"; ma=86400
 < Cache-Control: 
 < Cache-Control: max-age=600, must-revalidate
 < Cache-Control: public, no-cache
 < Cache-Tag: customer-portal-ui
 < Cf-Cache-Status: DYNAMIC
-< Cf-Ray: 9081705518bc048c-CDG
+< Cf-Ray: 9081885f9d5a0198-CDG
 < Content-Length: 0
 < Content-Length: 1232
-< Content-Length: 315
+< Content-Length: 303
 < Content-Length: 900
 < Content-Security-Policy: default-src 'self' *.arkoselabs.com https://arkoselabs.us.auth0.com/; script-src 'self' *.arkoselabs.com https://client-api.arkoselabs.com https://arkoselabs.us1app.churnzero.net https://arkoselabs-dev.us1app.churnzero.net https://www.googletagmanager.com 'sha256-Qt+HTYR7aAj77VTKujO4O+psr58G1EEnuJIzTa/CWUQ='; style-src 'self' data: 'unsafe-inline' fonts.googleapis.com https://*.churnzero.net blob:; img-src 'self' data: blob: https://*.churnzero.net https://*.zendesk.com https://*.zdusercontent.com https://*.slack-edge.com https://*.arkoselabs.com https://*.amazonaws.com https://support.arkoselabs.com/; font-src 'self' data: fonts.gstatic.com/ https://*.churnzero.net; connect-src 'self' *.arkoselabs.com/ https://portal-prod.arkoselabs.com/ https://*.churnzero.net https://www.google-analytics.com https://arkoselabs.us.auth0.com/oauth/token; object-src 'self'; child-src https://*.churnzero.net; media-src https://*.churnzero.net; frame-src *.arkoselabs.com https://client-api.arkoselabs.com https://dataswan.arkoselabs.com/
-< Content-Security-Policy: default-src 'self' *.arkoselabs.com; script-src 'self' 'nonce-jVpID5ivL4jq72JFISEv/g==' *.arkoselabs.com; style-src 'self' 'nonce-jVpID5ivL4jq72JFISEv/g=='; img-src 'self'; font-src 'self'; connect-src 'self' *.arkoselabs.com; object-src 'self'
+< Content-Security-Policy: default-src 'self' *.arkoselabs.com; script-src 'self' 'nonce-D5dyrucxhVWaGGzxxZnlTg==' *.arkoselabs.com; style-src 'self' 'nonce-D5dyrucxhVWaGGzxxZnlTg=='; img-src 'self'; font-src 'self'; connect-src 'self' *.arkoselabs.com; object-src 'self'
 < Content-Security-Policy: default-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; connect-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; font-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; frame-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; img-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com data:; script-src 'self' 'unsafe-inline' iframe.arkoselabs.com client-api.arkoselabs.com; style-src 'self' 'unsafe-inline' iframe.arkoselabs.com client-api.arkoselabs.com;
 < Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:
 < Content-Type: text/html
@@ -22,9 +22,8 @@
 < Cross-Origin-Opener-Policy: same-origin
 < Cross-Origin-Resource-Policy: cross-origin
 < Date: Sun, 26 Jan 2025 00:53:16 GMT
-< Date: Sun, 26 Jan 2025 15:12:00 GMT
-< Date: Sun, 26 Jan 2025 15:12:01 GMT
-< Date: Sun, 26 Jan 2025 15:12:02 GMT
+< Date: Sun, 26 Jan 2025 15:28:25 GMT
+< Date: Sun, 26 Jan 2025 15:28:26 GMT
 < Etag: "0906f0a16f5772d89f107bff20eb0e62"
 < Last-Modified: Tue, 14 Jan 2025 05:03:41 GMT
 < Link: <https://www.arkoselabs.com/>; rel=shortlink
@@ -36,46 +35,45 @@
 < Referrer-Policy: no-referrer
 < Referrer-Policy: origin-when-cross-origin
 < Referrer-Policy: strict-origin-when-cross-origin
-< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=myEGkmLBMG4FRl3TEPCuptjdUj74uWcpnd8yz4bq81nJX3QGb6Rw20N9UbNInRaDTvFgQw1cFSZgyO2lkxwbFQtTt0oav2HT%2Fo7oMZ%2BdEmYbRhIj84sBADvhkPChzOgZQxlcD2g%3D"}],"group":"cf-nel","max_age":604800}
+< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=6FENFjzNbJ3Gvoa4o%2FFHMh88S6af7fdpg%2B2iiWuUdQIgBlE45gJGXezpOG93drL0IDK1y3qfI1vDOj8Bvh7QTPcx7vNICE25PgnkZGUVUjZbjZW2iiAZBRYFtA0S5OjlrcY5Y8o%3D"}],"group":"cf-nel","max_age":604800}
 < Server: AmazonS3
 < Server: cloudflare
 < Server: cloudfront
-< Server-Timing: cdn-cache-hit,cdn-pop;desc="CDG52-P5",cdn-rid;desc="SM15MqWV4oapSYxbGrl-_uljPxpbudAMit0UeJerFSnLgf3UB-6MJw==",cdn-hit-layer;desc="EDGE",cdn-downstream-fbl;dur=1
-< Server-Timing: cdn-cache-hit,cdn-pop;desc="CDG55-P2",cdn-rid;desc="QRrv_anwPnCfv7yvNdSWmFtT8ufXLe6HktjXHNvhI2LTVf8XTfjIGw==",cdn-hit-layer;desc="REC",cdn-downstream-fbl;dur=23
-< Server-Timing: cdn-cache-refresh,cdn-pop;desc="CDG52-P1",cdn-rid;desc="HTd1x8-8nb-pext89r3QL0pyu8sMDFvfXmfHfIOhip59AK0KvrMPHg==",cdn-hit-layer;desc="EDGE",cdn-downstream-fbl;dur=315
-< Server-Timing: cfL4;desc="?proto=TCP&rtt=5304&min_rtt=4754&rtt_var=2176&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3097&recv_bytes=474&delivery_rate=913756&cwnd=166&unsent_bytes=0&cid=b7da22b63a350359&ts=595&x=0"
+< Server-Timing: cdn-cache-hit,cdn-pop;desc="CDG55-P2",cdn-rid;desc="FDDeKUhGKecgv2Xge9I-Ocn4phdhdwOw9g-_Avq2IzI0W2Cf-7EMbQ==",cdn-hit-layer;desc="REC",cdn-downstream-fbl;dur=26
+< Server-Timing: cdn-cache-refresh,cdn-pop;desc="CDG52-P1",cdn-rid;desc="KoG9wWgz0SwSpYGJBZHlS-ugX-z0a-_ATi9ktajT8deXPUv6x1RCcQ==",cdn-hit-layer;desc="EDGE",cdn-downstream-fbl;dur=338
+< Server-Timing: cfL4;desc="?proto=TCP&rtt=4654&min_rtt=4649&rtt_var=1754&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3096&recv_bytes=474&delivery_rate=925831&cwnd=199&unsent_bytes=0&cid=5032dd1b5babfafb&ts=566&x=0"
 < Set-Cookie: _cfuvid=2Tcy_EqLJ0qhYnviOGCTm_1P9sZBMu9.hAx5FSqz2z4-1717104076479-0.0.1.1-604800000; Path=/; Secure; SameSite=None; Domain=.arkoselabs.com;
 < Strict-Transport-Security: max-age=31536000;
 < Strict-Transport-Security: max-age=31536000; includeSubDomains
 < Vary: Accept-Encoding
 < Vary: Accept-Encoding,Cookie
 < Vary: Origin
-< Via: 1.1 307d3717e074a4d99213548a350ed11e.cloudfront.net (CloudFront)
+< Via: 1.1 0a58752d78fb248f2488304f0f93599a.cloudfront.net (CloudFront)
 < Via: 1.1 4587dd93b6f56d2b3f35f25ef2cabe70.cloudfront.net (CloudFront)
+< Via: 1.1 71648a90bdc296806bc81cb1c5d2c2a8.cloudfront.net (CloudFront)
 < Via: 1.1 7c30aea640657d91633325765c62f78c.cloudfront.net (CloudFront)
-< Via: 1.1 864513e6b3297533e2977136d5580c3c.cloudfront.net (CloudFront)
-< Via: 1.1 9276702fee01c12b5affcc505e68b2d4.cloudfront.net (CloudFront)
-< Via: 1.1 bd03106f662746adc3512ff682754ad0.cloudfront.net (CloudFront)
-< Via: 1.1 f7ed3df0e52b293c6e9c3d70718876fe.cloudfront.net (CloudFront)
-< X-Amz-Cf-Id: 0SmGSp-TdFk_Q45iRPZofOrYmeyMqBs9BrrmnRi8gRhdas0Qz9mIwQ==
-< X-Amz-Cf-Id: fhlR7bw9pcqpK4w2u-tnsHsU1VW6Yj3OGtHNEH7xtlGUmjCKZRXcuA==
-< X-Amz-Cf-Id: HTd1x8-8nb-pext89r3QL0pyu8sMDFvfXmfHfIOhip59AK0KvrMPHg==
-< X-Amz-Cf-Id: iiGXhyQAit0EpKB9Z8cEN8jCU8nRHMhgTYBXfLNiFXzt2en-Mh1DDg==
-< X-Amz-Cf-Id: o3kqA6YnbxrJ8cjf9w7lyQU_NlPpJC54cH55ignasqEdczoEvCNEkQ==
-< X-Amz-Cf-Id: QRrv_anwPnCfv7yvNdSWmFtT8ufXLe6HktjXHNvhI2LTVf8XTfjIGw==
-< X-Amz-Cf-Id: SM15MqWV4oapSYxbGrl-_uljPxpbudAMit0UeJerFSnLgf3UB-6MJw==
+< Via: 1.1 873d6434b45dab39b9f50a4f2cbd92f6.cloudfront.net (CloudFront)
+< Via: 1.1 e33a7efffade24bd6702687553e6f9c0.cloudfront.net (CloudFront)
+< Via: 1.1 f746a613a6247a8dda339ff5d3973662.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: 3aswqL50-OadBuZPbUt6nLkjp76ff4sXZsFz_7NkTF1U7nom4x7Xiw==
+< X-Amz-Cf-Id: 7muK3o3hbYRiDgFhlpm1AKm2fuzgTjWUeOOF1JSFFy0ho07JIy_XcA==
+< X-Amz-Cf-Id: CVhGgWmzs6_zO7boDbBfifM1E6fr11eTs3k5hHaNniZbq_aBwIeTWQ==
+< X-Amz-Cf-Id: FDDeKUhGKecgv2Xge9I-Ocn4phdhdwOw9g-_Avq2IzI0W2Cf-7EMbQ==
+< X-Amz-Cf-Id: KoG9wWgz0SwSpYGJBZHlS-ugX-z0a-_ATi9ktajT8deXPUv6x1RCcQ==
+< X-Amz-Cf-Id: sc5zo1kKL4HOfUvNR1uogZJb9cPM_iYlLmu7KOS8Hdx-lbq_-Z7I2g==
+< X-Amz-Cf-Id: wjdNpSIn9urgue5o335nVLXBsPpTSQxXtZ7QcnPMfG6aLEIP_BcRUA==
 < X-Amz-Cf-Pop: CDG50-C1
 < X-Amz-Cf-Pop: CDG52-P1
 < X-Amz-Cf-Pop: CDG52-P4
 < X-Amz-Cf-Pop: CDG52-P5
 < X-Amz-Cf-Pop: CDG55-P2
-< X-Amz-Id-2: MCLZrqF8o14/Vrpv58IzVpqzuIhvVBOcI4haoLekwMj4sYvqqn4T0GiyxC+x11Fz9H8F8q+beXcmVWX7cwRkpA==
-< X-Amz-Request-Id: S7Y9FETEFPE4PQAG
+< X-Amz-Id-2: kr5VjSG5JHvSc1phrGh0vP7rkrc2ImzhZR2TaqAZaz7yk2IFKx/vHlXv1hoeEPF3rZCNS9LOo+8=
+< X-Amz-Request-Id: YCZ2SWNMC23PSF11
 < X-Amz-Server-Side-Encryption: AES256
 < X-Amz-Version-Id: null
 < X-Cacheable: SHORT
 < X-Cache-Group: normal
-< X-Cache: HIT: 245
+< X-Cache: HIT: 59
 < X-Cache: Hit from cloudfront
 < X-Cache: Miss from cloudfront
 < X-Cache: RefreshHit from cloudfront

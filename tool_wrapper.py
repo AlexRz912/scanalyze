@@ -1,8 +1,6 @@
 import os
 import subprocess
-
-
-is_manual_mode = True
+from set_mode import is_manual_mode
 
 def wrapper(command, tool):
 
