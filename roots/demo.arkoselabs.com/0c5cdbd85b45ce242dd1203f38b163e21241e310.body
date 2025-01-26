@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Arkose Labs Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript"  src="https://client-api.arkoselabs.com/v2//api.js" data-callback="loadArkose" data-nonce="mlzDpniu6RcoFgCcKRdNgQ==" async defer></script>
+    <style nonce="mlzDpniu6RcoFgCcKRdNgQ==">
+      body {
+        background-color: #000;
+      }
+    
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <div id="arkose"></div>
+    </div>
+    <script type="text/javascript" nonce="mlzDpniu6RcoFgCcKRdNgQ==">
+      function loadArkose(enforcement) {
+        enforcement.setConfig({"selector":"#arkose","mode":"inline","language":"en"});
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
+< Accept-Ranges: bytes
+< Age: 66848
+< Alt-Svc: h3=":443"; ma=86400
+< Cache-Control: 
+< Cache-Control: max-age=600, must-revalidate
+< Cache-Control: public, no-cache
+< Cache-Tag: customer-portal-ui
+< Cf-Cache-Status: DYNAMIC
+< Cf-Ray: 9082e6750b50d151-CDG
+< Content-Length: 0
+< Content-Length: 1232
+< Content-Length: 303
+< Content-Length: 900
+< Content-Security-Policy: default-src 'self' *.arkoselabs.com https://arkoselabs.us.auth0.com/; script-src 'self' *.arkoselabs.com https://client-api.arkoselabs.com https://arkoselabs.us1app.churnzero.net https://arkoselabs-dev.us1app.churnzero.net https://www.googletagmanager.com 'sha256-Qt+HTYR7aAj77VTKujO4O+psr58G1EEnuJIzTa/CWUQ='; style-src 'self' data: 'unsafe-inline' fonts.googleapis.com https://*.churnzero.net blob:; img-src 'self' data: blob: https://*.churnzero.net https://*.zendesk.com https://*.zdusercontent.com https://*.slack-edge.com https://*.arkoselabs.com https://*.amazonaws.com https://support.arkoselabs.com/; font-src 'self' data: fonts.gstatic.com/ https://*.churnzero.net; connect-src 'self' *.arkoselabs.com/ https://portal-prod.arkoselabs.com/ https://*.churnzero.net https://www.google-analytics.com https://arkoselabs.us.auth0.com/oauth/token; object-src 'self'; child-src https://*.churnzero.net; media-src https://*.churnzero.net; frame-src *.arkoselabs.com https://client-api.arkoselabs.com https://dataswan.arkoselabs.com/
+< Content-Security-Policy: default-src 'self' *.arkoselabs.com; script-src 'self' 'nonce-mlzDpniu6RcoFgCcKRdNgQ==' *.arkoselabs.com; style-src 'self' 'nonce-mlzDpniu6RcoFgCcKRdNgQ=='; img-src 'self'; font-src 'self'; connect-src 'self' *.arkoselabs.com; object-src 'self'
+< Content-Security-Policy: default-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; connect-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; font-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; frame-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; img-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com data:; script-src 'self' 'unsafe-inline' iframe.arkoselabs.com client-api.arkoselabs.com; style-src 'self' 'unsafe-inline' iframe.arkoselabs.com client-api.arkoselabs.com;
+< Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:
+< Content-Type: text/html
+< Content-Type: text/html; charset=utf-8
+< Content-Type: text/html; charset=UTF-8
+< Cross-Origin-Opener-Policy: same-origin
+< Cross-Origin-Resource-Policy: cross-origin
+< Date: Sun, 26 Jan 2025 00:53:16 GMT
+< Date: Sun, 26 Jan 2025 19:27:24 GMT
+< Date: Sun, 26 Jan 2025 19:27:25 GMT
+< Date: Sun, 26 Jan 2025 19:27:26 GMT
+< Etag: "0906f0a16f5772d89f107bff20eb0e62"
+< Last-Modified: Tue, 14 Jan 2025 05:03:41 GMT
+< Link: <https://www.arkoselabs.com/>; rel=shortlink
+< Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+< Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), browsing-topics=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()
+< Permissions-Policy: accelerometer=(),autoplay=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(self),usb=(),web-share=(),xr-spatial-tracking=()
+< Permissions-Policy: accelerometer=(),autoplay=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(),usb=(),web-share=(),xr-spatial-tracking=()
+< Permissions-Policy: accelerometer=*, autoplay=*, camera=*, display-capture=*, encrypted-media=*, fullscreen=*, geolocation=*, gyroscope=*, midi=*, payment=*, picture-in-picture=*, sync-xhr=*, usb=*
+< Referrer-Policy: no-referrer
+< Referrer-Policy: origin-when-cross-origin
+< Referrer-Policy: strict-origin-when-cross-origin
+< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=e%2F3%2FJlK1vENXo2fmqUrIzEs%2Fxq3t5MbugF%2B1VKBX%2FcUH2ruHeW7LKqXm2jVNNysSb%2BQYKdpT1FivgFw%2BARrakckqkjV6SuUfZb0hiCcTooZ6uVjUof9bq3RslNxv1CvThitQilU%3D"}],"group":"cf-nel","max_age":604800}
+< Server: AmazonS3
+< Server: cloudflare
+< Server: cloudfront
+< Server-Timing: cdn-cache-hit,cdn-pop;desc="CDG52-P5",cdn-rid;desc="Mpa2p1VxR65aLptTA8hNFxW5KKlOF6oMoKar8R6_VQ2xdPrZHwPfOA==",cdn-hit-layer;desc="EDGE",cdn-downstream-fbl;dur=1
+< Server-Timing: cdn-cache-hit,cdn-pop;desc="CDG55-P2",cdn-rid;desc="K6XWmHRefEhSJ4mPkd1Id1UjMpaz2b4_3rOhWRxPqXB19mMgAcoHEw==",cdn-hit-layer;desc="REC",cdn-downstream-fbl;dur=26
+< Server-Timing: cdn-cache-refresh,cdn-pop;desc="CDG52-P1",cdn-rid;desc="hlrGK15vB_PfTYeWpBF-_l9Us_PoxL3X81a8ohDRKzz8EHoxwLsncA==",cdn-hit-layer;desc="EDGE",cdn-downstream-fbl;dur=330
+< Server-Timing: cfL4;desc="?proto=TCP&rtt=10458&min_rtt=9582&rtt_var=3478&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3097&recv_bytes=474&delivery_rate=452877&cwnd=222&unsent_bytes=0&cid=f1b1a0b6afd160fd&ts=566&x=0"
+< Set-Cookie: _cfuvid=2Tcy_EqLJ0qhYnviOGCTm_1P9sZBMu9.hAx5FSqz2z4-1717104076479-0.0.1.1-604800000; Path=/; Secure; SameSite=None; Domain=.arkoselabs.com;
+< Strict-Transport-Security: max-age=31536000;
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Vary: Accept-Encoding
+< Vary: Accept-Encoding,Cookie
+< Vary: Origin
+< Via: 1.1 0bc2333fffd653246981521608e29ea0.cloudfront.net (CloudFront)
+< Via: 1.1 10de7dc52d3d7cd9c88ea5102d141a22.cloudfront.net (CloudFront)
+< Via: 1.1 1bacb02241351388dde0dc81454e3020.cloudfront.net (CloudFront)
+< Via: 1.1 a355d8f903a0cf5525893c863fcdf216.cloudfront.net (CloudFront)
+< Via: 1.1 a462d9473c62e045cd7ca3144781eb10.cloudfront.net (CloudFront)
+< Via: 1.1 bfe6539ddfc76c3ba5ee5e95acacd26e.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: 0rBvpnhs12H0poSmtrqilr9TwqgpSMkP-1Kzv08Ioa2IJAAjGVkQaA==
+< X-Amz-Cf-Id: hlrGK15vB_PfTYeWpBF-_l9Us_PoxL3X81a8ohDRKzz8EHoxwLsncA==
+< X-Amz-Cf-Id: K6XWmHRefEhSJ4mPkd1Id1UjMpaz2b4_3rOhWRxPqXB19mMgAcoHEw==
+< X-Amz-Cf-Id: MC9kPZ5gYCDI1V_WzRukk4wtuhT2kj_wAVJPkWVsV9E-Y33v36G1Zw==
+< X-Amz-Cf-Id: Mpa2p1VxR65aLptTA8hNFxW5KKlOF6oMoKar8R6_VQ2xdPrZHwPfOA==
+< X-Amz-Cf-Id: yD93DQWwj-oqOWZvOh-UJv2SbbRqlCuSI0S73wZbZ7vMUiozK1wlMA==
+< X-Amz-Cf-Pop: CDG50-C1
+< X-Amz-Cf-Pop: CDG52-P1
+< X-Amz-Cf-Pop: CDG52-P4
+< X-Amz-Cf-Pop: CDG52-P5
+< X-Amz-Cf-Pop: CDG55-P2
+< X-Amz-Id-2: DyHAmvZiGyQ8VBHglZVRQwP0yEfclMA2wX0BQNR7T/bUmMdeI0bs+IMXUUYjmIt6PdIJpbPxIXk=
+< X-Amz-Request-Id: WG8GM60G5EAPZWR6
+< X-Amz-Server-Side-Encryption: AES256
+< X-Amz-Version-Id: null
+< X-Cacheable: SHORT
+< X-Cache-Group: normal
+< X-Cache: HIT: 344
+< X-Cache: Hit from cloudfront
+< X-Cache: Miss from cloudfront
+< X-Cache: RefreshHit from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: WP Engine
+< X-Ua-Compatible: IE=edge
+< X-Xss-Protection: 1; mode=block

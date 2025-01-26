@@ -1,0 +1,10 @@
+GET http://development.demo.arkoselabs.com
+
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 303
+< Date: Sun, 26 Jan 2025 19:27:24 GMT
+< Server: AmazonS3
+< X-Amz-Request-Id: WG8GM60G5EAPZWR6
+< X-Amz-Id-2: DyHAmvZiGyQ8VBHglZVRQwP0yEfclMA2wX0BQNR7T/bUmMdeI0bs+IMXUUYjmIt6PdIJpbPxIXk=

@@ -1,0 +1,18 @@
+GET https://client-api.arkoselabs.com
+
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 0
+< Date: Sun, 26 Jan 2025 19:27:24 GMT
+< Via: 1.1 a462d9473c62e045cd7ca3144781eb10.cloudfront.net (CloudFront)
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: cloudfront
+< X-Amz-Cf-Pop: CDG52-P4
+< Alt-Svc: h3=":443"; ma=86400
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: yD93DQWwj-oqOWZvOh-UJv2SbbRqlCuSI0S73wZbZ7vMUiozK1wlMA==
+< X-Content-Type-Options: nosniff
+< Vary: Origin
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
