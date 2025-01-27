@@ -9,7 +9,7 @@ display_banner()
 config_path = config_handler.load_config_path()
 config_file = config_handler.load_config_file(config_path)
 
-working_path = config_handler.set_working_path(config_path)
+working_path = config_handler.set_working_path(config_file)
 project_path = ""
 # Code for loading working path
 
