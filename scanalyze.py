@@ -20,8 +20,10 @@ while (user_keeps_working):
 
         # debug if no project exist
         projects_handler.list_projects()
-        projects_handler.choose_projects("load")
-        # choose project to load
+        project = projects_handler.choose_projects("load")
+        print(f"{project} selected, configuring environment...")
+
+
         # prepare environment
 
     elif (user_choice == '3'):
@@ -31,11 +33,12 @@ while (user_keeps_working):
         project = projects_handler.choose_projects("delete")
         delete_flag = projects_handler.delete_confirmation(project)
         projects_handler.delete_project_on_flag(delete_flag, project)
-        # list projects 
-        # choose project to delete
-        # ask for confirmation
-        
+
     elif (user_choice == '4'):
+        print("\n")
+        print("choose a path to your projects")
+        
+    elif (user_choice == '5'):
         print("See ya !")
         break
     else:
@@ -49,7 +52,7 @@ while (user_keeps_working):
     # menu.display_mode_menu()
     # it does reload the whole loop, without taking care of the imports
     # the following steps are hardcoded here and are not dynamically handled
-    
+
     from tools import assetfinder
     from tools import httpx
     import save
