@@ -2,25 +2,24 @@ import os
 from banner import display_banner
 import menu
 import projects_handler
-from config import load_config
+from config import config_handler
 
 display_banner()
 
-working_path = load_config.set_working_path()
+working_path = config_handler.set_working_path()
 # Code for loading working path
 
 
 while (True):
 
-    menu.display_project_menu()
+    menu.display_start_menu()
     user_choice = input()
-
+    
     if (user_choice == '2'):
         print("\n")
 
-        if (False): 
-            break
-        
+        if (not config_handler.check_working_path_exists(working_path)):
+            continue
         # code to load project
 
 
@@ -33,7 +32,10 @@ while (True):
         # prepare environment
 
     elif (user_choice == '3'):
-        
+        print("\n")
+
+        if (not config_handler.check_working_path_exists(working_path)):
+            continue
         # to refactor
         # code to delete project
         print("\n")
