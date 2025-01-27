@@ -15,6 +15,5 @@ def set_working_path():
 def check_working_path_exists(path):
     if (not os.path.isdir(path)): 
         print("No path was found, please provide a correct path value to working_path : config/config.json")
-        print("You can update manually or with option 4")
         return False
     return True

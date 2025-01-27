@@ -12,14 +12,17 @@ working_path = config_handler.set_working_path()
 
 while (True):
 
+    if (not config_handler.check_working_path_exists(working_path)):
+            break
     menu.display_start_menu()
     user_choice = input()
     
+    
+
     if (user_choice == '2'):
         print("\n")
 
-        if (not config_handler.check_working_path_exists(working_path)):
-            continue
+        
         # code to load project
 
 
@@ -32,10 +35,6 @@ while (True):
         # prepare environment
 
     elif (user_choice == '3'):
-        print("\n")
-
-        if (not config_handler.check_working_path_exists(working_path)):
-            continue
         # to refactor
         # code to delete project
         print("\n")
@@ -43,12 +42,8 @@ while (True):
         project = projects_handler.choose_projects("delete")
         delete_flag = projects_handler.delete_confirmation(project)
         projects_handler.delete_project_on_flag(delete_flag, project)
-
-    elif (user_choice == '4'):
-        print("\n")
-        print("choose a path to your projects")
         
-    elif (user_choice == '5'):
+    elif (user_choice == '4'):
         print("See ya !")
         break
     else:
