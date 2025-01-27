@@ -5,7 +5,7 @@ import projects_handler
 
 display_banner()
 
-# the following steps are hardcoded here and are not dynamically handled
+
 
 user_keeps_working = True
 
@@ -48,6 +48,8 @@ while (user_keeps_working):
 
     # menu.display_mode_menu()
     # it does reload the whole loop, without taking care of the imports
+    # the following steps are hardcoded here and are not dynamically handled
+    
     from tools import assetfinder
     from tools import httpx
     import save
