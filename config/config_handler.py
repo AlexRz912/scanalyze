@@ -21,8 +21,8 @@ def check_working_path_exists(path):
         return False
     return True
 
-def create_project_path(input):
-    
+# def create_project_path(input):
+
 
 def set_project_path(path, input):
     return (f"{path}/{input}")

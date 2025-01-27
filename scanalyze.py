@@ -24,9 +24,6 @@ while (True):
     if (user_choice == '2'):
         print("\n")
 
-        
-        # code to load project
-        # debug if no project exist
         projects_handler.list_projects(working_path)
         project = projects_handler.choose_projects("load")
         print(f"{project} selected, configuring environment...")
@@ -50,7 +47,8 @@ while (True):
         print("create a new project")
         # code to create project
 
-        # name project
+        project_name = input("Choose a project name")
+        projects_handler.new_project(project_name, working_path)
         # create folder with name of project
         # prepare environment
 

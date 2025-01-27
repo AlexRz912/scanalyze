@@ -13,6 +13,12 @@ def list_projects(working_path):
 def choose_projects(action):
     return input(f"Choose a project to {action} : ")
 
+def new_project(project_name, working_path):
+    if os.path.isdir(working_path):
+        os.system(f"mkdir {working_path}/{project_name}")
+    else:
+        print("No projects directory found.")
+
 def delete_confirmation(choice):
     return input(f"Are you sure to delete project : {choice} (y/else)")
 
