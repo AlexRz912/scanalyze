@@ -2,17 +2,17 @@ GET https://verify.arkoselabs.com
 
 
 < HTTP/1.1 404 Not Found
-< Content-Length: 0
 < X-Cache: Miss from cloudfront
-< Referrer-Policy: strict-origin-when-cross-origin
-< Vary: Origin
-< Alt-Svc: h3=":443"; ma=86400
-< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
-< Via: 1.1 1bacb02241351388dde0dc81454e3020.cloudfront.net (CloudFront)
 < X-Amz-Cf-Pop: CDG50-C1
-< X-Xss-Protection: 1; mode=block
-< Strict-Transport-Security: max-age=31536000; includeSubDomains
-< Date: Sun, 26 Jan 2025 19:27:24 GMT
-< Server: cloudfront
-< X-Amz-Cf-Id: MC9kPZ5gYCDI1V_WzRukk4wtuhT2kj_wAVJPkWVsV9E-Y33v36G1Zw==
+< Alt-Svc: h3=":443"; ma=86400
 < X-Content-Type-Options: nosniff
+< Vary: Origin
+< Date: Sun, 26 Jan 2025 22:32:50 GMT
+< Referrer-Policy: strict-origin-when-cross-origin
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
+< Server: cloudfront
+< X-Xss-Protection: 1; mode=block
+< X-Amz-Cf-Id: Fv256NM7t8Hl8aqYThwTsX7Y4bvQI-dDgXFUlVfHWcLT9I4GT_jUwQ==
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Length: 0
+< Via: 1.1 f976d2c0a35af8b41b9970684d9b98cc.cloudfront.net (CloudFront)

@@ -3,8 +3,8 @@
     <title>Arkose Labs Demo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript"  src="https://client-api.arkoselabs.com/v2//api.js" data-callback="loadArkose" data-nonce="mlzDpniu6RcoFgCcKRdNgQ==" async defer></script>
-    <style nonce="mlzDpniu6RcoFgCcKRdNgQ==">
+    <script type="text/javascript"  src="https://client-api.arkoselabs.com/v2//api.js" data-callback="loadArkose" data-nonce="uqYWuE3CwYU78Iv6bJN/tA==" async defer></script>
+    <style nonce="uqYWuE3CwYU78Iv6bJN/tA==">
       body {
         background-color: #000;
       }
@@ -22,7 +22,7 @@
     <div class="center">
       <div id="arkose"></div>
     </div>
-    <script type="text/javascript" nonce="mlzDpniu6RcoFgCcKRdNgQ==">
+    <script type="text/javascript" nonce="uqYWuE3CwYU78Iv6bJN/tA==">
       function loadArkose(enforcement) {
         enforcement.setConfig({"selector":"#arkose","mode":"inline","language":"en"});
       }
