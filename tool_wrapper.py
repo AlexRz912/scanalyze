@@ -1,7 +1,7 @@
 import os
 import subprocess
 import set_mode
-import set_step
+
 
 is_manual_mode = set_mode.is_manual_mode()
 

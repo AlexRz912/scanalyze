@@ -1,11 +1,10 @@
 import os
 
-def list_projects():
-    projects_path = "./projects"  # Chemin vers le dossier à lister
-    if os.path.isdir(projects_path):  # Vérifie que le chemin est un dossier
+def list_projects(working_path):
+    if os.path.isdir(working_path):  # Vérifie que le chemin est un dossier
         print("Available projects:")
         print("\n")
-        for project in os.listdir(projects_path):
+        for project in os.listdir(working_path):
             print(f"- {project}")
         print("\n")
     else:
