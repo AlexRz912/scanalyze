@@ -1,6 +1,8 @@
 import os
 import json
 
+## Giant mess, to paraphrase PrimeAgen : "Clean code is a myth, but there's objectively shit code"
+
 def load_config_path():
     return os.path.join("config", "config.json")
 
@@ -30,7 +32,6 @@ def get_project_path(path, input):
 def save_config(config_path, data):
     with open(config_path, 'w') as file:
         json.dump(data, file, indent=4)  # `indent=4` for readability
-
 
 def update_project_path(config_path, config_file, path):
     

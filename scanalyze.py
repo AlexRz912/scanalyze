@@ -6,16 +6,23 @@ from config import config_handler
 
 display_banner()
 
+
+# externalise the handling of these for more code flexibility in the future
+# lots of code have to be written inside this scanalyze file because of this
+# one handler should have access to these and redistribute it to other .py
+# project is not in refacto phase
+
 config_path = config_handler.load_config_path()
 config_file = config_handler.load_config_file(config_path)
 
 working_path = config_handler.set_working_path(config_file)
 project_path = ""
-# Code for loading working path
-
 
 while (True):
 
+    # Check line 10: These would be called inside a function from another file that takes config_path, config_file, 
+    # working_path and project_path from a handler or whatever it should be called from a file architecture POV
+    
     if (not config_handler.check_working_path_exists(working_path)):
         break
     menu.display_start_menu()
@@ -29,11 +36,9 @@ while (True):
         print(f"{project} selected, configuring environment...")
         project_path = config_handler.get_project_path(working_path, project)
         config_handler.update_project_path(config_path, config_file, project_path)
-        # prepare environment
 
     elif (user_choice == '3'):
-        # to refactor
-        # code to delete project
+        
         print("\n")
         projects_handler.list_projects(working_path)
         project = projects_handler.choose_projects("delete")
@@ -46,16 +51,14 @@ while (True):
         break
     else:
         print("create a new project")
-        # code to create project
 
         project = input("Choose a project name") 
         projects_handler.new_project(project, working_path)
         project_path = config_handler.get_project_path(working_path, project)
         config_handler.update_project_path(config_path, config_file, project_path)
-        # create folder with name of project
-        # prepare environment
 
-    # menu.display_mode_menu()
+    menu.display_mode_menu()
+
     # it does reload the whole loop, without taking care of the imports
     # the following steps are hardcoded here and are not dynamically handled
 
