@@ -50,22 +50,19 @@ while (True):
         print("See ya !")
         break
     else:
-        print("create a new project")
 
-        project = input("Choose a project name") 
+        project = input("Choose a project name\n") 
         projects_handler.new_project(project, working_path)
         project_path = projects_handler.get_project_path(working_path, project)
         config_handler.update_project_path(config_path, config_file, project_path)
 
-    menu.display_mode_menu()
+    # YAGNI principle :D
+    # menu.display_mode_menu()
 
-    # it does reload the whole loop, without taking care of the imports
-    # the following steps are hardcoded here and are not dynamically handled
-
-    from tools import assetfinder
-    from tools import httpx
-    import save
-    from tools import awk
-    from tools import fff
-    from tools import gf
+    # from tools import assetfinder
+    # from tools import httpx
+    # import save
+    # from tools import awk
+    # from tools import fff
+    # from tools import gf
 

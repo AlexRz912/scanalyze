@@ -1,11 +1,12 @@
 import os
 import subprocess
 import set_mode
-
+import config_handler
 
 is_manual_mode = set_mode.is_manual_mode()
 
 def wrapper(command, tool):
+    # inclure un project path ici
     if (is_manual_mode == True):
         set_mode.manual_mode_instructions(command, tool)
     try:
