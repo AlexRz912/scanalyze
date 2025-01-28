@@ -14,8 +14,11 @@ def load_config_file(config_path):
     with open(config_path, 'r') as file:
         return json.load(file)
 
-def set_working_path(config_file):
+def get_working_path(config_file):
     return config_file.get("working_path")
+
+def get_project_path(config_file):
+    return config_file.get("project_path")
 
 def check_working_path_exists(path):
     if (not os.path.isdir(path)): 
@@ -24,10 +27,6 @@ def check_working_path_exists(path):
     return True
 
 # def create_project_path(input):
-
-
-def get_project_path(path, input):
-    return (f"{path}/{input}")
 
 def save_config(config_path, data):
     with open(config_path, 'w') as file:

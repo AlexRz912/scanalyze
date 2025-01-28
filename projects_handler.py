@@ -1,5 +1,8 @@
 import os
 
+def get_project_path(path, input):
+    return (f"{path}/{input}")
+
 def list_projects(working_path):
     if os.path.isdir(working_path):  # Vérifie que le chemin est un dossier
         print("Available projects:")
