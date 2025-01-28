@@ -20,6 +20,17 @@ def get_working_path(config_file):
 def get_project_path(config_file):
     return config_file.get("project_path")
 
+def get_tooling(config_file):
+    return config_file.get("tool_routine")
+
+def get_tool_input_path(config_file):
+    return config_file.get("tool_input_path")
+
+def get_tool_output_path(config_file):
+    return config_file.get("tool_output_path")
+
+
+
 def check_working_path_exists(path):
     if (not os.path.isdir(path)): 
         print("No path was found, please provide a correct path value to working_path : config/config.json")

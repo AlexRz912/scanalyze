@@ -1,12 +1,25 @@
 {
     "working_path": "./projects",
-    "project_path": "./projects/Xylophone",
-    
+    "project_path": "./projects/Ren",
     "tool_routine": {
-        "assetfinder": "cat domains | assetfinder --subs-only | tee newmdomains",
-        "httpx": "cat newmdomains | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee live_domains",
-        "awk": "awk '{print $1}' live_domains | anew livedomains_formatted",
-        "fff": "cat livedomains_formatted | fff -d 1 -S -o roots",
-        "gf": "find ./roots -type f -name \"*.headers\" -exec cat {} + | gf meg-headers | sort -u > headers"
+        "assetfinder": "cat input_placeholder | assetfinder --subs-only | tee output_placeholder",
+        "httpx": "cat input_placeholder | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee output_placeholder",
+        "awk": "awk '{print $1}' input_placeholder | anew output_placeholder",
+        "fff": "cat input_placeholder | fff -d 1 -S -o output_placeholder",
+        "gf": "find input_placeholder -type f -name \"*.headers\" -exec cat {} + | gf meg-headers | sort -u > output_placeholder"
+    },
+    "tool_input_path": {
+        "assetfinder": "domains",
+        "httpx": "assetfinder/results",
+        "awk": "httpx/results",
+        "fff": "awk/results",
+        "gf": "fff/results/"
+    },
+    "tool_output_path": {
+        "assetfinder": "assetfinder/results",
+        "httpx": "httpx/results",
+        "awk": "awk/results",
+        "fff": "fff/results/",
+        "gf": "gf/results"
     }
 }

@@ -3,9 +3,9 @@ from banner import display_banner
 import menu
 import projects_handler
 from config import config_handler
+from bug_hunt_routine import start_bug_hunt_routine
 
 display_banner()
-
 
 # externalise the handling of these for more code flexibility in the future
 # lots of code have to be written inside this scanalyze file because of this
@@ -16,13 +16,16 @@ config_path = config_handler.load_config_path()
 config_file = config_handler.load_config_file(config_path)
 
 working_path = config_handler.get_working_path(config_file)
-project_path = ""
+project_path = config_handler.get_project_path(config_file)
+tooling = config_handler.get_tooling(config_file)
+
+output_path = config_handler.get_tool_output_path(config_file)
+input_path = config_handler.get_tool_input_path(config_file)
 
 while (True):
 
     # Check line 10: These would be called inside a function from another file that takes config_path, config_file, 
     # working_path and project_path from a handler or whatever it should be called from a file architecture POV
-
     if (not config_handler.check_working_path_exists(working_path)):
         break
     menu.display_start_menu()
@@ -30,7 +33,6 @@ while (True):
     
     if (user_choice == '2'):
         print("\n")
-
         projects_handler.list_projects(working_path)
         project = projects_handler.choose_projects("load")
         print(f"{project} selected, configuring environment...")
@@ -38,7 +40,6 @@ while (True):
         config_handler.update_project_path(config_path, config_file, project_path)
 
     elif (user_choice == '3'):
-        
         print("\n")
         projects_handler.list_projects(working_path)
         project = projects_handler.choose_projects("delete")
@@ -49,13 +50,14 @@ while (True):
     elif (user_choice == '4'):
         print("See ya !")
         break
-    else:
 
+    else:
         project = input("Choose a project name\n") 
         projects_handler.new_project(project, working_path)
         project_path = projects_handler.get_project_path(working_path, project)
         config_handler.update_project_path(config_path, config_file, project_path)
 
+    start_bug_hunt_routine(project_path, tooling, output_path, input_path)
     # YAGNI principle :D
     # menu.display_mode_menu()
 
