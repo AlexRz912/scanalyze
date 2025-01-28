@@ -25,4 +25,5 @@ def delete_confirmation(choice):
 def delete_project_on_flag(delete_flag, choice):
     if (delete_flag == "y"):
         os.system(f"rm -rf ./projects/{choice}")
-
+        return True
+    return False

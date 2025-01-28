@@ -17,7 +17,7 @@ project_path = ""
 while (True):
 
     if (not config_handler.check_working_path_exists(working_path)):
-            break
+        break
     menu.display_start_menu()
     user_choice = input()
     
@@ -27,7 +27,7 @@ while (True):
         projects_handler.list_projects(working_path)
         project = projects_handler.choose_projects("load")
         print(f"{project} selected, configuring environment...")
-        project_path = config_handler.set_project_path(working_path, project)
+        project_path = config_handler.get_project_path(working_path, project)
         config_handler.update_project_path(config_path, config_file, project_path)
         # prepare environment
 
@@ -39,7 +39,8 @@ while (True):
         project = projects_handler.choose_projects("delete")
         delete_flag = projects_handler.delete_confirmation(project)
         projects_handler.delete_project_on_flag(delete_flag, project)
-        
+        continue
+
     elif (user_choice == '4'):
         print("See ya !")
         break
@@ -47,8 +48,10 @@ while (True):
         print("create a new project")
         # code to create project
 
-        project_name = input("Choose a project name")
-        projects_handler.new_project(project_name, working_path)
+        project = input("Choose a project name") 
+        projects_handler.new_project(project, working_path)
+        project_path = config_handler.get_project_path(working_path, project)
+        config_handler.update_project_path(config_path, config_file, project_path)
         # create folder with name of project
         # prepare environment
 

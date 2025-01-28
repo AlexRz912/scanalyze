@@ -24,7 +24,7 @@ def check_working_path_exists(path):
 # def create_project_path(input):
 
 
-def set_project_path(path, input):
+def get_project_path(path, input):
     return (f"{path}/{input}")
 
 def save_config(config_path, data):
