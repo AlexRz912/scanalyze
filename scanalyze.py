@@ -7,11 +7,6 @@ from bug_hunt_routine import start_bug_hunt_routine
 
 display_banner()
 
-# externalise the handling of these for more code flexibility in the future
-# lots of code have to be written inside this scanalyze file because of this
-# one handler should have access to these and redistribute it to other .py
-# project is not in refacto phase so I don't mind working with this for now
-
 config_path = config_handler.load_config_path()
 config_file = config_handler.load_config_file(config_path)
 
@@ -58,6 +53,7 @@ while (True):
         config_handler.update_project_path(config_path, config_file, project_path)
 
     start_bug_hunt_routine(project_path, tooling, output_path, input_path)
+
     # YAGNI principle :D
     # menu.display_mode_menu()
 
