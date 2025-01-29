@@ -1,8 +1,6 @@
 import os
 import json
 
-## Giant mess, to paraphrase PrimeAgen : "Clean code is a myth, but there's objectively shit code"
-
 def load_config_path():
     return os.path.join("config", "config.json")
 
@@ -28,8 +26,6 @@ def get_tool_input_path(config_file):
 
 def get_tool_output_path(config_file):
     return config_file.get("tool_output_path")
-
-
 
 def set_project_path(path, input):
     return (f"{path}/{input}")

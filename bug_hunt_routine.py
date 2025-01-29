@@ -2,7 +2,6 @@ import os
 import json
 import subprocess
 import set_mode
-from config import config_handler
 # is_manual_mode = set_mode.is_manual_mode()
 
 def sh_exec(project_path, command, output_path, input_path):
