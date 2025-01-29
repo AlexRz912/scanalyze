@@ -15,26 +15,24 @@ def display_mode_menu():
     print("3: for customization       : press 3\n")
     print("4: to quit                 : press 4")
 
-def list_projects(path, action):
+def list_projects_into_action(path, action):
     projects_handler.list_projects(path)
+    return projects_handler.select_project(action)
 
 def handle_start_menu_choice(config_path, config_file, working_path, project_path):
     user_choice = input()
     if (user_choice == '2'):
         print("\n")
-        list_projects(working_path)
-        project = projects_handler.select_project("load")
+        project = list_projects_into_action(working_path, "load")
         print(f"{project} selected, configuring environment...")
-        project_path = projects_handler.get_project_path(working_path, project)
-        config_handler.update_project_path(config_path, config_file, project_path)
+        config_handler.update_project_path(config_path, config_file, working_path, project)
         return False
 
     elif (user_choice == '3'):
         print("\n")
-        list_projects(working_path)
-        project = projects_handler.select_project("delete")
+        list_projects_into_action(working_path, "delete")
         delete_flag = projects_handler.delete_confirmation(project)
-        projects_handler.delete_project_on_flag(delete_flag, project)
+        projects_handler.delete_project_on_confirmation(delete_flag, project)
         return True
 
     elif (user_choice == '4'):
@@ -44,6 +42,5 @@ def handle_start_menu_choice(config_path, config_file, working_path, project_pat
     else:
         project = input("Choose a project name\n") 
         projects_handler.new_project(project, working_path)
-        project_path = projects_handler.get_project_path(working_path, project)
-        config_handler.update_project_path(config_path, config_file, project_path)
+        config_handler.update_project_path(config_path, config_file, working_path, project)
         return False

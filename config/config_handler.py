@@ -19,7 +19,7 @@ def get_working_path(config_file):
 
 def get_project_path(config_file):
     return config_file.get("project_path")
-
+    
 def get_tooling(config_file):
     return config_file.get("tool_routine")
 
@@ -28,6 +28,11 @@ def get_tool_input_path(config_file):
 
 def get_tool_output_path(config_file):
     return config_file.get("tool_output_path")
+
+
+
+def set_project_path(path, input):
+    return (f"{path}/{input}")
 
 def check_working_path_exists(path):
     if (not os.path.isdir(path)): 
@@ -41,8 +46,8 @@ def save_config(config_path, data):
     with open(config_path, 'w') as file:
         json.dump(data, file, indent=4)  # `indent=4` for readability
 
-def update_project_path(config_path, config_file, path):
-    
+def update_project_path(config_path, config_file, working_path, project):
+    path = set_project_path(working_path, project)
     # Update changes
     config_file["project_path"] = path
     

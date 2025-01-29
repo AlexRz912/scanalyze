@@ -1,8 +1,5 @@
 import os
 
-def get_project_path(path, input):
-    return (f"{path}/{input}")
-
 def list_projects(working_path):
     if os.path.isdir(working_path):
         print("Available projects:")

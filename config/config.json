@@ -1,6 +1,6 @@
 {
     "working_path": "./projects",
-    "project_path": "./projects/test",
+    "project_path": "./projects/aemzhamlkedza",
     "tool_routine": {
         "assetfinder": "cat input_placeholder | assetfinder --subs-only | tee output_placeholder",
         "httpx": "cat input_placeholder | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee output_placeholder",
