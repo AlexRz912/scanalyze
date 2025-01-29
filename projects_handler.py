@@ -13,8 +13,8 @@ def list_projects(working_path):
     else:
         print("No projects directory found.")
 
-def choose_projects(action):
-    return input(f"Choose a project to {action} : ")
+def select_project(action):
+    return input(f"Select a project to {action} : ")
 
 def new_project(project_name, working_path):
     if os.path.isdir(working_path):
