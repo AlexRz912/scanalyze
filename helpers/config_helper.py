@@ -5,9 +5,9 @@ def load_config_path():
     return os.path.join("config", "config.json")
 
 def load_config_file(config_path):
-    """Charge le fichier JSON à partir du chemin donné."""
+    """Loads JSON from given file path"""
     if not os.path.exists(config_path):
-        raise FileNotFoundError(f"Le fichier de configuration '{config_path}' est introuvable.")
+        raise FileNotFoundError(f"Config file '{config_path}' not found")
     
     with open(config_path, 'r') as file:
         return json.load(file)

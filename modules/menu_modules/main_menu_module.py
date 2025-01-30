@@ -1,5 +1,4 @@
 from views import menu_view
-from helpers import projects_helper
 from helpers import menu_helper
 from config.config_loader import *
 

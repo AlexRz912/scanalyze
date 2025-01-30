@@ -1,4 +1,5 @@
 from . import projects_helper
+from . import config_helper
 
 def list_projects_into_action(path, action):
     projects_helper.list_projects(path)
