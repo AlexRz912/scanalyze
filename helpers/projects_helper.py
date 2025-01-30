@@ -22,8 +22,8 @@ def new_project(project_name, working_path):
 
 def delete_confirmation(choice):
     return input(f"Are you sure to delete project : {choice} (y/else)")
-
-def delete_project_on_flag(delete_flag, choice):
+    
+def delete_project_on_confirmation(delete_flag, choice):
     if (delete_flag == "y"):
         os.system(f"rm -rf ./projects/{choice}")
         return True
