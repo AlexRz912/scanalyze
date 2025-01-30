@@ -2,16 +2,15 @@ import os
 
 def list_projects(working_path):
     if os.path.isdir(working_path):
-        print("Available projects:")
-        print("\n")
+        print("\033[93mAvailable projects\033[0m\n")
         for project in os.listdir(working_path):
-            print(f"- {project}")
-        print("\n")
+            print(f"{project}")
+        print("")
     else:
         print("No projects directory found.")
 
 def select_project(action):
-    return input(f"Select a project to {action} : ")
+    return input(f"\033[96mSelect a project to {action} \33[0m\n\n")
 
 def new_project(project_name, working_path):
     if os.path.isdir(working_path):
@@ -21,7 +20,7 @@ def new_project(project_name, working_path):
         print("No projects directory found.")
 
 def delete_confirmation(choice):
-    return input(f"Are you sure to delete project : {choice} (y/else)")
+    return input(f"\033[92mAre you sure to delete project : {choice} (y/else)\033[0m")
     
 def delete_project_on_confirmation(delete_flag, choice):
     if (delete_flag == "y"):
