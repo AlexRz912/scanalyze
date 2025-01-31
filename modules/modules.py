@@ -1,4 +1,4 @@
-import time
+import asyncio
 from modules.menu_modules.start_menu_module import start_menu_module
 from modules.menu_modules.main_menu_module import main_menu_module
 from modules.tool_modules import bug_hunt_routine
@@ -13,11 +13,16 @@ def handle_start_menu():
     # elif (menu == "tool_mode_menu"):
         # main_menu_module.tool_mode_menu()
 
-def handle_main_loop():
-    user_input = main_menu_module()
-    print(user_input)
-    time.sleep(5)
-    submain_menu_handler(user_input)
+async def handle_main_loop():
+    user_menu_choice = ""
+    recon_done = False
+    while (True):
+        if user_menu_choice == "":
+            user_menu_choice = main_menu_module()
+        if not recon_done:
+            recon_done = await submain_menu_handler(user_menu_choice)
+        else:
+            break
 
 # def recon_module(mode):
     # config = load_config()

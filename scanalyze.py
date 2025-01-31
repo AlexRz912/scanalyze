@@ -1,14 +1,12 @@
+import asyncio
 from banner import display_banner
 from modules import modules
 
 display_banner()
 modules.handle_start_menu()
+asyncio.run(modules.handle_main_loop())
 
-
-while (True):
-    modules.handle_main_loop()
-
-
+    
     # Verify if domain is filled
         # How to verify if it contains line? (not looking for wc -l output to terminal but to reuse it in a variable)
         # How to verify if those lines are related to domains? (regex I suppose)
