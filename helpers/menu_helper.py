@@ -27,3 +27,7 @@ def handle_start_menu_choice(config_path, config_file, working_path, project_pat
         project = input("Choose a project name\n") 
         projects_helper.new_project(project, working_path)
         config_helper.update_project_path(config_path, config_file, working_path, project)
+
+
+def handle_menu_choice(menu_type):
+    return

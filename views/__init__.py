@@ -1,1 +1,2 @@
-from .menu_view import *
+from .start_menu import *
+from .main_menu import *

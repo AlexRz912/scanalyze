@@ -27,6 +27,9 @@ def get_tool_input_path(config_file):
 def get_tool_output_path(config_file):
     return config_file.get("tool_output_path")
 
+def config_get(config_file, key):
+    return config_file.get(key)
+
 def set_project_path(path, input):
     return (f"{path}/{input}")
 
@@ -35,7 +38,6 @@ def check_working_path_exists(path):
         print("No path was found, please provide a correct path value to working_path : config/config.json")
         return False
     return True
-
 # def create_project_path(input):
 
 def save_config(config_path, data):
