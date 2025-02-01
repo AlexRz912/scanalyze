@@ -8,21 +8,24 @@ from handlers.submain_menu_handler import submain_menu_handler
 from config.config_loader import *
 
 def handle_start_menu():
-    start_menu_module(load_config())
+    return start_menu_module(load_config("app"))
     # YAGNI principle again
     # elif (menu == "tool_mode_menu"):
         # main_menu_module.tool_mode_menu()
 
 async def handle_main_loop():
+    
     user_menu_choice = ""
-    recon_done = False
+    previous_recon = None
+    previous_recon_exists = ""
+    if not previous_recon:
+        previous_recon_exists = False # problématique, vérifier le project_state depuis la project_config
     while (True):
         if user_menu_choice == "":
             user_menu_choice = main_menu_module()
-        if not recon_done:
-            recon_done = await submain_menu_handler(user_menu_choice)
-        else:
-            break
+        if not previous_recon_exists:
+            previous_recon = await submain_menu_handler(user_menu_choice)
+        break   
 
 # def recon_module(mode):
     # config = load_config()

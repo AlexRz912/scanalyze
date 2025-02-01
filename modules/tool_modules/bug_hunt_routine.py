@@ -26,7 +26,6 @@ def sh_exec(project_path, command, output_path, input_path):
 
 def start_bug_hunt_routine(project_path, tooling, output_path, input_path):
     # inclure un project path ici
-    
     # if (is_manual_mode == True):
         # set_mode.manual_mode_instructions(command, tool)
     for tool in tooling.keys():

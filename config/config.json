@@ -1,6 +1,6 @@
 {
     "working_path": "./projects",
-    "project_path": "./projects/test2",
+    "project_path": "./projects/pates",
     "tool_routine": {
         "assetfinder": "cat input_placeholder | assetfinder --subs-only | tee output_placeholder",
         "httpx": "cat input_placeholder | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee output_placeholder",
@@ -8,14 +8,14 @@
         "fff": "cat input_placeholder | fff -d 1 -S -o output_placeholder",
         "gf": "find input_placeholder -type f -name \"*.headers\" -exec cat {} + | gf meg-headers | sort -u > output_placeholder"
     },
-    "tool_input_path": {
+    "input_path": {
         "assetfinder": "domains",
         "httpx": "assetfinder/results",
         "awk": "httpx/results",
         "fff": "awk/results",
         "gf": "fff/results/"
     },
-    "tool_output_path": {
+    "output_path": {
         "assetfinder": "assetfinder/results",
         "httpx": "httpx/results",
         "awk": "awk/results",

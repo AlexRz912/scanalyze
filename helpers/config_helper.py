@@ -1,8 +1,11 @@
 import os
 import json
 
-def load_config_path():
-    return os.path.join("config", "config.json")
+def load_config_path(config_type):
+    if (config_type == "app"):
+        return os.path.join("config", "config.json")
+    elif (config == "project"):
+        return 
 
 def load_config_file(config_path):
     """Loads JSON from given file path"""
@@ -27,8 +30,16 @@ def get_tool_input_path(config_file):
 def get_tool_output_path(config_file):
     return config_file.get("tool_output_path")
 
-def config_get(config_file, key):
-    return config_file.get(key)
+def config_get(config_type, keys=[]):
+    
+
+    config = {}
+    config["config_path"] = load_config_path(config_type)
+    config["config_file"] = load_config_file(config["config_path"])
+    for i in keys:
+        config[i] = config["config_file"].get(i)  # Ajoute la valeur de la clé i dans le dictionnaire config
+    return config
+
 
 def set_project_path(path, input):
     return (f"{path}/{input}")

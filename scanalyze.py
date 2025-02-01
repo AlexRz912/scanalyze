@@ -4,6 +4,7 @@ from modules import modules
 
 display_banner()
 modules.handle_start_menu()
+
 asyncio.run(modules.handle_main_loop())
 
     
