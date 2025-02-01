@@ -16,6 +16,7 @@ def handle_start_menu():
 async def handle_main_loop():
     
     user_menu_choice = ""
+    project_state = load_config("project")
     previous_recon = None
     previous_recon_exists = ""
     if not previous_recon:

@@ -4,7 +4,7 @@ import json
 def load_config_path(config_type, project_path=None):
     if (config_type == "app"):
         return os.path.join("config", "config.json")
-    elif (config == "project"):
+    elif (config_type == "project"):
         return os.path.join(f"{project_path}/project_config/project_config.json")
 
 def load_config_file(file_path):
@@ -50,25 +50,8 @@ def update_project_path(config_path, config_file, working_path, project):
     print(f"Project path successfully updated : {path}")
 
 
-# def init_project_config(data, project_path):
-    # os.system(f"mkdir {project_path}/project_config")
-    # os.system(f"touch {project_path}/project_config/project_config.json")
-# 
-    # config_path = "project_config/project_config.json"
-    # with open(config_path, 'w') as file:
-        # json.dump(data, file, indent=4)
-# 
-# data = {
-    # "project_name": "My Project",
-    # "settings": "{
-    # }
-    # "project_state": {
-        # "assets_found": 0,
-        # "live_domain_found": 0,
-        # "status_codes_received": 0,
-        # "technos_found": 0,
-        # "responses_received": 0,
-        # "header_overview": 0
-    # }",
-    # "domain_specific_folders": []
-# }
+def init_project_config(data, project_path):
+    os.system(f"mkdir {project_path}/project_config")
+    os.system(f"touch {project_path}/project_config/project_config.json")
+
+    
