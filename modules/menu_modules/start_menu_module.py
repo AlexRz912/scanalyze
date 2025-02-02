@@ -3,7 +3,7 @@ from helpers import menu_helper
 
 def start_menu_module(config):
     start_menu.display_start_menu()
-    menu_helper.handle_start_menu_choice( 
+    return menu_helper.handle_start_menu_choice( 
         config["config_path"],
         config["config_file"], 
         config["working_path"], 

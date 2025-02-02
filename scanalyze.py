@@ -3,9 +3,9 @@ from banner import display_banner
 from modules import modules
 
 display_banner()
-modules.handle_start_menu()
+project_config = modules.handle_start_menu()
 
-asyncio.run(modules.handle_main_loop())
+asyncio.run(modules.handle_main_loop(project_config))
 
     
     # Verify if domain is filled

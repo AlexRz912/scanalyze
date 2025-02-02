@@ -1,5 +1,6 @@
 import os
 import json
+
 def list_projects(working_path):
     if os.path.isdir(working_path):
         print("\033[93mAvailable projects\033[0m\n")
@@ -21,19 +22,24 @@ def new_project(project_name, working_path):
         config_path = (f"{working_path}/{project_name}/project_config/project_config.json")
 
         data = {
-                "project_name": "My Project",
-                "settings": {
+            "project_name":project_name,
+            "settings": {
+                "tutorial_mode": 0,
+                "suggestions_mode": 0,
+                "automatic_mode": 0
+            },
+            "recon":{
+                "asset_recon":{
+                    "initial_recon_completed": 0,
+                    "pending_recon": 0
                 },
-                "project_state": {
-                    "assets_found": 0,
-                    "live_domain_found": 0,
-                    "status_codes_received": 0,
-                    "technos_found": 0,
-                    "responses_received": 0,
-                    "header_overview": 0
-                },
-                "domain_specific_folders": []
+                "domain_recon":{
+                    "initial_recon_completed": 0,
+                    "pending_recon": 0
+                }
             }
+        }
+
         with open(config_path, 'w') as file:
             json.dump(data, file, indent=4)
     else:

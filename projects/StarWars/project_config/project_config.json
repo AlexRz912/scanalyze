@@ -1,14 +1,16 @@
 {
-    "project_name":"",
+    "project_name": "StarWars",
     "settings": {
-        "tutorial_mode": 0
+        "tutorial_mode": 0,
+        "suggestions_mode": 0,
+        "automatic_mode": 0
     },
-    "recon":{
-        "asset_recon":{
+    "recon": {
+        "asset_recon": {
             "initial_recon_completed": 0,
             "pending_recon": 0
         },
-        "domain_recon":{
+        "domain_recon": {
             "initial_recon_completed": 0,
             "pending_recon": 0
         }

@@ -19,6 +19,7 @@ def handle_start_menu_choice(config_path, config_file, working_path, project_pat
         delete_flag = projects_helper.delete_confirmation(project)
         projects_helper.delete_project_on_confirmation(delete_flag, project)
         
+        
     elif (user_choice == '4'):
         print("See ya !")
         return "bye"
@@ -28,6 +29,7 @@ def handle_start_menu_choice(config_path, config_file, working_path, project_pat
         projects_helper.new_project(project, working_path)
         config_helper.update_project_path(config_path, config_file, working_path, project)
 
+    return user_choice
 
 def handle_menu_choice(menu_type):
     return

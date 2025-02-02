@@ -1,0 +1,13 @@
+{
+    "project_name": "My Project",
+    "settings": {},
+    "project_state": {
+        "assets_found": 0,
+        "live_domain_found": 0,
+        "status_codes_received": 0,
+        "technos_found": 0,
+        "responses_received": 0,
+        "header_overview": 0
+    },
+    "domain_specific_folders": []
+}
