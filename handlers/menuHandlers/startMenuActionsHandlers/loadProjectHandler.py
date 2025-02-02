@@ -10,9 +10,7 @@ def load_project_handler():
                 "project_path"
             ]
         )
-    print(config)
     print("\n")
     project = list_projects_into_action(config["working_path"], "load")
-    print(f"{project} selected, configuring environment...")
     update_project_path(config["working_path"], project)
     return

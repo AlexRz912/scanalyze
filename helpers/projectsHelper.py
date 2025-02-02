@@ -22,7 +22,7 @@ def new_project(project_name, working_path):
         config_path = (f"{working_path}/{project_name}/project_config/project_config.json")
 
         data = {
-            "project_name":project_name,
+            "project_name": project_name,
             "settings": {
                 "tutorial_mode": 0,
                 "suggestions_mode": 0,
