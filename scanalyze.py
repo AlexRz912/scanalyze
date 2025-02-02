@@ -1,11 +1,14 @@
 import asyncio
 from banner import display_banner
+from controllers import menuController
 from modules import modules
 
 display_banner()
-project_config = modules.handle_start_menu()
 
-asyncio.run(modules.handle_main_loop(project_config))
+menuController.menu_controller("start")
+#project_config = modules.handle_start_menu()
+
+# asyncio.run(modules.handle_main_loop(project_config))
 
     
     # Verify if domain is filled

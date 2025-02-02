@@ -1,2 +1,2 @@
-from .start_menu import *
-from .main_menu import *
+from .startMenuView import *
+from .mainMenuView import *

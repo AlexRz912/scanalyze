@@ -1,7 +1,6 @@
 import asyncio
-from modules.menu_modules.start_menu_module import start_menu_module
-from modules.menu_modules.main_menu_module import main_menu_module
 from modules.tool_modules import bug_hunt_routine
+
 
 from handlers.submain_menu_handler import submain_menu_handler
 
@@ -16,7 +15,7 @@ def handle_start_menu():
 
 async def handle_main_loop(project_config):
     while (True):
-        user_menu_choice = main_menu_module()
+        user_menu_choice = menuController("main")
         await submain_menu_handler(user_menu_choice)
         break   
 
