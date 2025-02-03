@@ -1,1 +1,1 @@
-from .config_loader import *
+from .configLoader import *

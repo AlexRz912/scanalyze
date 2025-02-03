@@ -1,16 +1,17 @@
+import os
 import asyncio
 from banner import display_banner
-from controllers import menuController
-from modules import modules
+from controllers.mainLoopController import run_main_loop
 
+os.system("cls" if os.name == "nt" else "clear")
 display_banner()
 
-menuController.menu_controller("start")
+run_main_loop()
+
 #project_config = modules.handle_start_menu()
 
 # asyncio.run(modules.handle_main_loop(project_config))
 
-    
     # Verify if domain is filled
         # How to verify if it contains line? (not looking for wc -l output to terminal but to reuse it in a variable)
         # How to verify if those lines are related to domains? (regex I suppose)

@@ -8,6 +8,7 @@ def load_config_path(config_type, project_path=None):
         return os.path.join(f"{project_path}/project_config/project_config.json")
 
 def load_config_file(file_path):
+    print(file_path)
     """Loads JSON from given file path"""
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Config file '{file_path}' not found")
