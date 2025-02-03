@@ -3,7 +3,7 @@
     "project_path": "./projects/can",
     "tool_routine": {
         "assetfinder": "cat input_placeholder | assetfinder --subs-only | tee output_placeholder",
-        "httpx": "cat input_placeholder | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee output_placeholder"
+        "httpx": "cat input_placeholder | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee output_placeholder",
         "awk": "awk '{print $1}' input_placeholder | anew output_placeholder",
         "fff": "cat input_placeholder | fff -d 1 -S -o output_placeholder",
         "gf": "find input_placeholder -type f -name \"*.headers\" -exec cat {} + | gf meg-headers | sort -u > output_placeholder"
@@ -28,7 +28,7 @@
         "awk": "awk '{print $1}' httpx/results | anew awk/results"
     },
     "domain_recon_tool": {
-        "fff":"fff/results",
-        "gf":"gf/results"
+        "fff":"cat awk/results | fff -d 1 -S -o fff/results",
+        "gf":"find fff/results -type f -name \"*.headers\" -exec cat {} + | gf meg-headers | sort -u > gf/results"
     }
 }
