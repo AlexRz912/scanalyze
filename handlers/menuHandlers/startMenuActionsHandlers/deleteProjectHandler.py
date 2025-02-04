@@ -3,7 +3,7 @@ from helpers.projectsHelper import delete_confirmation
 from helpers.projectsHelper import delete_project_on_confirmation
 from helpers.menuHelper import list_projects_into_action
 
-def delete_project_handler():
+def delete():
     config = config_get(
             "app", 
             [

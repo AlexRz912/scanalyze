@@ -2,7 +2,7 @@ from helpers.projectsHelper import new_project
 from helpers.configHelper import config_get
 from helpers.configHelper import update_project_path
 
-def create_project_handler():
+def create():
     config = config_get(
             "app", 
             [

@@ -52,6 +52,7 @@ def update_project_path(working_path, project):
     # Save changes
     save_config(path, file)
     print(f"Project path successfully updated : {path}")
+    return project_path
 
 
 def init_project_config(data, project_path):

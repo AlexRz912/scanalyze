@@ -20,7 +20,6 @@ def load_config(config_type):
         config_path = load_config_path("app")
         config_file = load_config_file(config_path)
         project_path = get_project_path(config_file)
-        print(project_path)
         return config_get(
             config_type,
             [

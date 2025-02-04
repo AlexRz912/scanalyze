@@ -2,7 +2,10 @@ from helpers.configHelper import config_get
 from helpers.configHelper import update_project_path
 from helpers.menuHelper import list_projects_into_action
 
-def load_project_handler():
+from config import configLoader
+from handlers.projectStateHandlers import projectStateHandler
+
+def load():
     config = config_get(
             "app", 
             [
@@ -12,5 +15,10 @@ def load_project_handler():
         )
     print("\n")
     project = list_projects_into_action(config["working_path"], "load")
-    update_project_path(config["working_path"], project)
+    return update_project_path(config["working_path"], project)
+
+def project_config_path(path):
+    return configLoader.load_config("project")
+
+def update_config():
     return

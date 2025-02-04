@@ -3,9 +3,7 @@ import time
 from helpers.configHelper import config_get
 
 def start():
-    print("asset_recon_module")
     tools = config_get("app", ["asset_recon_tools"])
-    print("tools")
     path = config_get("app", ["project_path"])
     project_path = path["project_path"]
     for i in tools["asset_recon_tools"].keys():
