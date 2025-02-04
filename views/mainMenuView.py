@@ -1,6 +1,6 @@
 def display_main_menu():
-    print("1: for starting recon              : press 1\n")
-    print("2: for setting modes               : press 2\n")
-    print("3: for customization               : press 3\n")
-    print("4: for project folder management   : press 4\n")
-    print("5: to quit                         : press 5\n")
+    print("for recon                       : press 1\n")
+    print("for sorting                     : press 2\n")
+    print("for customization               : press 3\n")
+    print("for settings                    : press 4\n")
+    print("to quit                         : press 5\n")

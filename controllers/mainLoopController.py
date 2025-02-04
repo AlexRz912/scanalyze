@@ -1,4 +1,3 @@
-
 import asyncio
 from .actionController import action_controller
 
@@ -6,12 +5,15 @@ from .actionController import action_controller
 
 from config.configLoader import *
 
-action = action_controller("start")
+
 
 def run_main_loop():
     while (True):
-        if (action == "3"):
+        start_action = action_controller("start")
+        if (start_action == "3"):
             continue
-        elif (action == "quit"):
+        elif (start_action == "quit"):
             break
-        user_menu_choice = action_controller("main")
+        main_action = action_controller("main")
+        if (main_action == "5"):
+            break

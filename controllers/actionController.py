@@ -50,3 +50,4 @@ def main_menu_action(action):
         config = configLoader.load_config("app")
         project_config = configLoader.load_config("project")
         recon_controller(config, project_config)
+    return action

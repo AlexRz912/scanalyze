@@ -1,5 +1,5 @@
 {
-    "project_name": "Carry_Poter",
+    "project_name": "test",
     "settings": {
         "tutorial_mode": 0,
         "suggestions_mode": 0,
@@ -7,11 +7,11 @@
     },
     "recon": {
         "asset_recon": {
-            "initial_recon_completed": 1,
+            "initial_recon_completed": 0,
             "pending_recon": 0
         },
         "domain_recon": {
-            "initial_recon_completed": 1,
+            "initial_recon_completed": 0,
             "pending_recon": 0
         }
     }
