@@ -24,11 +24,11 @@
     },
     "asset_recon_tools": {
         "assetfinder": "cat project_path/domains | assetfinder --subs-only | tee project_path/assetfinder/results",
-        "httpx": "cat project_path/assetfinder/results | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee project_path/httpx/results",
-        "awk": "awk '{print $1}' project_path/httpx/results | anew project_path/awk/results"
+        "httpx": "cat project_path/assetfinder/results | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee project_path/httpx/results"
     },
     "domain_recon_tools": {
-        "fff": "cat awk/results | fff -d 1 -S -o fff/results",
-        "gf": "find fff/results -type f -name \"*.headers\" -exec cat {} + | gf meg-headers | sort -u > gf/results"
+        "awk": "awk '{print $1}' project_path/httpx/results | anew project_path/awk/results",
+        "fff": "cat project_path/awk/results | fff -d 1 -S -o project_path/fff/results",
+        "gf": "find project_path/fff/results -type f -name \"*.headers\" -exec cat {} + | gf meg-headers | sort -u > project_path/gf/results"
     }
 }

@@ -1,0 +1,12 @@
+GET https://gift.starbucks.co.jp
+
+
+< HTTP/1.1 403 Forbidden
+< Via: 1.1 35edfe00d0c28f55b85d2366a87b40f8.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: CDG53-C1
+< X-Amz-Cf-Id: KKxhlndiP70JuJLynTwLMGXObyeCM5R8R57qLA1d1aNOujFeEh7Y3Q==
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 919
+< X-Cache: Error from cloudfront
+< Date: Tue, 04 Feb 2025 00:47:06 GMT

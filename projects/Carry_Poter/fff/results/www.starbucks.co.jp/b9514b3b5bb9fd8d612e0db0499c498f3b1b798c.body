@@ -1,0 +1,2393 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Starbucks Coffee Japan - スターバックス コーヒー ジャパン</title>
+<meta name="description" content="スターバックス コーヒー ジャパンの公式ホームページ。新商品・メニュー情報、店舗検索、イベント情報、求人情報、エスプレッソドリンク用語の解説、コーヒー豆の解説、IR情報、CSR情報など。" />
+<meta name="keywords" content="スターバックス, コーヒー, ジャパン, starbucks, coffee, japan, スタバ, 店, 店舗, 豆, カフェ, caf&eacute;" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#006241">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Starbucks Coffee Japan｜スターバックス コーヒー ジャパン">
+<meta property="og:description" content="スターバックス コーヒー ジャパンの公式ホームページ。新商品・メニュー情報、店舗検索、イベント情報、求人情報、エスプレッソドリンク用語の解説、コーヒー豆の解説、IR情報、CSR情報など。">
+<meta property="og:image" content="https://d3vgbguy0yofad.cloudfront.net/images/og/logo.png">
+<meta property="og:url" content="https://www.starbucks.co.jp/">
+<meta property="fb:app_id" content="212733315441698">
+<link rel="canonical" href="https://www.starbucks.co.jp/">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" href="/favicon.ico" type="image/ico">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link media="all" rel="stylesheet" href="/common/css/element.css?ver=20170920" type="text/css" />
+<link media="all" rel="stylesheet" href="/common/css/header_footer.css?ver=20220930" type="text/css" />
+<link media="all" rel="stylesheet" href="//asset.menu.starbucks.co.jp/css/item-history.css" type="text/css" />
+
+<script src="/common/js/html5shiv-printshiv.js?ver=20141001" charset="UTF-8"></script>
+<script src="/common/js/jquery-1.12.3.min.js?ver=20160920" charset="UTF-8"></script>
+<script src="/common/js/colorbox/jquery.colorbox.js?ver=20141001" charset="UTF-8"></script>
+<script src="/common/js/flipsnap.min.js?ver=20141001" charset="UTF-8"></script>
+<script src="/common/js/domain.js?ver=20170213" charset="UTF-8"></script>
+<script src="/common/js/common.js?ver=20170914" charset="UTF-8"></script>
+<script src="/common/js/header_footer.js?ver=20170914" charset="UTF-8"></script>
+<script src="/common/js/cart.cartinfo.js?ver=20171208" charset="UTF-8"></script>
+<script src="/common/js/cart.headercart.js?ver=20171208" charset="UTF-8"></script>
+<script type="text/javascript" src="https://cart.starbucks.co.jp/Leh8lvXroxcC.js?single"></script>
+<script src="/common/js/logout.js?ver=20160628" charset="UTF-8"></script>
+<script src="/common/js/webview.js?ver=20220930" charset="UTF-8"></script>
+<script src="/common/js/mootools-1.1.2-nc.js?ver=20160118" charset="UTF-8"></script>
+<script>
+window.onpageshow = () => {
+      let script = document.createElement('script');
+      script.setAttribute('src', '//asset.menu.starbucks.co.jp/js/item-history.js');
+      document.body.appendChild(script);
+}
+</script>
+
+<script src="/common/js/GAParams.js?ver=20160118" charset="UTF-8"></script>
+<script src="/common/js/ga_mxlib.js?ver=20160118" charset="UTF-8"></script>
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',1000,
+{'GTM-KPMGB59':true});</script>
+<script src="/common/js/asyncga.js?ver=20160118" charset="UTF-8"></script>
+<script>
+	var m0laqeatfw3ayw5ld3i587e0xtqmhbpf = "";
+</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TQDTRRG');</script>
+
+<!-- Reset and Common CSS -->
+<link rel="stylesheet" href="/top/css/reset.css" />
+<link rel="stylesheet" href="/top/css/common.css" />
+<link rel="stylesheet" href="/common/css/cartform.css">
+<link rel="stylesheet" href="/common/css/dialog.css">
+<link rel="stylesheet" href="/common/css/slick.css">
+
+<!-- +++++ local css +++++ -->
+<link rel="stylesheet" href="/top/components/carousel/styles.css" />
+<link rel="stylesheet" href="/top/components/tabs/styles.css" />
+<link rel="stylesheet" href="/top/components/floating-button/styles.css" />
+<link rel="stylesheet" href="/top/components/products-tag/style.css" />
+<link rel="stylesheet" href="/top/components/text-link-green/style.css" />
+<link rel="stylesheet" href="/top/css/swiper.min.css" />
+<link rel="stylesheet" href="/top/css/swiper.css" />
+<link rel="stylesheet" href="/top/css/top.css" />
+<link type="text/css" rel="stylesheet" href="/css/cart.css">
+<style>
+
+</style>
+<!-- +++++ /local css +++++ -->
+
+<!-- +++++ local script +++++ -->
+<script src="/top/js/script.js" defer></script>
+<script src="/top/js/super_notice.js" defer></script>
+<script src="/top/components/tabs/script.js" defer></script>
+<!-- <script src="/top/components/carousel/script.js" defer></script> -->
+<script src="/top/js/swiper/swiper-bundle.min.js" defer></script>
+<script src="/top/js/swiper.js" defer></script>
+<script>var jQuery = $;</script>
+<script src="/top/components/floating-button/script.js" defer></script>
+<script src="/common/js/cart.cartform.store.js?ver=20160623" charset="UTF-8"></script>
+<!-- +++++ /local script +++++ -->
+
+<script type="application/ld+json">
+{
+  "@context" : "https://schema.org",
+  "@type" : "Corporation",
+  "name" : "スターバックスコーヒージャパン株式会社",
+  "description" : "スターバックス コーヒー ジャパンの公式ホームページ。新商品・メニュー情報、店舗検索、イベント情報、求人情報、エスプレッソドリンク用語の解説、コーヒー豆の解説、IR情報、CSR情報など。",
+  "foundingDate": "1995-10-26",
+  "url" : "https://www.starbucks.co.jp/",
+  "logo" : "https://d3vgbguy0yofad.cloudfront.net/common/images/header/logo.svg",
+  "address": {
+  "@type" : "PostalAddress",
+  "addressCountry" : "JP",
+  "postalCode" : "141-0021",
+  "addressRegion" : "東京都",
+  "addressLocality": "品川区上大崎",
+  "streetAddress" : "2-25-2 新目黒東急ビル"
+  },
+  "sameAs": [
+    "https://www.starbucks.co.jp/",
+    "https://stories.starbucks.co.jp/",
+    "https://twitter.com/Starbucks_J",
+    "https://www.youtube.com/user/StarbucksJPN",
+    "https://ja.wikipedia.org/wiki/スターバックスコーヒージャパン",
+    "https://www.instagram.com/starbucks_j/",
+    "https://store.starbucks.co.jp/"
+  ]
+}
+</script>
+
+<script>
+(function($, window, document, undefined){
+    setTimeout(function(){
+        if ($('.online-store .online-store__card.hide').length == $('.online-store .online-store__card').length) {
+            $('div.online-store').css('display', 'none');
+        }
+        setTimeout(function(){
+            if ($('.online-store .online-store__card.hide').length == $('.online-store .online-store__card').length) {
+                $('div.online-store').css('display', 'none');
+            }
+        }, 1000);
+    }, 2000);
+}($j1111, window, this.document));
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<noscript>
+<p class="noscript">当サイトをご覧いただくにはブラウザの設定で<strong>JavaScriptを有効に設定</strong>する必要がございます。</p>
+</noscript>
+<header class="globalNav js-megaNav web_view_none">
+  <nav class="globalNav__nav__wrap">
+    <div class="globalNav__sp__wrapper pc-hidden">
+      <div class="globalNav__logo">
+        <a class="block" href="//www.starbucks.co.jp/?nid=mm">
+          <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/logo.svg" alt="スターバックス コーヒー ジャパン">
+        </a>
+      </div>
+      <div class="globalNav__sp__right">
+        <ul class="globalNav__sp">
+          <li>
+            <a class="auxNav__iconLink toggleButton searchBtn" data-toggle-button="search">
+              <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_search.svg" alt="検索ボタン">
+            </a>
+          </li>
+          <li>
+            <a class="auxNav__iconLink" data-current-location="cart" href="//cart.starbucks.co.jp/cart?nid=mm">
+              <span class="js-normalIcon osIcon none">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_cart_in.svg" alt="カート">
+                <span class="js-headercart-qty"></span>
+              </span>
+              <span class="js-zeroIcon osIcon">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_cart.svg" alt="カート">
+              </span>
+            </a>
+          </li>
+        </ul>
+        <div class="auxNav__btnLink">
+          <div class="hamburger toggleHamburger toggleButton">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="globalNav__nav">
+      <div class="globalNav__logo sp-hidden">
+        <a class="block" href="//www.starbucks.co.jp/?nid=mm">
+          <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/logo.svg" alt="スターバックス コーヒー ジャパン">
+        </a>
+      </div>
+
+      <div class="globalNav__wrapper slideAreaSP slideHorizontalSP slideHidden" data-area="global_nav">
+        <ul class="globalNav__list">
+          <li class="cursor">
+            <button class="globalNav__listLink toggleButton" data-toggle-button="menu"
+              data-current-location="menu">メニュー</button>
+          </li>
+          <li class="cursor">
+            <button class="globalNav__listLink toggleButton" data-toggle-button="service"
+              data-current-location="service">サービス</button>
+          </li>
+          <li class="cursor">
+            <button class="globalNav__listLink toggleButton" data-toggle-button="reward"
+              data-current-location="reward">リワード</button>
+          </li>
+        </ul>
+        <div class="auxNav">
+          <ul class="auxNav__icon">
+            <li class="sp-hidden">
+              <button class="auxNav__iconLink toggleButton searchBtn" data-toggle-button="search">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_search.svg" alt="検索"
+                  id="search-icon">
+              </button>
+            </li>
+            <li>
+              <a class="auxNav__iconLink" data-current-location="store" href="//store.starbucks.co.jp/?nid=mm">
+                <div class="auxNav_sp">
+                  <div class="img-wrap">
+                    <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_pin.svg" alt="店舗検索">
+                  </div>
+                  <span class="pc-hidden store-search__text">店舗検索</span>
+                </div>
+              </a>
+            </li>
+            <li class="cursor">
+              <button class="auxNav__iconLink toggleButton js-hover-mystarbucks" data-toggle-button="mystarbucks"
+                data-current-location="mystarbucks">
+                <div class="auxNav_sp">
+                  <div class="img-wrap">
+                    <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_mypage.svg" alt="アカウント">
+                  </div>
+                  <span class="pc-hidden logout__text">アカウント</span>
+                </div>
+              </button>
+            </li>
+            <li class="sp-hidden">
+              <a class="auxNav__iconLink" data-current-location="cart" href="//cart.starbucks.co.jp/cart?nid=mm">
+                <span class="js-normalIcon osIcon none">
+                  <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_cart_in.svg" alt="カート">
+                  <span class="js-headercart-qty"></span>
+                </span>
+                <span class="js-zeroIcon osIcon">
+                  <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_cart.svg" alt="カート">
+                </span>
+              </a>
+            </li>
+          </ul>
+          <ul class="auxNav__btn">
+            <li class="auxNav__btn-left-icon"><a class="auxNav__btnLink" href="//stories.starbucks.co.jp/?nid=mm"
+                target="_blank"><img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/logo_stories.svg"
+                  alt="STARBUCKS(R) STORIES JAPAN"></a></li>
+            <li class="auxNav__btn-right-icon"><a class="auxNav__btnLink"
+                href="//www.starbucks.co.jp/reserve/roastery/?nid=mm"><img
+                  src="//d3vgbguy0yofad.cloudfront.net/common/images/header/logo_reserve.svg"
+                  alt="STARBUCKS RESERVE(R)"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- メニュー -->
+    <div class="globalNav__open globalNav__open_menu slideArea slideAreaSP slideHorizontalSP slideHidden"
+      data-area="menu">
+      <div class="cursor-back">
+        <button class="toggleButton pc-hidden" data-toggle-button="global_nav"><span>メニュー</span></button>
+      </div>
+      <ul class="nav__open_menu">
+        <li class="globalNav__menu_items">
+          <ul class="nav__open_ul">
+            <li class="subnav_open globalNav__circle nav__open_li">
+              <a href="javascript:void(0)">
+                <img class="nav_img" src="//d3vgbguy0yofad.cloudfront.net/common/images/header/menu-beverage.jpg"
+                  alt="ビバレッジ">
+                <p>ビバレッジ</p>
+              </a>
+              <div class="subnav">
+                <ul class="nav-item">
+                  <li><a href="//product.starbucks.co.jp/beverage/?nid=mm">季節のおすすめ</a></li>
+                  <li><a href="//product.starbucks.co.jp/beverage/drip/?nid=mm">コーヒー</a></li>
+                  <li><a href="//product.starbucks.co.jp/beverage/espresso/?nid=mm">エスプレッソ</a></li>
+                  <li><a href="//product.starbucks.co.jp/beverage/oleato/?nid=mm">オリアート™ | Oleato™</a></li>
+                  <li><a href="//product.starbucks.co.jp/beverage/frappuccino/?nid=mm">フラペチーノ&reg;</a></li>
+                  <li><a href="//product.starbucks.co.jp/beverage/tea/?nid=mm">ティー | TEAVANA™</a></li>
+                  <li><a href="//product.starbucks.co.jp/beverage/beverage-others/?nid=mm">その他</a></li>
+                  <li><a href="//product.starbucks.co.jp/beverage/arriviamo/?nid=mm">クラフトカクテル | ARRIVIAMO™</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="subnav_open globalNav__circle nav__open_li">
+              <a href="javascript:void(0)">
+                <img class="nav_img" src="//d3vgbguy0yofad.cloudfront.net/common/images/header/menu-food.jpg" alt="フード">
+                <p>フード</p>
+              </a>
+              <div class="subnav">
+                <ul class="nav-item">
+                  <li><a href="//product.starbucks.co.jp/food/?nid=mm">季節のおすすめ</a></li>
+                  <li><a href="//product.starbucks.co.jp/food/dessert/?nid=mm">デザート</a></li>
+                  <li><a href="//product.starbucks.co.jp/food/pastry/?nid=mm">ペストリー</a></li>
+                  <li><a href="//product.starbucks.co.jp/food/sandwich/?nid=mm">サンドイッチ</a></li>
+                  <li><a href="//product.starbucks.co.jp/food/package/?nid=mm">パッケージフード</a></li>
+                  <li><a href="//product.starbucks.co.jp/food/food-others/?nid=mm">その他</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="subnav_open globalNav__circle nav__open_li">
+              <a href="javascript:void(0)">
+                <img class="nav_img" src="//d3vgbguy0yofad.cloudfront.net/common/images/header/menu-beans.jpg"
+                  alt="コーヒー豆">
+                <p>コーヒー豆</p>
+              </a>
+              <div class="subnav">
+                <ul class="nav-item">
+                  <li><a href="//product.starbucks.co.jp/beans/?nid=mm">季節のおすすめ</a></li>
+                  <li><a href="//product.starbucks.co.jp/beans/corecoffee/?nid=mm">CORE COFFEE</a></li>
+                  <li><a href="//product.starbucks.co.jp/beans/seasonal/?nid=mm">SEASONAL COFFEE</a></li>
+                  <li><a href="//product.starbucks.co.jp/beans/reserve/?nid=mm">スターバックス リザーブ&reg;</a></li>
+                  <li><a href="//product.starbucks.co.jp/beans/origami/?nid=mm">スターバックス オリガミ&reg;</a></li>
+                  <li><a href="//product.starbucks.co.jp/beans/via/?nid=mm">スターバックス ヴィア&reg;</a></li>
+                  <li><a href="//product.starbucks.co.jp/beans/coffeerelated/?nid=mm">コーヒー関連商品</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="globalNav__circle nav__open_li">
+              <a href="//product.starbucks.co.jp/tealeaf/?nid=mm">
+                <img class="nav_img" src="//d3vgbguy0yofad.cloudfront.net/common/images/header/menu-tealeaf.jpg"
+                  alt="ティー・紅茶">
+                <p>ティー・紅茶</p>
+              </a>
+            </li>
+            <li class="subnav_open globalNav__circle nav__open_li">
+              <a href="javascript:void(0)">
+                <img class="nav_img" src="//d3vgbguy0yofad.cloudfront.net/common/images/header/menu-tumblermug.jpg"
+                  alt="タンブラー＆マグカップ">
+                <p>タンブラー＆<br>マグカップ</p>
+              </a>
+              <div class="subnav">
+                <ul class="nav-item">
+                  <li><a href="//product.starbucks.co.jp/tumblermug/?nid=mm">季節のおすすめ</a></li>
+                  <li><a href="//product.starbucks.co.jp/tumblermug/bottle/?nid=mm">ボトル</a></li>
+                  <li><a href="//product.starbucks.co.jp/tumblermug/tumbler/?nid=mm">タンブラー</a></li>
+                  <li><a href="//product.starbucks.co.jp/tumblermug/mug/?nid=mm">マグカップ</a></li>
+                  <li><a href="//www.starbucks.co.jp/spare-parts-search/">スペアパーツ
+                    </a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="subnav_open globalNav__circle nav__open_li">
+              <a href="javascript:void(0)">
+                <img class="nav_img" src="//d3vgbguy0yofad.cloudfront.net/common/images/header/menu-goods.jpg"
+                  alt="グッズ">
+                <p>グッズ</p>
+              </a>
+              <div class="subnav">
+                <ul class="nav-item">
+                  <li><a href="//product.starbucks.co.jp/goods/?nid=mm">季節のおすすめ</a></li>
+                  <li><a href="//product.starbucks.co.jp/goods/goods-main/?nid=mm">グッズ</a></li>
+                  <li><a href="//product.starbucks.co.jp/goods/sbcard/?nid=mm">スターバックス カード</a></li>
+                  <li><a href="//product.starbucks.co.jp/goods/bevcard/?nid=mm">ビバレッジカード</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="globalNav__circle nav__open_li">
+              <a href="//product.starbucks.co.jp/brewing/?nid=mm">
+                <img class="nav_img" src="//d3vgbguy0yofad.cloudfront.net/common/images/header/menu-brewing.jpg"
+                  alt="コーヒー器具">
+                <p>コーヒー器具</p>
+              </a>
+            </li>
+            <li class="globalNav__circle nav__open_li">
+              <a href="//www.starbucks.co.jp/gift/?nid=mm">
+                <img class="nav_img" src="//d3vgbguy0yofad.cloudfront.net/common/images/header/menu-gift2.jpg"
+                  alt="ギフト">
+                <p>ギフト</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="nav__open_store_wrap">
+        <ul class="nav__open_store">
+          <p class="onlinestore font-gray"><span class="title-en en">ONLINE STORE</span><span
+              class="title-ja">季節のおすすめ</span></p>
+          <li class="tumbler_content">
+            <a class="tumbler"><img class="nav_store_img" src="" alt="">
+              <p class="tumbler_ttl">product name<span class="en">price</span></p>
+            </a>
+          </li>
+          <li class="tumbler_content">
+            <a class="tumbler"><img class="nav_store_img" src="" alt="">
+              <p class="tumbler_ttl">product name<span class="en">price</span></p>
+            </a>
+          </li>
+          <li class="tumbler_content">
+            <a class="tumbler"><img class="nav_store_img" src="" alt="">
+              <p class="tumbler_ttl">product name<span class="en">price</span></p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul class="nav__open_link">
+        <div class="nav__open_under"><a href="//www.starbucks.co.jp/oos/huc/?nid=mm">スーパー・コンビニ・百貨店お取り扱い</a></div>
+        <div class="nav__open_under"><a href="//product.starbucks.co.jp/allergy/?nid=mm">アレルゲン・栄養成分・原料原産地情報</a></div>
+        <div class="nav__open_under"><a href="//www.starbucks.co.jp/faq/?nid=mm">よくあるご質問・お問い合わせ</a></div>
+      </ul>
+      <div class="margin-for-browser"></div>
+    </div>
+
+    <!-- サービス -->
+    <div class="globalNav__open globalNav__open__service slideArea slideAreaSP slideHorizontalSP slideHidden"
+      data-area="service">
+      <div class="cursor-back">
+        <button class="toggleButton pc-hidden" data-toggle-button="global_nav"><span>サービス</span></button>
+      </div>
+      <ul class="nav__open_service">
+        <li id="My_starbucks">
+          <a href="//www.starbucks.co.jp/howto/mystarbucks/">
+            <div class="globalNav__circle">
+              <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_mypage.svg" alt="My Starbucks">
+            </div>
+            <p class="en">My Starbucks</p>
+          </a>
+        </li>
+        <li class="globalNav__service_items">
+          <ul>
+            <li class="subnav_open globalNav__circle">
+              <a href="javascript:void(0)">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_online-store.svg" alt="オンラインストア">
+                <p>オンラインストア</p>
+              </a>
+              <div class="subnav">
+                <ul class="nav-item">
+                  <li><a href="//cart.starbucks.co.jp/mystore?nid=mm">ご注文状況確認</a></li>
+                  <li><a href="//www.starbucks.co.jp/onlinestore/?nid=mm">サービスについて</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="subnav_open globalNav__circle">
+              <a href="javascript:void(0)">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_MOP.svg" alt="モバイルオーダー&amp;ペイ">
+                <p>モバイル<br>オーダー&amp;ペイ</p>
+              </a>
+              <div class="subnav">
+                <ul class="nav-item">
+                  <li><a href="//webapp.starbucks.co.jp/openLink?nid=mm">モバイルオーダー&ペイで注文する</a></li>
+                  <li><a href="//www.starbucks.co.jp/mobileorder/guide/?nid=mm">ご利用ガイド</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="subnav_open globalNav__circle">
+              <a href="javascript:void(0)">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_card.svg" alt="スターバックスカード">
+                <p>スターバックス<br>カード</p>
+              </a>
+              <div class="subnav">
+                <ul class="nav-item">
+                  <li><a href="//sbcard.starbucks.co.jp/card/sbcardinfo?nid=mm">管理画面</a></li>
+                  <li><a href="//sbcard.starbucks.co.jp/card/inquire/?nid=mm">残高照会</a></li>
+                  <li><a href="//www.starbucks.co.jp/card/reload/?nid=mm">オンラインで入金する</a></li>
+                  <li><a href="//www.starbucks.co.jp/dscgift/?nid=mm">デジタル ギフト カードを贈る</a></li>
+                  <li><a href="//www.starbucks.co.jp/card/businessgift/?nid=mm">25枚以上でおまとめ注文する</a></li>
+                  <li><a href="//www.starbucks.co.jp/card/?nid=mm">サービスについて</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="subnav_open globalNav__circle">
+              <a href="javascript:void(0)">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_eGift.svg" alt="Starbucks eGift">
+                <p class="en">Starbucks eGift</p>
+              </a>
+              <div class="subnav">
+                <ul class="nav-item">
+                  <li><a href="//gift.starbucks.co.jp/?nid=mm">ドリンク・フードチケットを送る</a></li>
+                  <li><a href="//gift.starbucks.co.jp/history/sent?nid=mm">ギフト履歴</a></li>
+                  <li><a href="//gift.starbucks.co.jp/howto?nid=mm">ご利用ガイド</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="subnav_open globalNav__circle">
+              <a href="javascript:void(0)">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_rewards.svg"
+                  alt="スターバックス&reg; リワード">
+                <p>スターバックス&reg;<br>リワード</p>
+              </a>
+              <div class="subnav">
+                <ul class="nav-item">
+                  <li><a href="//www.starbucks.co.jp/mystarbucks/reward/?nid=mm">管理画面</a></li>
+                  <li><a href="//www.starbucks.co.jp/rewards/?nid=mm">サービスについて</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="globalNav__circle">
+              <a href="//www.starbucks.co.jp/mobile-app/?nid=mm">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_application.svg" alt="公式アプリ">
+                <p>公式アプリ</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="nav__open_Howto_wrap">
+        <ul class="nav__open_Howto">
+          <li class="nav__open_Howto-item">
+            <span class="font-gray title-en en">HOW TO STARBUCKS</span>
+            <ul class="How_col">
+              <li><a href="//www.starbucks.co.jp/howto/?nid=mm">
+                  <p>スターバックスの楽しみ方</p>
+                </a></li>
+              <li><a href="//www.starbucks.co.jp/delivers/?nid=mm">
+                  <p>デリバリー</p>
+                </a></li>
+              <li><a href="//dyf.starbucks.co.jp/?nid=mm">
+                  <p>お気に入りの一杯を探そう</p>
+                </a></li>
+              <li><a href="//www.starbucks.co.jp/tumblerbu/bulletinboard/?nid=mm">
+                  <p>タンブラー部</p>
+                </a></li>
+              <li><a href="//www.starbucks.co.jp/event/?nid=mm">
+                  <p>イベント情報</p>
+                </a></li>
+              <li><a href="//weproudlyservestarbucks.nestle.jp/?nid=mm">
+                  <p>オフィス向けコーヒーサービス</p>
+                </a></li>
+            </ul>
+          </li>
+          <li class="nav__open_Howto-item">
+            <span class="font-gray title-en en">HELLO COFFEE</span>
+            <ul class="How_col">
+              <li><a href="//www.starbucks.co.jp/hellocoffee/howto/brew/?nid=mm">
+                  <p>おいしいコーヒーのいれ方</p>
+                </a></li>
+              <li><a href="//www.starbucks.co.jp/hellocoffee/howto/choose/?nid=mm">
+                  <p>コーヒー豆の選び方</p>
+                </a></li>
+              <li><a href="//www.starbucks.co.jp/coffee/recipe/?nid=mm">
+                  <p>アレンジコーヒーレシピ</p>
+                </a></li>
+              <li><a href="//www.starbucks.co.jp/seminar/?nid=mm">
+                  <p>コーヒーセミナー</p>
+                </a></li>
+              <li><a href="//www.starbucks.co.jp/howto/coffee/passport.html?nid=mm">
+                  <p>コーヒーパスポート</p>
+                </a></li>
+              <li><a href="//www.starbucks.co.jp/hellocoffee/know/?nid=mm">
+                  <p>コーヒーの木から一杯のカップまで</p>
+                </a></li>
+              <li><a href="//stories.starbucks.co.jp/stories/ethical-sourcing/?nid=mm" target="_blank">
+                  <p>倫理的な調達</p>
+                </a></li>
+            </ul>
+          </li>
+          <li class="nav__open_Howto-item nav__open_Howto-item_faq">
+            <span><a href="//www.starbucks.co.jp/faq/?nid=mm">よくあるご質問・お問い合わせ</a></span>
+          </li>
+        </ul>
+        <div class="margin-for-browser"></div>
+      </div>
+    </div>
+
+    <!-- リワード -->
+    <div class="globalNav__open globalNav__open__service slideArea slideAreaSP slideHorizontalSP slideHidden"
+      data-area="reward">
+      <div class="cursor-back">
+        <button class="toggleButton pc-hidden" data-toggle-button="global_nav"><span>リワード</span></button>
+      </div>
+      <ul class="nav__open_service">
+        <li id="My_starbucks">
+          <a href="//www.starbucks.co.jp/mystarbucks/reward/?nid=mm">
+            <div class="globalNav__circle">
+              <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_mypage.svg" alt="管理画面">
+            </div>
+            <p class="en">管理画面</p>
+          </a>
+        </li>
+        <li class="globalNav__service_items">
+          <ul>
+            <li class="globalNav__circle">
+              <a href="//www.starbucks.co.jp/rewards/?nid=mm">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_rewrds.svg" alt="サービスについて">
+                <p>サービスについて</p>
+              </a>
+            </li>
+            <li class="globalNav__circle">
+              <a href="//www.starbucks.co.jp/mystarbucks/reward/exchange/original_goods/?nid=mm">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_original_goods.svg" alt="オリジナルグッズ">
+                <p>オリジナルグッズ</p>
+              </a>
+            </li>
+            <li class="globalNav__circle">
+              <a href="//www.starbucks.co.jp/mystore/?nid=mm">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_my_store.svg" alt="マイストアパスポート">
+                <p>マイストア<br>パスポート</p>
+              </a>
+            </li>
+            <li class="globalNav__circle">
+              <a href="//www.starbucks.co.jp/mystarbucks/passport/?nid=mm">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_my_coffee.svg" alt="マイコーヒーパスポート">
+                <p>マイコーヒー<br>パスポート</p>
+              </a>
+            </li>
+            <li class="globalNav__circle">
+              <a href="//www.starbucks.co.jp/mystarbucks/tumblerbu/?nid=mm">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_tumbler_bu.svg" alt="タンブラー部　部室">
+                <p>タンブラー部<br>部室</p>
+              </a>
+            </li>
+            <li class="globalNav__circle">
+              <a href="//www.starbucks.co.jp/mystarbucks/reward/exchange/star_donation/?nid=mm">
+                <img src="//d3vgbguy0yofad.cloudfront.net/common/images/header/icon_star_donation.svg" alt="Star寄付">
+                <p>Star寄付</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="nav__open_Howto_wrap">
+        <ul class="nav__open_Howto nav__open_Howto_reward">
+          <li class="nav__open_Howto-item nav__open_Howto-item_reward">
+            <span class="font-gray font-bold">使い方</span>
+            <ul class="How_col How_col_reward">
+              <li><a href="//www.starbucks.co.jp/rewards/howtouse/?nid=mm">
+                  <p>ご利用方法</p>
+                </a></li>
+              <li><a href="//www.starbucks.co.jp/rewards/startguide/?nid=mm">
+                  <p>eTicketへの交換方法</p>
+                </a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="margin-for-browser"></div>
+      </div>
+    </div>
+
+    <div class="globalNav__open slideAreaSP slideHorizontalSP slideHidden subnav-mystarbucks serviceAndLogin"
+      data-area="mystarbucks">
+      <div class="cursor-back">
+        <button class="toggleButton pc-hidden" data-toggle-button="global_nav"><span>アカウント</span></button>
+      </div>
+      <div class="subnav">
+        <ul class="nav-item if-login">
+          <li><a href="//www.starbucks.co.jp/mystarbucks/?nid=mm">My Page</a></li>
+          <li><a href="//www.starbucks.co.jp/mystarbucks/logout/?nid=mm">ログアウト</a></li>
+          <li><a href="//www.starbucks.co.jp/faq/?nid=mm">よくあるご質問・お問い合わせ</a></li>
+        </ul>
+        <ul class="nav-item if-not-login">
+          <li><a href="//www.starbucks.co.jp/mystarbucks/?nid=mm">My Page</a></li>
+          <li><a href="//www.starbucks.co.jp/mystarbucks/login/?nid=mm" class="js-header-login">ログイン</a></li>
+          <li><a href="//www.starbucks.co.jp/register/mystarbucks/input/?nid=mm">新規会員登録</a></li>
+          <li><a href="//www.starbucks.co.jp/faq/?nid=mm">よくあるご質問・お問い合わせ</a></li>
+        </ul>
+        <div class="margin-for-browser"></div>
+      </div>
+    </div>
+
+    <div class="slideArea slideAreaSP search-area" data-area="search">
+      <div class="search-area-inner2">
+        <!-- close icon -->
+        <div class="toggleButton btn-close-wrap" data-toggle-button="search">
+          <svg id="btn_close" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+            <circle id="Ellipse_2996" data-name="Ellipse 2996" cx="16" cy="16" r="16" fill="none" />
+            <path id="svg0"
+              d="M13.06,12l5.72-5.72a.75.75,0,1,0-1.06-1.06L12,10.94,6.28,5.22A.75.75,0,0,0,5.22,6.28L10.94,12,5.22,17.72a.75.75,0,1,0,1.06,1.06L12,13.06l5.72,5.72a.745.745,0,0,0,.53.22.75.75,0,0,0,.53-1.28Z"
+              transform="translate(4 4)" fill="rgba(0,0,0,0.87)" />
+          </svg>
+        </div>
+        <!-- -------- -->
+        <div class="search-area-inner">
+          <div class="search-keyword-wrap">
+            <button class="search-keyword-button-area"></button>
+            <input type="text" class="search-keyword" id="search-keyword" name="search-keyword" placeholder="キーワードを探す"
+              enterkeyhint="search" autocomplete="off" maxlength="100">
+            <div class="search-keyword-delete"><img
+                src="//d3vgbguy0yofad.cloudfront.net/common/images/header/btn_delete.png" alt="削除"></div>
+          </div>
+          <div class="search-keyword-under">
+            <ul class="search-inputwords">
+            </ul>
+            <ul class="search-contents">
+            </ul>
+            <div class="search-area-wrap">
+              <p class="search-area-title">最近検索したキーワード</p>
+            </div>
+            <ul class="search-recentwords">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="search-area-inner3">
+        <div class="search-area-inner">
+          <div class="search-area-container">
+            <div class="search-area-wrap">
+              <p class="search-area-title">最近検索したキーワード</p>
+            </div>
+            <ul class="search-recentwords">
+            </ul>
+          </div>
+          <div class="search-area-container">
+            <div class="search-area-wrap">
+              <p class="search-area-title">急上昇ワード</p>
+            </div>
+            <ul class="search-risewords">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="globalNav__bg"></div>
+  </nav>
+</header><!--div class="qr_float_btn__wrap is-sp">
+<a href="https://dyf.starbucks.co.jp/menu/?nid=top_float_dyf_sp">
+  <img class="qr_float_btn__img" src="/top/images/floating-button/ico.svg" alt="">
+  <p class="qr_float_btn__text">コードで<br>簡単注文</p>
+</a>
+</div--><div class="mainContents notExNav">
+<!-- ここからコンテンツを作成してください -->
+  <div class="top-wrapper">
+    <div class="banner">
+      <a href="/cafe/ruby-chocolat/?nid=tbn_01_pc"  class="banner__img banner__img-1">
+        <img src="https://www.starbucks.co.jp/resource/kv/images/kv_250203_0600_a_pc.jpg" alt="[新商品情報] ルビー ショコラ シンフォニー フラペチーノ®" class="sp-hidden" />
+        <img src="https://www.starbucks.co.jp/resource/kv/images/kv_250203_0600_a_sp.jpg" alt="[新商品情報] ルビー ショコラ シンフォニー フラペチーノ®" class="pc-hidden" />
+      </a>
+      <a href="/gift/valentine/?nid=tbn_02_pc"  class="banner__img banner__img-2">
+        <img src="https://www.starbucks.co.jp/resource/kv/images/kv_250115_0600_b_pc.jpg" alt="バレンタインギフト特集" class="sp-hidden" />
+        <img src="https://www.starbucks.co.jp/resource/kv/images/kv_250115_0600_b_sp.jpg" alt="バレンタインギフト特集" class="pc-hidden" />
+      </a>
+      <a href="/seasonal-goods/?nid=tbn_03_pc#havealovelyday"  class="banner__img banner__img-3">
+        <img src="https://www.starbucks.co.jp/resource/kv/images/kv_250115_0600_c_pc.jpg" alt="SEASONAL GOODS" class="sp-hidden" />
+        <img src="https://www.starbucks.co.jp/resource/kv/images/kv_250115_0600_c_sp.jpg" alt="SEASONAL GOODS" class="pc-hidden" />
+      </a>
+    </div>
+
+    <!-- Brew Products -->
+    <div class="brew-products">
+      <h2 class="brew-products__title text-bold text-center">
+        WHAT’S BREWING
+      </h2>
+      <div class="swiper">
+        <ul class="carousel brew-products-carousel swiper-wrapper">
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/youkou/2025_doublestarday/?nid=wh_00_pc"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/24Summer1_youkou_2024_doublestarday_wb.jpg" width="100" height="120" alt="[スターバックス® リワード] 2.4(Tue)はGold会員限定 ダブル スター Day。Starが通常の2倍たまる特別な日をお楽しみください。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  [スターバックス® リワード] 2.4(Tue)はGold会員限定 ダブル スター Day。Starが通常の2倍たまる特別な日をお楽しみください。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.02.03                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/cafe/porter/?nid=wh_00_pc"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Winter2_porter_wb.jpg" width="100" height="120" alt="[2.5 通常販売] スターバックスとPORTERのコラボレーション第2弾。2つのクラフトマンシップが再び出会い、こだわり溢れるアイテムが登場します。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  [2.5 通常販売] スターバックスとPORTERのコラボレーション第2弾。2つのクラフトマンシップが再び出会い、こだわり溢れるアイテムが登場します。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.01.31                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/cafe/ruby-chocolat/?nid=wh_00_pc"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Winter2.5_cafe_wb.jpg" width="100" height="120" alt="[新商品情報] ルビー ショコラ シンフォニー フラペチーノ®">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  [新商品情報] ルビー ショコラ シンフォニー フラペチーノ®                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.01.24                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/new/lineup/?nid=wh_00_pc"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/23fall2_seasonal_wb.jpg" width="100" height="120" alt="季節のおすすめ商品はこちら。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  季節のおすすめ商品はこちら。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.01.24                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://gift.starbucks.co.jp/card?drink_eg_item_id=1&drink_ticket_quantity=1&mode=select&nid=wh_00_pc"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Winter2_egift_wb.jpg" width="100" height="120" alt="[Enjoy Valentine's Days eGift] バレンタインまでの毎日、大切な人にeGiftを贈って楽しみませんか。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  [Enjoy Valentine's Days eGift] バレンタインまでの毎日、大切な人にeGiftを贈って楽しみませんか。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.01.15                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/gift/valentine/?nid=wh_00_pc#sbcard"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Winter2_DSCG_wb.jpg" width="100" height="120" alt="バレンタインギフトにスターバックス カードを​。大切な人にスターバックスでの甘いひとときを贈ってみませんか。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  バレンタインギフトにスターバックス カードを​。大切な人にスターバックスでの甘いひとときを贈ってみませんか。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.01.15                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/cafe/chocolat-symphony/?nid=wh_00_pc"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Winter2_cafe_wb.jpg" width="100" height="120" alt="[新商品情報] クラシック ショコラ シンフォニー フラペチーノ®">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  [新商品情報] クラシック ショコラ シンフォニー フラペチーノ®                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.01.15                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/gift/valentine/?nid=wh_00_pc"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Winter2_gift_wb.jpg" width="100" height="120" alt="[バレンタインギフト特集] 選ぶ時間も渡す瞬間もずっとワクワクが続く、スターバックスのバレンタインギフトをお楽しみください。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  [バレンタインギフト特集] 選ぶ時間も渡す瞬間もずっとワクワクが続く、スターバックスのバレンタインギフトをお楽しみください。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.01.15                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/onlinestore/name-engraving/?nid=wh_00_pc#valentine"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Winter2_name-engraving_wb.jpg" width="100" height="120" alt="あなたの気持ちを刻印メッセージで届ける、オンリーワンのバレンタインデーギフトを贈りませんか。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  あなたの気持ちを刻印メッセージで届ける、オンリーワンのバレンタインデーギフトを贈りませんか。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.01.15                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/hellocoffee/howto/purchase-beans.html?nid=wh_00_pc"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Winter2_hellocoffee_wb.jpg" width="100" height="120" alt="コアコーヒー4種類に100gサイズのコーヒー(粉)が登場。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  コアコーヒー4種類に100gサイズのコーヒー(粉)が登場。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.01.15                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/seasonal-goods/?nid=wh_00_pc#havealovelyday"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Winter1_Win2MD_wb.jpg" width="100" height="120" alt="[新商品情報] 小さな赤いハートとリボンで遊ぶ愛らしい猫たちが描かれた、バレンタインを彩るグッズが1.15(Wed)から登場。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  [新商品情報] 小さな赤いハートとリボンで遊ぶ愛らしい猫たちが描かれた、バレンタインを彩るグッズが1.15(Wed)から登場。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.01.08                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/onlinestore/live/?nid=wh_00_pc"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Win2_OSLIVE.jpg" width="100" height="120" alt="LIVE直後にオンラインストア先行販売開始！バレンタインを楽しむグッズが登場。20:00頃よりオンラインストアでご購入いただけます。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  LIVE直後にオンラインストア先行販売開始！バレンタインを楽しむグッズが登場。20:00頃よりオンラインストアでご購入いただけます。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.01.08                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
+            <a href="https://www.starbucks.co.jp/reserve/roastery/onlinestore/coffee_beans/?nid=wh_00_pc"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Winter1_reserveWB_wb.jpg" width="100" height="120" alt="スターバックス リザーブ®のコーヒーに新商品が登場。オンラインストアでもご購入いただけます。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  スターバックス リザーブ®のコーヒーに新商品が登場。オンラインストアでもご購入いただけます。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2024.12.26                </span>
+              </div>
+            </a>
+          </li>
+                  </ul>
+        <div class="swiper-btn-wrap">
+          <div class="swiper-prev_btn-wrap swiper-hidden">
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="swiper-next_btn-wrap">
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container brew-products__bottom-container">
+        <div class="brew-products__bottom">
+
+          <a href="/payment/?nid=pu_01" class="brew-products__bottom__items">
+            <div class="brew-products__bottom__items__img">
+              <img src="/top/images/info/img-bottom-1.jpg" alt="" />
+            </div>
+            <p class="brew-products__bottom__items__desc">
+              いつもの一杯を、キャッシュレスで
+            </p>
+
+          </a>
+          <a href="/recruit/employment/barista.html?nid=pu_04" class="brew-products__bottom__items">
+            <div class="brew-products__bottom__items__img">
+              <img src="/top/images/info/img-bottom-4.jpg" alt="" />
+            </div>
+            <p class="brew-products__bottom__items__desc">
+              [アルバイト情報] あなたもバリスタとして働いてみませんか
+            </p>
+          </a>
+
+        </div>
+      </div>
+    </div>
+        <div class="line-gray brew-line-gray"></div>
+    <!-- online store -->
+    <div class="online-store">
+      <div class="online-store__header">
+        <h2 class="online-store__header-title">ONLINE STORE</h2>
+        <h4 class="online-store__header-text">
+          5,000円（税抜）以上お買い上げで送料無料 
+        </h4>
+      </div>
+            <div class="js-errordialog-text-os-area hide"></div>
+      <div class="online-store__content">
+        <div class="online-store__carousel--pc">
+                                <div
+              id="seasonal-products"
+              class="online-store__content-carousel tab-content active-tab">
+              <div class="online-store__content-carousel-title">
+              </div>
+              <div class="swiper-product swiper-seasonalOffering">
+                <ul class="carousel online-store__carousel js-category-products swiper-wrapper">
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785573376" 
+  data-name="バレンタイン2025ステンレスボトル473ml" 
+  data-category="tumblermug" 
+  data-inventory="1" 
+  data-price="5450"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="tumblermug"
+  data-category-code1="bottle"
+  data-category-code2="tumblermug-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785573376">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785573376/4524785573376_1_s.jpg" alt="バレンタイン2025ステンレスボトル473ml">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785573376">
+        <div class="card__inner__text-header">
+          <div class="text-limit">バレンタイン2025ステンレスボトル473ml</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥5,450</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                                                                                                <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785574403" 
+  data-name="[予約販売：2025年8月中旬頃お届け予定]バレンタイン2025ステンレスボトルグリッター355ml ※商品説明参照" 
+  data-category="tumblermug" 
+  data-inventory="1" 
+  data-price="4650"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="tumblermug"
+  data-category-code1="bottle"
+  data-category-code2="tumblermug-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785574403">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785574403/4524785574403_1_s.jpg" alt="[予約販売：2025年8月中旬頃お届け予定]バレンタイン2025ステンレスボトルグリッター355ml ※商品説明参照">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785574403">
+        <div class="card__inner__text-header">
+          <div class="text-limit">[予約販売：2025年8月中旬頃お届け予定]バレンタイン2025ステンレスボトルグリッター355ml ※商品説明参照</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥4,650</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                                                                                                                                                                        <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785574410" 
+  data-name="バレンタイン2025マグハート355ml" 
+  data-category="tumblermug" 
+  data-inventory="1" 
+  data-price="3050"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="tumblermug"
+  data-category-code1="mug"
+  data-category-code2="tumblermug-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785574410">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785574410/4524785574410_1_s.jpg" alt="バレンタイン2025マグハート355ml">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785574410">
+        <div class="card__inner__text-header">
+          <div class="text-limit">バレンタイン2025マグハート355ml</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥3,050</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                                                                                                                                                                                                            <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785572355" 
+  data-name="コップ付ボトルオコジョ500ml" 
+  data-category="tumblermug" 
+  data-inventory="1" 
+  data-price="3350"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="tumblermug"
+  data-category-code1="tumblermug-seasonal"
+  data-category-code2="bottle"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785572355">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785572355/4524785572355_1_s.jpg" alt="コップ付ボトルオコジョ500ml">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785572355">
+        <div class="card__inner__text-header">
+          <div class="text-limit">コップ付ボトルオコジョ500ml</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥3,350</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                                                                                                                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785579149" 
+  data-name="ウォーターインタンブラーシマエナガ473ml" 
+  data-category="tumblermug" 
+  data-inventory="1" 
+  data-price="3000"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="tumblermug"
+  data-category-code1="tumblermug-seasonal"
+  data-category-code2="tumbler"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785579149">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785579149/4524785579149_1_s.jpg" alt="ウォーターインタンブラーシマエナガ473ml">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785579149">
+        <div class="card__inner__text-header">
+          <div class="text-limit">ウォーターインタンブラーシマエナガ473ml</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥3,000</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                        <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785579132" 
+  data-name="マグオコジョだるま296ml" 
+  data-category="tumblermug" 
+  data-inventory="1" 
+  data-price="2750"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="tumblermug"
+  data-category-code1="mug"
+  data-category-code2="tumblermug-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785579132">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785579132/4524785579132_1_s.jpg" alt="マグオコジョだるま296ml">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785579132">
+        <div class="card__inner__text-header">
+          <div class="text-limit">マグオコジョだるま296ml</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥2,750</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                        <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785574915" 
+  data-name="ニューイヤーマグへび355ml" 
+  data-category="tumblermug" 
+  data-inventory="1" 
+  data-price="2950"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="tumblermug"
+  data-category-code1="mug"
+  data-category-code2="tumblermug-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785574915">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785574915/4524785574915_1_s.jpg" alt="ニューイヤーマグへび355ml">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785574915">
+        <div class="card__inner__text-header">
+          <div class="text-limit">ニューイヤーマグへび355ml</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥2,950</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785574922" 
+  data-name="ニューイヤーマグへび89ml" 
+  data-category="tumblermug" 
+  data-inventory="1" 
+  data-price="1850"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="tumblermug"
+  data-category-code1="mug"
+  data-category-code2="tumblermug-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785574922">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785574922/4524785574922_1_s.jpg" alt="ニューイヤーマグへび89ml">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785574922">
+        <div class="card__inner__text-header">
+          <div class="text-limit">ニューイヤーマグへび89ml</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥1,850</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                        <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785512849" 
+  data-name="Been There Series ステンレスボトルJAPANウィンター473ml" 
+  data-category="tumblermug" 
+  data-inventory="1" 
+  data-price="5450"
+  data-brand-code="been-there-series" 
+  data-category-code0="tumblermug"
+  data-category-code1="bottle"
+  data-category-code2="tumblermug-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785512849">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785512849/4524785512849_1_s.jpg" alt="Been There Series ステンレスボトルJAPANウィンター473ml">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785512849">
+        <div class="card__inner__text-header">
+          <div class="text-limit">Been There Series ステンレスボトルJAPANウィンター473ml</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥5,450</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785512856" 
+  data-name="Been There Series マグJAPANウィンター414ml" 
+  data-category="tumblermug" 
+  data-inventory="1" 
+  data-price="2600"
+  data-brand-code="been-there-series" 
+  data-category-code0="tumblermug"
+  data-category-code1="mug"
+  data-category-code2="tumblermug-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785512856">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785512856/4524785512856_1_s.jpg" alt="Been There Series マグJAPANウィンター414ml">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785512856">
+        <div class="card__inner__text-header">
+          <div class="text-limit">Been There Series マグJAPANウィンター414ml</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥2,600</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                        <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785575363" 
+  data-name="スターバックス リザーブ® ロースタリー マグ Snakeホワイト355ml" 
+  data-category="tumblermug" 
+  data-inventory="1" 
+  data-price="3600"
+  data-brand-code="starbucks-reserve-roastery-tokyo" 
+  data-category-code0="tumblermug"
+  data-category-code1="mug"
+  data-category-code2="tumblermug-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785575363">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785575363/4524785575363_1_s.jpg" alt="スターバックス リザーブ® ロースタリー マグ Snakeホワイト355ml">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785575363">
+        <div class="card__inner__text-header">
+          <div class="text-limit">スターバックス リザーブ® ロースタリー マグ Snakeホワイト355ml</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥3,600</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785492615" 
+  data-name="カフェ ベロナ®" 
+  data-category="beans" 
+  data-inventory="1" 
+  data-price="1440"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="beans"
+  data-category-code1="beans-seasonal"
+  data-category-code2="corecoffee"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785492615">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785492615/4524785492615_1_s.jpg" alt="カフェ ベロナ®">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785492615">
+        <div class="card__inner__text-header">
+          <div class="text-limit">カフェ ベロナ®</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥1,440</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785575103" 
+  data-name="スターバックス ライトノート ブレンド® (100g / 粉)" 
+  data-category="beans" 
+  data-inventory="1" 
+  data-price="670"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="beans"
+  data-category-code1="corecoffee"
+  data-category-code2="beans-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785575103">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785575103/4524785575103_1_s.jpg" alt="スターバックス ライトノート ブレンド® (100g / 粉)">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785575103">
+        <div class="card__inner__text-header">
+          <div class="text-limit">スターバックス ライトノート ブレンド® (100g / 粉)</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥670</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785575110" 
+  data-name="パイクプレイス® ロースト (100g / 粉)" 
+  data-category="beans" 
+  data-inventory="1" 
+  data-price="670"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="beans"
+  data-category-code1="corecoffee"
+  data-category-code2="beans-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785575110">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785575110/4524785575110_1_s.jpg" alt="パイクプレイス® ロースト (100g / 粉)">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785575110">
+        <div class="card__inner__text-header">
+          <div class="text-limit">パイクプレイス® ロースト (100g / 粉)</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥670</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785575127" 
+  data-name="ディカフェ ハウス ブレンド (100g / 粉)" 
+  data-category="beans" 
+  data-inventory="1" 
+  data-price="720"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="beans"
+  data-category-code1="corecoffee"
+  data-category-code2="beans-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785575127">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785575127/4524785575127_1_s.jpg" alt="ディカフェ ハウス ブレンド (100g / 粉)">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785575127">
+        <div class="card__inner__text-header">
+          <div class="text-limit">ディカフェ ハウス ブレンド (100g / 粉)</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥720</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785575134" 
+  data-name="カフェ ベロナ® (100g / 粉)" 
+  data-category="beans" 
+  data-inventory="1" 
+  data-price="720"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="beans"
+  data-category-code1="corecoffee"
+  data-category-code2="beans-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785575134">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785575134/4524785575134_1_s.jpg" alt="カフェ ベロナ® (100g / 粉)">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785575134">
+        <div class="card__inner__text-header">
+          <div class="text-limit">カフェ ベロナ® (100g / 粉)</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥720</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                                                                                                <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785588103" 
+  data-name="サンドライド コスタリカ  ハシエンダ アルサシア® エル ロブレ" 
+  data-category="beans" 
+  data-inventory="1" 
+  data-price="3890"
+  data-brand-code="starbucks-reserve" 
+  data-category-code0="beans"
+  data-category-code1="reserve"
+  data-category-code2="beans-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785588103">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785588103/4524785588103_1_s.jpg" alt="サンドライド コスタリカ  ハシエンダ アルサシア® エル ロブレ">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785588103">
+        <div class="card__inner__text-header">
+          <div class="text-limit">サンドライド コスタリカ  ハシエンダ アルサシア® エル ロブレ</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥3,890</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785558359" 
+  data-name="スターバックス ヴィア® &amp; ロゴチョコレート アソートセット" 
+  data-category="beans" 
+  data-inventory="1" 
+  data-price="950"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="beans"
+  data-category-code1="beans-seasonal"
+  data-category-code2="via"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785558359">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785558359/4524785558359_1_s.jpg" alt="スターバックス ヴィア® & ロゴチョコレート アソートセット">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785558359">
+        <div class="card__inner__text-header">
+          <div class="text-limit">スターバックス ヴィア® & ロゴチョコレート アソートセット</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥950</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785580343" 
+  data-name="スイート モカ トリート" 
+  data-category="beans" 
+  data-inventory="1" 
+  data-price="1000"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="beans"
+  data-category-code1="via"
+  data-category-code2="beans-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785580343">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785580343/4524785580343_1_s.jpg" alt="スイート モカ トリート">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785580343">
+        <div class="card__inner__text-header">
+          <div class="text-limit">スイート モカ トリート</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥1,000</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785580336" 
+  data-name="コーヒー ミーツ チョコレート" 
+  data-category="beans" 
+  data-inventory="1" 
+  data-price="1500"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="beans"
+  data-category-code1="origami"
+  data-category-code2="beans-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785580336">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785580336/4524785580336_1_s.jpg" alt="コーヒー ミーツ チョコレート">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785580336">
+        <div class="card__inner__text-header">
+          <div class="text-limit">コーヒー ミーツ チョコレート</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥1,500</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785582903" 
+  data-name="スターバックス ヴィア® コーヒーエッセンス モカ 5本入り" 
+  data-category="beans" 
+  data-inventory="1" 
+  data-price="750"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="beans"
+  data-category-code1="via"
+  data-category-code2="beans-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785582903">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785582903/4524785582903_1_s.jpg" alt="スターバックス ヴィア® コーヒーエッセンス モカ 5本入り">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785582903">
+        <div class="card__inner__text-header">
+          <div class="text-limit">スターバックス ヴィア® コーヒーエッセンス モカ 5本入り</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥750</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                                                                                                <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785583542" 
+  data-name="バレンタイン2025ベアリスタメッセージギフト" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="1650"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="goods"
+  data-category-code1="goods-main"
+  data-category-code2="goods-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785583542">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785583542/4524785583542_1_s.jpg" alt="バレンタイン2025ベアリスタメッセージギフト">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785583542">
+        <div class="card__inner__text-header">
+          <div class="text-limit">バレンタイン2025ベアリスタメッセージギフト</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥1,650</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785583559" 
+  data-name="バレンタイン2025ビバレッジカードキャット" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="750"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="goods"
+  data-category-code1="bevcard"
+  data-category-code2="goods-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785583559">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785583559/4524785583559_1_s.jpg" alt="バレンタイン2025ビバレッジカードキャット">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785583559">
+        <div class="card__inner__text-header">
+          <div class="text-limit">バレンタイン2025ビバレッジカードキャット</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥750</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785584808" 
+  data-name="ビバレッジギフトミニカードHappy Birthday" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="550"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="goods"
+  data-category-code1="goods-main"
+  data-category-code2="goods-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785584808">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785584808/4524785584808_1_s.jpg" alt="ビバレッジギフトミニカードHappy Birthday">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785584808">
+        <div class="card__inner__text-header">
+          <div class="text-limit">ビバレッジギフトミニカードHappy Birthday</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥550</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785583566" 
+  data-name="ビバレッジギフトミニカードFor You" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="550"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="goods"
+  data-category-code1="goods-main"
+  data-category-code2="goods-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785583566">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785583566/4524785583566_1_s.jpg" alt="ビバレッジギフトミニカードFor You">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785583566">
+        <div class="card__inner__text-header">
+          <div class="text-limit">ビバレッジギフトミニカードFor You</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥550</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                                                                                                                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785574939" 
+  data-name="ニューイヤーキャニスターへび" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="3650"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="goods"
+  data-category-code1="goods-main"
+  data-category-code2="goods-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785574939">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785574939/4524785574939_1_s.jpg" alt="ニューイヤーキャニスターへび">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785574939">
+        <div class="card__inner__text-header">
+          <div class="text-limit">ニューイヤーキャニスターへび</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥3,650</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785574359" 
+  data-name="[オンラインストア販売]ベアリスタへび" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="3900"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="goods"
+  data-category-code1="goods-main"
+  data-category-code2="goods-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785574359">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785574359/4524785574359_1_s.jpg" alt="[オンラインストア販売]ベアリスタへび">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785574359">
+        <div class="card__inner__text-header">
+          <div class="text-limit">[オンラインストア販売]ベアリスタへび</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥3,900</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785574366" 
+  data-name="ベアリスタへびMini" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="2750"
+  data-brand-code="starbucks-coffee" 
+  data-category-code0="goods"
+  data-category-code1="goods-main"
+  data-category-code2="goods-seasonal"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785574366">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785574366/4524785574366_1_s.jpg" alt="ベアリスタへびMini">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785574366">
+        <div class="card__inner__text-header">
+          <div class="text-limit">ベアリスタへびMini</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥2,750</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                        <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785512023" 
+  data-name="Been There Series オーナメントJAPAN" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="1050"
+  data-brand-code="been-there-series" 
+  data-category-code0="goods"
+  data-category-code1="goods-seasonal"
+  data-category-code2="goods-main"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785512023">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785512023/4524785512023_1_s.jpg" alt="Been There Series オーナメントJAPAN">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785512023">
+        <div class="card__inner__text-header">
+          <div class="text-limit">Been There Series オーナメントJAPAN</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥1,050</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                        <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785557611" 
+  data-name="スターバックス リザーブ アニマルピンズ バード" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="5900"
+  data-brand-code="starbucks-reserve-roastery-tokyo" 
+  data-category-code0="goods"
+  data-category-code1="goods-seasonal"
+  data-category-code2="goods-main"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785557611">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785557611/4524785557611_1_s.jpg" alt="スターバックス リザーブ アニマルピンズ バード">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785557611">
+        <div class="card__inner__text-header">
+          <div class="text-limit">スターバックス リザーブ アニマルピンズ バード</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥5,900</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785557598" 
+  data-name="スターバックス　リザーブ アニマルピンズ エレファント" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="5900"
+  data-brand-code="starbucks-reserve-roastery-tokyo" 
+  data-category-code0="goods"
+  data-category-code1="goods-seasonal"
+  data-category-code2="goods-main"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785557598">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785557598/4524785557598_1_s.jpg" alt="スターバックス　リザーブ アニマルピンズ エレファント">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785557598">
+        <div class="card__inner__text-header">
+          <div class="text-limit">スターバックス　リザーブ アニマルピンズ エレファント</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥5,900</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785557604" 
+  data-name="スターバックス リザーブ アニマルピンズ タイガー" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="5900"
+  data-brand-code="starbucks-reserve-roastery-tokyo" 
+  data-category-code0="goods"
+  data-category-code1="goods-seasonal"
+  data-category-code2="goods-main"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785557604">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785557604/4524785557604_1_s.jpg" alt="スターバックス リザーブ アニマルピンズ タイガー">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785557604">
+        <div class="card__inner__text-header">
+          <div class="text-limit">スターバックス リザーブ アニマルピンズ タイガー</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥5,900</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785575462" 
+  data-name="スターバックス リザーブ Daruma バード" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="6900"
+  data-brand-code="starbucks-reserve-roastery-tokyo" 
+  data-category-code0="goods"
+  data-category-code1="goods-seasonal"
+  data-category-code2="goods-main"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785575462">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785575462/4524785575462_1_s.jpg" alt="スターバックス リザーブ Daruma バード">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785575462">
+        <div class="card__inner__text-header">
+          <div class="text-limit">スターバックス リザーブ Daruma バード</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥6,900</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                        <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785575455" 
+  data-name="スターバックス リザーブ Daruma タイガー" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="6900"
+  data-brand-code="starbucks-reserve-roastery-tokyo" 
+  data-category-code0="goods"
+  data-category-code1="goods-seasonal"
+  data-category-code2="goods-main"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785575455">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785575455/4524785575455_1_s.jpg" alt="スターバックス リザーブ Daruma タイガー">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785575455">
+        <div class="card__inner__text-header">
+          <div class="text-limit">スターバックス リザーブ Daruma タイガー</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥6,900</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                                                                                              </ul>
+                <div class="swiper-btn-wrap">
+                  <div class="swiper-prev_btn-wrap swiper-hidden">
+                    <div class="swiper-button-prev swiper-seasonalOffering-button-prev"></div>
+                  </div>
+                  <div class="swiper-next_btn-wrap">
+                    <div class="swiper-button-next swiper-seasonalOffering-button-next"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                  </div>
+      </div>
+          </div>
+        <div class="line-gray"></div>
+    <!-- Stories -->
+    <div class="stories">
+      <div class="stories__container relative">
+        <div class="stories__header text-center">
+          <img class="stories__header-logo" src="./top/images/STORIES logo.png" alt="Stories-Logo">
+        </div>
+        <div class="swiper-stories">
+          <ul class="carousel stories-carousel swiper-wrapper">
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2025/biomass-straw/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/biomass-straw.jpg" alt="スターバックスの緑のストローが帰ってきた。飲み心地が良く、地球にもポジティブに。" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  スターバックスの緑のストローが帰ってきた。飲み心地が良く、地球にもポジティブに。                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">PLANET</span>
+                    <span class="text-right">2025. 01. 22</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2025/tumbler-slogan/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/tumbler_slogan3.jpg" alt="合言葉は「タンブる」。スターバックスのタンブラー部のスローガンです。" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  合言葉は「タンブる」。スターバックスのタンブラー部のスローガンです。                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">PLANET</span>
+                    <span class="text-right">2025. 01. 09</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2025/hitachinakacoffeefestival2024/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/hitachinakacoffeefestival2024.jpg" alt="コーヒーを通じて広がる地域とのあたたかな絆。ひたちなかで見つけた新たな役割" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  コーヒーを通じて広がる地域とのあたたかな絆。ひたちなかで見つけた新たな役割                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">PEOPLE & COMMUNITY</span>
+                    <span class="text-right">2025. 01. 06</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2024/be_a_santa_donation_report-3/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/be_a_santa_donation_report_3.jpg" alt="一人ひとりが、誰かのサンタ。地域の笑顔が集う「Be a Santa ドネーション」プログラムのご報告" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  一人ひとりが、誰かのサンタ。地域の笑顔が集う「Be a Santa ドネーション」プログラムのご報告                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">PEOPLE & COMMUNITY</span>
+                    <span class="text-right">2024. 12. 25</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2024/family-friendly-store/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/family_friendly_store.jpg" alt="「子どもも家族も楽しい」を叶える、スターバックスの新しいかたち。HIROBA -ひろば-の魅力とは？" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  「子どもも家族も楽しい」を叶える、スターバックスの新しいかたち。HIROBA -ひろば-の魅力とは？                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">COFFEE & CRAFT</span>
+                    <span class="text-right">2024. 12. 16</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2024/tumbler_summit/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/tumbler_summit.png" alt="タンブラー部「学生サミット」！使い捨てない未来を考えてみた！" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  タンブラー部「学生サミット」！使い捨てない未来を考えてみた！                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">PLANET</span>
+                    <span class="text-right">2024. 12. 10</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2024/store_design_and_careers/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/store_design_and_careers.jpeg" alt="地域に溶け込むスターバックスの店舗づくり。東急歌舞伎町タワー店ができ上がるまで。" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  地域に溶け込むスターバックスの店舗づくり。東急歌舞伎町タワー店ができ上がるまで。                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">COFFEE & CRAFT</span>
+                    <span class="text-right">2024. 11. 25</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2024/kawachinagano202411/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/kawachinagano202411.jpg" alt="店舗の植栽を“小さなまちの森”に…。鎮守の森から譲り受けた実生苗" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  店舗の植栽を“小さなまちの森”に…。鎮守の森から譲り受けた実生苗                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">PLANET</span>
+                    <span class="text-right">2024. 11. 08</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2024/roasterytokyonihonwine/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/roasterytokyonihonwine.jpeg" alt="ロースタリー 東京に、北海道・余市の風土を味わう日本ワインが登場" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  ロースタリー 東京に、北海道・余市の風土を味わう日本ワインが登場                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">COFFEE & CRAFT</span>
+                    <span class="text-right">2024. 11. 05</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2024/be_a_santa_donation-2/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/be_a_santa_donation_2.jpeg" alt="今年もスターバックスの「Be a Santa ドネーションプログラム」がはじまります" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  今年もスターバックスの「Be a Santa ドネーションプログラム」がはじまります                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">COFFEE & CRAFT</span>
+                    <span class="text-right">2024. 10. 28</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2024/roastery24tealatte/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/roastery24tealatte.jpg" alt="ロースタリー 東京で楽しむ唯一無二の日本素材のティー ラテ" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  ロースタリー 東京で楽しむ唯一無二の日本素材のティー ラテ                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">COFFEE & CRAFT</span>
+                    <span class="text-right">2024. 10. 24</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                        <li class="story-item swiper-slide">
+              <a href="https://stories.starbucks.co.jp/ja/stories/2024/originexperience_sumatra/?utm_source=sbj&utm_medium=brandsite&utm_campaign=stories" target="_blank">
+                <div class="story-item__img">
+                  <img src="./top/images/stories/originexperience_sumatra.jpeg" alt="スマトラ島で感じた、一杯のコーヒーの背景にあるもの。" />
+                </div>
+                <div class="story-item__content">
+                  <p class="story-item__content__desc">
+                  スマトラ島で感じた、一杯のコーヒーの背景にあるもの。                  </p>
+                  <div class="story-item__content__time english">
+                    <span class="text-left">COFFEE & CRAFT</span>
+                    <span class="text-right">2024. 10. 07</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+                      </ul>
+          <div class="swiper-btn-wrap">
+            <div class="swiper-prev_btn-wrap swiper-hidden">
+              <div class="swiper-button-prev swiper-stories-button-prev"></div>
+            </div>
+            <div class="swiper-next_btn-wrap">
+              <div class="swiper-button-next swiper-stories-button-next"></div>
+            </div>
+          </div>
+        </div>
+        <div class="stories__link text-right">
+          <div class="text-link-wrapper">
+            <a class="text-link-green" href="//stories.starbucks.co.jp/" target="_blank">
+              一覧へ
+              <span class="icon">
+                <svg viewBox="0 0 12 12">
+                  <path d="M14.75,18H7.875A1.876,1.876,0,0,1,6,16.125V9.25A1.875,1.875,0,0,1,7.875,7.375h5.11a.5.5,0,1,1,0,1H7.875A.875.875,0,0,0,7,9.25v6.875A.875.875,0,0,0,7.875,17H14.75a.875.875,0,0,0,.875-.875V11a.5.5,0,0,1,1,0v5.125A1.876,1.876,0,0,1,14.75,18ZM14,6.5a.5.5,0,0,1,.5-.5h3a.5.5,0,0,1,.5.5v3a.5.5,0,0,1-1,0V7.72l-4.66,4.74a.5.5,0,0,1-.71-.7L16.307,7H14.5A.5.5,0,0,1,14,6.5Z" transform="translate(-6 -6)"/>
+                </svg>
+              </span>
+            </a>
+          </div>
+          <!-- <a href="#" class="ex-link"
+            >一覧へ <img src="/images/external-link-icon.png" alt=""
+          /></a> -->
+        </div>
+      </div>
+    </div>
+    <div class="line-gray"></div>
+    <!-- notification -->
+    <div class="notification">
+      <div class="notification__block">
+        <h2 class="notification__block__title text-bold text-center text-noti-japan">
+          重要なお知らせ
+        </h2>
+                  <a href="/notice/20255386.php">
+            <div class="notification-item">
+              <div class="notification-item__time english">25.02.03</div>
+              <div class="notification-item__content">決済サービスLINE Payからの支払終了のお知らせ</div>
+            </div>
+          </a>
+                  <a href="/notice/20255367.php">
+            <div class="notification-item">
+              <div class="notification-item__time english">25.01.27</div>
+              <div class="notification-item__content">スターバックス ジャパン公式モバイルアプリ 最新バージョン(5.4.5)へのアップデートのお願い</div>
+            </div>
+          </a>
+                  <a href="/notice/20255371.php">
+            <div class="notification-item">
+              <div class="notification-item__time english">25.01.24</div>
+              <div class="notification-item__content">【重要】セキュリティ対策の推奨のお知らせ（1/24更新）</div>
+            </div>
+          </a>
+                <div class="text-link-wrapper">
+          <a class="text-link-green" href="/notice/">
+            一覧へ
+          </a>
+        </div>
+        <!-- <a class="ex-link" href="#"
+          >一覧へ <img src="/images/external-link-icon.png" alt=""
+        /></a> -->
+      </div>
+      <div class="notification__block">
+        <h2 class="notification__block__title text-bold text-center english">
+          PRESS RELEASE
+        </h2>
+                  <a href="https://www.starbucks.co.jp/press_release/pr2025-5387.php?nid=nw_01_pc">
+          <div class="notification-item">
+            <div class="notification-item__time english">25.01.31</div>
+            <div class="notification-item__content">
+              2月15日からの商品価格の取り組みについて            </div>
+          </div>
+        </a>
+                  <a href="https://www.starbucks.co.jp/press_release/pr2025-5383.php?nid=nw_01_pc">
+          <div class="notification-item">
+            <div class="notification-item__time english">25.01.29</div>
+            <div class="notification-item__content">
+              プリンチ<sup>&reg;</sup> 人気の直焼きフォカッチャから本場イタリアの味わいにこだわった新商品が登場。初登場となるチーズがとろけるホットサンドやピッツァが2月1日より発売開始            </div>
+          </div>
+        </a>
+                  <a href="https://www.starbucks.co.jp/press_release/pr2025-5376.php?nid=nw_01_pc">
+          <div class="notification-item">
+            <div class="notification-item__time english">25.01.28</div>
+            <div class="notification-item__content">
+              スターバックス<sup>&reg;</sup> チルドカップのSAKURAシーズンが到来。「ベリーベリーさくらミルク」が2月4日より期間限定発売            </div>
+          </div>
+        </a>
+                <div class="text-link-wrapper">
+          <a class="text-link-green" href="/press_release/">
+            一覧へ
+          </a>
+        </div>
+        <!-- <a class="ex-link" href="#"
+          >一覧へ <img src="/images/external-link-icon.png" alt=""
+        /></a> -->
+      </div>
+    </div>
+    <div class="line-gray"></div>
+  </div>
+
+  <div class="history_component"></div>
+<!-- ここまでコンテンツを作成してください -->
+</div><!-- /.mainContents -->
+<footer class="footerWrap web_view_none">
+  <nav aria-label="Global footer" class="footerNav">
+    <div class="footerNav__wrapper">
+      <div class="footerNav__inner">
+          <p class="footerNav__head en">Company</p>
+          <ul class="footerNav__list">
+          <li><a href="//www.starbucks.co.jp/company/?nid=ft">会社案内</a></li>
+          <li><a href="//www.starbucks.co.jp/company/summary/?nid=ft">会社概要</a></li>
+          <li><a href="//www.starbucks.co.jp/company/history/?nid=ft">沿革</a></li>
+          <li><a href="//www.starbucks.co.jp/company/mission.html?nid=ft" class="en">Our Mission,<br class="sp-hidden">Promises and Values</a></li>
+          </ul>
+      </div>
+      <div class="footerNav__inner">
+          <p class="footerNav__head en">Recruiting</p>
+          <ul class="footerNav__list">
+          <li><a href="//www.starbucks.co.jp/recruit/?nid=ft">採用TOP</a></li>
+          <li><a href="//www.starbucks.co.jp/recruit/vision/?nid=ft">スターバックスな未来</a></li>
+          <li><a href="//www.starbucks.co.jp/recruit/workplace/?nid=ft">働く環境</a></li>
+          <li><a href="//www.starbucks.co.jp/recruit/newgraduate/?nid=ft">新卒採用</a></li>
+          <li><a href="//www.starbucks.co.jp/recruit/store_career/?nid=ft">店舗中途採用</a></li>
+          <li><a href="//www.starbucks.co.jp/recruit/sc_career/?nid=ft">SC中途採用</a></li>
+          <li><a href="//www.starbucks.co.jp/recruit/ourjob/?nid=ft">アルバイト採用</a></li>
+          </ul>
+      </div>
+      <div class="footerNav__inner">
+          <p class="footerNav__head en">Social Impact</p>
+          <ul class="footerNav__list">
+          <li><a class="en" href="//www.starbucks.co.jp/socialimpact/?nid=ft">Social Impact</a></li>
+          <li><a class="en" href="//stories.starbucks.co.jp/stories/people/?nid=ft" target="_blank">People & Community</a></li>
+          <li><a class="en" href="//stories.starbucks.co.jp/ja/stories/planet/?nid=ft" target="_blank">Planet</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="__bottom">
+      <ul class="footerNav__secondaryLinks">
+          <li><a href="//www.starbucks.co.jp/faq/?nid=ft">よくあるご質問・お問い合わせ</a></li>
+          <li><a href="//www.starbucks.co.jp/about_us/policy/terms_of_use.html?nid=ft">使用条件</a></li>
+          <li><a href="//www.starbucks.co.jp/about_us/policy/?nid=ft">ポリシー・約款・規約一覧</a></li>
+          <li><a href="//www.starbucks.co.jp/sitemap.html?nid=ft">サイトマップ</a></li>
+      </ul>
+      <ul class="footerNav__socialLinks">
+          <li><a href="//x.com/Starbucks_J/" target="_blank"><img src="//d3vgbguy0yofad.cloudfront.net/common/images/footer/icon-x.svg" alt="X"></a></li>
+          <li><a href="//www.instagram.com/starbucks_j/" target="_blank"><img src="//d3vgbguy0yofad.cloudfront.net/common/images/footer/icon-instagram.svg" alt="instagram"></a></li>
+          <li><a href="//www.facebook.com/StarbucksJapan" target="_blank"><img src="//d3vgbguy0yofad.cloudfront.net/common/images/footer/icon-facebook.svg" alt="facebook"></a></li>
+          <li><a href="//lin.ee/zAem7JH" target="_blank"><img src="//d3vgbguy0yofad.cloudfront.net/common/images/footer/icon-line.svg" alt="line"></a></li>
+      </ul>
+    </div>
+    <p class="footerNav__copyright en">&copy; <span class="year"></span> Starbucks Coffee Company. All rights reserved.</p>
+    <script>
+      const now = new Date()
+      const year = now.getFullYear()
+      document.querySelector('.footerWrap .year').textContent = year
+    </script>
+  </nav>
+</footer><!-- cartformの付属要素 -->
+<div class="gray-background js-float-close"></div>
+<!-- カート -->
+<div class="float-cart">
+  <div class="float-cart__heading">
+    <button class="close-button js-float-close" style="cursor: pointer;">
+      <svg viewBox="0 0 14 14" width="14" height="14">
+        <path d="M13.06,12l5.72-5.72a.75.75,0,1,0-1.06-1.06L12,10.94,6.28,5.22A.75.75,0,0,0,5.22,6.28L10.94,12,5.22,17.72a.75.75,0,1,0,1.06,1.06L12,13.06l5.72,5.72a.745.745,0,0,0,.53.22.75.75,0,0,0,.53-1.28Z" transform="translate(-5 -5)"></path>
+      </svg>
+    </button>
+    <p class="float-cart__heading__title">カートに追加されました</p>
+    <div class="float-cart__heading__product flex _js_added_product">
+      <div class="product__image"><img src="" alt=""></div>
+      <div class="product__detail">
+        <p class="product__name"></p>
+        <p class="product-type"></p>
+        <p class="product__quantity product-quantity">数量<span class="num"></span></p>
+      </div>
+    </div>
+  </div>
+  <ul class="float-cart__list _js_cart_products">
+  </ul>
+  <button class="button button--primary-S-floating js-preventDoubleClick cart-button" onclick="location.href='//cart.starbucks.co.jp/cart'">購入に進む</button>
+</div>
+<div class="js-errordialog">
+  <div class="close js-errordialog-close"></div>
+  <dl class="text">
+    <dt class="js-errordialog-text"></dt>
+    <dd>エラーコード：<span class="js-errordialog-code"></span></dd>
+  </dl>
+</div><script src="/top/js/jquery.cookie.js"></script>
+<script src="/common/js/slick.min.js" defer></script>
+<!-- /cartformの付属要素 -->
+</body>
+</html>

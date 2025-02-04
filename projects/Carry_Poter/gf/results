@@ -1,0 +1,57 @@
+< Cache-Control: max-age=10, stale-while-revalidate
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Cache-Control: private, max-age=600, must-revalidate
+< Content-Length: 0
+< Content-Length: 173
+< Content-Length: 919
+< Content-Security-Policy: frame-ancestors https://smoke.cart.starbucks.co.jp/ https://cart.starbucks.co.jp/
+< Content-Security-Policy-Report-Only: default-src 'none' ;script-src 'unsafe-eval' 'unsafe-inline' *.starbucks.co.jp *.google.com *.google-analytics.com www.googleadservices.com/pagead/ *.googletagmanager.com *.g.doubleclick.net cdn.optimizely.com/js/ *.facebook.net b92.yahoo.co.jp *.twitter.com d.adlpo.com *.treasuredata.com hm.mieru-ca.com d2fzkgg97cd93o.cloudfront.net platform.sumally.com p.jwpcdn.com jwpsrv.com apis.google.com starbucks-faq.pbcv.sitesearch.jp starbucks-faq.sitesearch.jp rum.optimizely.com s.yimg.jp b97.yahoo.co.jp ci-mpsnare.iovation.com dqpw8dh9f7d3f.cloudfront.net d3vgbguy0yofad.cloudfront.net ajax.googleapis.com auth1.freespot.com collect.ptengine.jp d-cache.microad.jp js.ptengine.jp js.fout.jp cdnjs.cloudflare.com in.treasuredata.com ssl.p.jwpcdn.com ;style-src 'unsafe-inline' *.starbucks.co.jp fonts.googleapis.com starbucks-faq.pbcv.sitesearch.jp starbucks-faq.sitesearch.jp ;img-src data: *.starbucks.co.jp *.google.com *.google.co.jp *.google-analytics.com www.googleadservices.com/pagead/ *.googletagmanager.com *.g.doubleclick.net *.twitter.com d2fzkgg97cd93o.cloudfront.net sumally.com jwpltx.com b97.yahoo.co.jp dqpw8dh9f7d3f.cloudfront.net d3vgbguy0yofad.cloudfront.net collect.ptengine.jp d-track.send.microad.jp target.fout.jp huaban.com map.chizumaru.com s3-ap-northeast-1.amazonaws.com www.google.co.id www.google.co.kr www.google.com.hk www.google.com.sg www.google.com.tw www.google.de www.gstatic.com ;font-src *.starbucks.co.jp fonts.gstatic.com ;media-src d2fzkgg97cd93o.cloudfront.net ;object-src *.starbucks.co.jp ;frame-src *.google.com *.g.doubleclick.net *.facebook.com *.twitter.com sumally.com www.youtube.com js.fout.jp dsp.fout.jp ;connect-src *.starbucks.co.jp *.g.doubleclick.net dwjw4x8nnai5d.cloudfront.net rum.optimizely.com uc.gre d11abxzrrvbz6o.cloudfront.net track.uc.cn ws://ntjp.mieru-ca.com ;report-uri https://sbjcsp2.report-uri.com/r/d/csp/reportOnly;
+< Content-Type: text/html
+< Content-Type: text/html; charset=utf-8
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 04 Feb 2025 00:47:06 GMT
+< Etag: "sp75p0q06jldx"
+< Expires: 0
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Location: https://login.starbucks.co.jp/login
+< Pragma: no-cache
+< Request-Id: fb3cd1f6-ab8a-4ce9-9e7c-561da4ecfe6f
+< Server: Apache
+< Server: CloudFront
+< Set-Cookie: BARISTASESSIONID=742b7a26-098b-4739-964b-8fe82cbd38c4; Path=/; Secure; HttpOnly; SameSite=Lax
+< Set-Cookie: opbs=64a9b9f068c14630c4b01d971bd0d7ead04f47646e4a1e151664365f9985f1ef; Max-Age=1800; Expires=Tue, 04 Feb 2025 01:17:06 GMT; Path=/; Secure
+< Set-Cookie: PHPSESSID=6b3aa82ace97594eca1114cc2ef777a4; path=/; secure; HttpOnly
+< Strict-Transport-Security: max-age=1; includeSubDomains
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< Traceid: efa7cd8f-c880-4d00-9f19-80fc214949fc
+< Vary: Accept-Encoding
+< Vary: Origin
+< Via: 1.1 217ac6206b7ac1646630ff86771fa6ca.cloudfront.net (CloudFront)
+< Via: 1.1 35edfe00d0c28f55b85d2366a87b40f8.cloudfront.net (CloudFront)
+< Via: 1.1 3a7672912a556fc61dac56701b81d9e2.cloudfront.net (CloudFront)
+< Via: 1.1 7b7a1530660352017c3900d7ea650806.cloudfront.net (CloudFront)
+< Via: 1.1 938fab6199e7c5664c3a5a9f4a18e3c6.cloudfront.net (CloudFront)
+< Via: 1.1 c176cabe132d03e00f152d5649d68e96.cloudfront.net (CloudFront), 1.1 b9be112f943e38c2e5a51c01b6f32d6e.cloudfront.net (CloudFront)
+< Via: 1.1 f26a13318e2c26c0ece0b3bb1bc97d4e.cloudfront.net (CloudFront)
+< Www-Authenticate: Basic
+< X-Amz-Cf-Id: 0zNeEdwb-4s4O9lnRBDMxyyL9SfM8lXKHbwq0qpR33Jn6u5yinVq3w==
+< X-Amz-Cf-Id: 3x8NjOj-HftDmexAd7A2hNpJFCE_hpR0SDFi5SClOwXUYgItYAczEQ==
+< X-Amz-Cf-Id: Fw1Ync9zLnBEm57mEDuS5AueOMjnQze2tspfKEDKEifuQJqyZJMLSA==
+< X-Amz-Cf-Id: KKxhlndiP70JuJLynTwLMGXObyeCM5R8R57qLA1d1aNOujFeEh7Y3Q==
+< X-Amz-Cf-Id: x35XjYWBvur99Y7OJLGvPXumyqd3KEGk2jtp2EpnNQ00WRbg9C6OaA==
+< X-Amz-Cf-Id: X-MTRDzk76CegWpBYkLubtrrixcf6CPaTS-RTi2-ZBGkwAjQwJNG8w==
+< X-Amz-Cf-Id: ZP3DklJKVZORe84su56OO8OhgKbeXZpKEj-8UfH6DpfQ_tTjt81rbg==
+< X-Amz-Cf-Pop: CDG50-P1
+< X-Amz-Cf-Pop: CDG52-P3
+< X-Amz-Cf-Pop: CDG53-C1
+< X-Amz-Cf-Pop: CDG55-P1
+< X-Amz-Cf-Pop: CDG55-P3
+< X-Amz-Cf-Pop: LHR62-C3
+< X-Cache: Error from cloudfront
+< X-Cache: Miss from cloudfront
+< X-Cache: RefreshHit from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: Next.js
+< X-Queueit-Connector: cloudfront
+< X-Xss-Protection: 1; mode=block

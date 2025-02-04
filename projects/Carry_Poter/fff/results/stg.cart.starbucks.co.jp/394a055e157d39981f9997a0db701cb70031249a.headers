@@ -1,0 +1,13 @@
+GET https://stg.cart.starbucks.co.jp
+
+
+< HTTP/1.1 411 Length Required
+< Date: Tue, 04 Feb 2025 00:47:06 GMT
+< Content-Type: text/html
+< Via: 1.1 f26a13318e2c26c0ece0b3bb1bc97d4e.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: 0zNeEdwb-4s4O9lnRBDMxyyL9SfM8lXKHbwq0qpR33Jn6u5yinVq3w==
+< Server: CloudFront
+< Content-Length: 173
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Pop: CDG50-P1
+< Vary: Origin

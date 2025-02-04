@@ -1,0 +1,13 @@
+GET https://dev.cart.starbucks.co.jp
+
+
+< HTTP/1.1 401 Unauthorized
+< Via: 1.1 7b7a1530660352017c3900d7ea650806.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: CDG52-P3
+< Vary: Origin
+< Server: CloudFront
+< Date: Tue, 04 Feb 2025 00:47:06 GMT
+< Www-Authenticate: Basic
+< Content-Length: 0
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Id: ZP3DklJKVZORe84su56OO8OhgKbeXZpKEj-8UfH6DpfQ_tTjt81rbg==

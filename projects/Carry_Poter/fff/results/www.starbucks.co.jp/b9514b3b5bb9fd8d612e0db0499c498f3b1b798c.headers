@@ -1,0 +1,20 @@
+GET https://www.starbucks.co.jp
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< X-Content-Type-Options: nosniff
+< Cache-Control: private, max-age=600, must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Via: 1.1 217ac6206b7ac1646630ff86771fa6ca.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: CDG55-P1
+< Strict-Transport-Security: max-age=1; includeSubDomains
+< Server: Apache
+< X-Xss-Protection: 1; mode=block
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: 3x8NjOj-HftDmexAd7A2hNpJFCE_hpR0SDFi5SClOwXUYgItYAczEQ==
+< Date: Tue, 04 Feb 2025 00:47:06 GMT
+< Set-Cookie: PHPSESSID=6b3aa82ace97594eca1114cc2ef777a4; path=/; secure; HttpOnly
+< Pragma: no-cache
+< Content-Security-Policy-Report-Only: default-src 'none' ;script-src 'unsafe-eval' 'unsafe-inline' *.starbucks.co.jp *.google.com *.google-analytics.com www.googleadservices.com/pagead/ *.googletagmanager.com *.g.doubleclick.net cdn.optimizely.com/js/ *.facebook.net b92.yahoo.co.jp *.twitter.com d.adlpo.com *.treasuredata.com hm.mieru-ca.com d2fzkgg97cd93o.cloudfront.net platform.sumally.com p.jwpcdn.com jwpsrv.com apis.google.com starbucks-faq.pbcv.sitesearch.jp starbucks-faq.sitesearch.jp rum.optimizely.com s.yimg.jp b97.yahoo.co.jp ci-mpsnare.iovation.com dqpw8dh9f7d3f.cloudfront.net d3vgbguy0yofad.cloudfront.net ajax.googleapis.com auth1.freespot.com collect.ptengine.jp d-cache.microad.jp js.ptengine.jp js.fout.jp cdnjs.cloudflare.com in.treasuredata.com ssl.p.jwpcdn.com ;style-src 'unsafe-inline' *.starbucks.co.jp fonts.googleapis.com starbucks-faq.pbcv.sitesearch.jp starbucks-faq.sitesearch.jp ;img-src data: *.starbucks.co.jp *.google.com *.google.co.jp *.google-analytics.com www.googleadservices.com/pagead/ *.googletagmanager.com *.g.doubleclick.net *.twitter.com d2fzkgg97cd93o.cloudfront.net sumally.com jwpltx.com b97.yahoo.co.jp dqpw8dh9f7d3f.cloudfront.net d3vgbguy0yofad.cloudfront.net collect.ptengine.jp d-track.send.microad.jp target.fout.jp huaban.com map.chizumaru.com s3-ap-northeast-1.amazonaws.com www.google.co.id www.google.co.kr www.google.com.hk www.google.com.sg www.google.com.tw www.google.de www.gstatic.com ;font-src *.starbucks.co.jp fonts.gstatic.com ;media-src d2fzkgg97cd93o.cloudfront.net ;object-src *.starbucks.co.jp ;frame-src *.google.com *.g.doubleclick.net *.facebook.com *.twitter.com sumally.com www.youtube.com js.fout.jp dsp.fout.jp ;connect-src *.starbucks.co.jp *.g.doubleclick.net dwjw4x8nnai5d.cloudfront.net rum.optimizely.com uc.gre d11abxzrrvbz6o.cloudfront.net track.uc.cn ws://ntjp.mieru-ca.com ;report-uri https://sbjcsp2.report-uri.com/r/d/csp/reportOnly;

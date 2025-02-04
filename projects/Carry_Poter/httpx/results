@@ -1,0 +1,7 @@
+https://dev.cart.starbucks.co.jp [[31m401[0m] [cloudfront] [[35mAmazon CloudFront,Amazon Web Services,Basic[0m]
+https://stg.cart.starbucks.co.jp [[31m411[0m] [cloudfront] [[35mAmazon CloudFront,Amazon Web Services[0m]
+https://st.dev.cart.starbucks.co.jp [[31m401[0m] [cloudfront] [[35mAmazon CloudFront,Amazon Web Services,Basic[0m]
+https://gift.starbucks.co.jp [[31m403[0m] [[36mERROR: The request could not be satisfied[0m] [cloudfront] [[35mAmazon CloudFront,Amazon Web Services[0m]
+https://cart.starbucks.co.jp [[32m200[0m] [cloudfront] [[35mAmazon CloudFront,Amazon Web Services,Next.js,Node.js,Queue-it,React,Webpack[0m]
+https://www.starbucks.co.jp [[32m200[0m] [[36mStarbucks Coffee Japan - スターバックス コーヒー ジャパン[0m] [cloudfront] [[35mAmazon CloudFront,Amazon S3,Amazon Web Services,Apache HTTP Server,HSTS,MooTools,PHP,Slick,Swiper,jQuery[0m]
+https://login.starbucks.co.jp [[33m302[0m,[32m200[0m] [[36mログイン｜スターバックス コーヒー ジャパン[0m] [cloudfront] [[35mhttps://login.starbucks.co.jp/login[0m] [[35mAmazon CloudFront,Amazon Web Services,Google Tag Manager,HSTS,jQuery,reCAPTCHA[0m]
