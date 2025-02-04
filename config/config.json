@@ -23,8 +23,8 @@
         "gf": "gf/results"
     },
     "asset_recon_tools": {
-        "assetfinder": "cat project_path/domains | assetfinder --subs-only | tee project_path/assetfinder/results",
-        "httpx": "cat project_path/assetfinder/results | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee project_path/httpx/results"
+        "assetfinder": "cat project_path/domains | assetfinder --subs-only | anew project_path/assetfinder/results",
+        "httpx": "cat project_path/assetfinder/results | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | anew project_path/httpx/results"
     },
     "domain_recon_tools": {
         "awk": "awk '{print $1}' project_path/httpx/results | anew project_path/awk/results",

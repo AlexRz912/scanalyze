@@ -2,21 +2,21 @@ GET https://login.starbucks.co.jp
 
 
 < HTTP/1.1 302 
-< X-Amz-Cf-Id: Fw1Ync9zLnBEm57mEDuS5AueOMjnQze2tspfKEDKEifuQJqyZJMLSA==
-< Content-Length: 0
-< Location: https://login.starbucks.co.jp/login
-< Traceid: efa7cd8f-c880-4d00-9f19-80fc214949fc
-< Content-Security-Policy: frame-ancestors https://smoke.cart.starbucks.co.jp/ https://cart.starbucks.co.jp/
-< Expires: 0
 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
-< X-Amz-Cf-Pop: CDG55-P3
-< Date: Tue, 04 Feb 2025 00:47:06 GMT
-< Request-Id: fb3cd1f6-ab8a-4ce9-9e7c-561da4ecfe6f
-< X-Content-Type-Options: nosniff
+< Content-Length: 0
+< X-Amz-Cf-Id: B7SkJe5WomNEwFo72Ww8JbJpXjgNSvw0l6zYTEfVUEQ0GfQd4-j4vQ==
+< Request-Id: f388da4b-0a8e-4529-a7ef-9489c1d27832
+< Traceid: 2311d68a-bac0-4eba-94d0-8c38546b378c
+< Content-Security-Policy: frame-ancestors https://smoke.cart.starbucks.co.jp/ https://cart.starbucks.co.jp/
 < X-Xss-Protection: 1; mode=block
 < Pragma: no-cache
-< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-< Set-Cookie: opbs=64a9b9f068c14630c4b01d971bd0d7ead04f47646e4a1e151664365f9985f1ef; Max-Age=1800; Expires=Tue, 04 Feb 2025 01:17:06 GMT; Path=/; Secure
-< Set-Cookie: BARISTASESSIONID=742b7a26-098b-4739-964b-8fe82cbd38c4; Path=/; Secure; HttpOnly; SameSite=Lax
+< Expires: 0
 < X-Cache: Miss from cloudfront
-< Via: 1.1 938fab6199e7c5664c3a5a9f4a18e3c6.cloudfront.net (CloudFront)
+< Via: 1.1 fd18baafadec0908f0d8ee9569158eaa.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: CDG55-P3
+< Date: Tue, 04 Feb 2025 17:13:51 GMT
+< Location: https://login.starbucks.co.jp/login
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Set-Cookie: opbs=bb8c9743846b278d328c20814424466baaad398d240cf4c2e91c514772e22d9a; Max-Age=1800; Expires=Tue, 04 Feb 2025 17:43:51 GMT; Path=/; Secure
+< Set-Cookie: BARISTASESSIONID=14fd9892-46a8-4c11-b937-341c955336f1; Path=/; Secure; HttpOnly; SameSite=Lax

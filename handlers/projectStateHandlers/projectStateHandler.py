@@ -1,5 +1,6 @@
 import os
 from helpers.domainFileHelpers import compareToPreviousHelper
+from helpers.domainFileHelpers import buildDomainPathHelper
 from helpers import configHelper
 from utils.fileUtils import lineNumUtil
 
@@ -36,41 +37,57 @@ def check_pending_asset_recon(pending):
         choice = input()
         return True if choice == "y" else False
 
-def start_asset_recon_or_continue(do_recon, state):
+def start_asset_recon_or_continue(do_recon, state): # -> reconHelpers in near future
     if do_recon:
         return True
     return False
 
-def start_domain_recon_or_continue(do_recon, state):
+def start_domain_recon_or_continue(do_recon, state): # -> reconHelpers in near future
     if do_recon:
         return True
     return False
 
 def set_state(project_config_path, path, project_recon):
+    if domains_file_empty(path):
+        raise ValueError("Domains file is empty, please provide domains to your project domain file, one domain per line")
+
+    set_domain_recon_state(project_config_path, path, project_recon)       
+    set_asset_recon_state(project_config_path, path, project_recon)
+
+    is_different = domain_file_is_different(path)
+    set_pending_state(project_config_path, project_recon, is_different)
+
+def set_domain_recon_state(config_path, path, recon):
     if os.path.isdir(f"{path}/gf"):
-        set_domain_recon_state(project_config_path, project_recon)       
+        recon["recon"]["domain_recon"]["initial_recon_completed"] = 1
+    else:
+        recon["recon"]["domain_recon"]["initial_recon_completed"] = 0
+    configHelper.save_config(config_path, recon)
+
+def set_asset_recon_state(config_path, path, recon):
     if os.path.isdir(f"{path}/assetfinder"):
-        set_asset_recon_state(project_config_path, project_recon)
-    if compare_to_previous_domain_file(path):
-        set_pending_state("asset", project_recon)
+        recon["recon"]["asset_recon"]["initial_recon_completed"] = 1
+    else:
+        recon["recon"]["asset_recon"]["initial_recon_completed"] = 0
+    configHelper.save_config(config_path, recon)
 
-    
-def set_domain_recon_state(path, recon):
-    recon["recon"]["domain_recon"]["initial_recon_completed"] = 1
-    configHelper.save_config(path, recon)
+def set_pending_state(config_path, recon, is_diff):
+    if is_diff:
+        recon["recon"]["asset_recon"]["pending_recon"] = 1
+    else:
+        recon["recon"]["asset_recon"]["pending_recon"] = 0
+    configHelper.save_config(config_path, recon)
 
-def set_asset_recon_state(path, recon):
-    recon["recon"]["asset_recon"]["initial_recon_completed"] = 1
-    configHelper.save_config(path, recon)
-
-def set_pending_state(recon_type, recon):
-    return
-
-def compare_to_previous_domain_file(path):
-    previous_domain_file = path + "/previous/domains"
-    new_domain_file = path + "/domains"
+def domain_file_is_different(path):
+    previous_domain_file = buildDomainPathHelper.build_path(path, False)
+    new_domain_file = buildDomainPathHelper.build_path(path, True)
 
     new_file_line_num = lineNumUtil.get_line_num(new_domain_file)
     previous_file_line_num = lineNumUtil.get_line_num(previous_domain_file)
 
     return compareToPreviousHelper.compare(new_file_line_num, previous_file_line_num)
+
+def domains_file_empty(path):
+    domain_file = buildDomainPathHelper.build_path(path, True)
+    print(lineNumUtil.get_line_num(domain_file))
+    return True if lineNumUtil.get_line_num(domain_file) < 2 else False

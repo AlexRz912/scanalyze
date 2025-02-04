@@ -742,6 +742,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="swiper">
         <ul class="carousel brew-products-carousel swiper-wrapper">
                     <li class="brew-products__card swiper-slide">
+            <a href="https://enjoystarbuckschilled.jp/sakura.html?nid=wh_00_pc"
+                            class="brew-products__card__inner">
+              <div class="brew-products__card__inner__img">
+                <img src="/assets/images/web2/images/wb/images/25Winter2.5_cpg_wb.jpg" width="100" height="120" alt="[新商品情報] スターバックス チルドカップのSAKURAシーズンが到来！心躍るデザート飲料「ベリーベリーさくらミルク」が全国のコンビニエンスストアで登場。">
+              </div>
+              <div class="brew-products__card__inner__info">
+                <p class="brew-products__card__inner__desc">
+                  [新商品情報] スターバックス チルドカップのSAKURAシーズンが到来！心躍るデザート飲料「ベリーベリーさくらミルク」が全国のコンビニエンスストアで登場。                </p>
+                <span class="brew-products__card__inner__time text-right">
+                  2025.02.04                </span>
+              </div>
+            </a>
+          </li>
+                    <li class="brew-products__card swiper-slide">
             <a href="https://www.starbucks.co.jp/youkou/2025_doublestarday/?nid=wh_00_pc"
                             class="brew-products__card__inner">
               <div class="brew-products__card__inner__img">
@@ -1277,37 +1291,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
 </li>
-                                                                        <li class="card online-store__card card--XS-button js-cartform swiper-slide"
-  data-jan="4524785575363" 
-  data-name="スターバックス リザーブ® ロースタリー マグ Snakeホワイト355ml" 
-  data-category="tumblermug" 
-  data-inventory="1" 
-  data-price="3600"
-  data-brand-code="starbucks-reserve-roastery-tokyo" 
-  data-category-code0="tumblermug"
-  data-category-code1="mug"
-  data-category-code2="tumblermug-seasonal"
->
-  <div class="card__inner">
-    <div class="online-store__card__inner__img">
-      <a href="//menu.starbucks.co.jp/4524785575363">
-        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785575363/4524785575363_1_s.jpg" alt="スターバックス リザーブ® ロースタリー マグ Snakeホワイト355ml">
-      </a>
-    </div>
-    <div class="card__inner__text online-store__card__inner__text">
-      <a href="//menu.starbucks.co.jp/4524785575363">
-        <div class="card__inner__text-header">
-          <div class="text-limit">スターバックス リザーブ® ロースタリー マグ Snakeホワイト355ml</div>
-        </div>
-      </a>
-      <div class="card__inner__text-footer">
-        <span class="english">￥3,600</span>
-          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
-      </div>
-    </div>
-  </div>
-</li>
-                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+                                                                                                            <li class="card online-store__card card--XS-button js-cartform swiper-slide"
   data-jan="4524785492615" 
   data-name="カフェ ベロナ®" 
   data-category="beans" 
@@ -1637,37 +1621,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
 </li>
-                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
-  data-jan="4524785583559" 
-  data-name="バレンタイン2025ビバレッジカードキャット" 
-  data-category="goods" 
-  data-inventory="1" 
-  data-price="750"
-  data-brand-code="starbucks-coffee" 
-  data-category-code0="goods"
-  data-category-code1="bevcard"
-  data-category-code2="goods-seasonal"
->
-  <div class="card__inner">
-    <div class="online-store__card__inner__img">
-      <a href="//menu.starbucks.co.jp/4524785583559">
-        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785583559/4524785583559_1_s.jpg" alt="バレンタイン2025ビバレッジカードキャット">
-      </a>
-    </div>
-    <div class="card__inner__text online-store__card__inner__text">
-      <a href="//menu.starbucks.co.jp/4524785583559">
-        <div class="card__inner__text-header">
-          <div class="text-limit">バレンタイン2025ビバレッジカードキャット</div>
-        </div>
-      </a>
-      <div class="card__inner__text-footer">
-        <span class="english">￥750</span>
-          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
-      </div>
-    </div>
-  </div>
-</li>
-                                    <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+                                                                        <li class="card online-store__card card--XS-button js-cartform swiper-slide"
   data-jan="4524785584808" 
   data-name="ビバレッジギフトミニカードHappy Birthday" 
   data-category="goods" 
@@ -1997,7 +1951,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
 </li>
-                                                                                                                                              </ul>
+                                                                        <li class="card online-store__card card--XS-button js-cartform swiper-slide"
+  data-jan="4524785575080" 
+  data-name="スターバックス リザーブ 御朱印帳 クラッカーボード" 
+  data-category="goods" 
+  data-inventory="1" 
+  data-price="4000"
+  data-brand-code="starbucks-reserve-roastery-tokyo" 
+  data-category-code0="goods"
+  data-category-code1="goods-seasonal"
+  data-category-code2="goods-main"
+>
+  <div class="card__inner">
+    <div class="online-store__card__inner__img">
+      <a href="//menu.starbucks.co.jp/4524785575080">
+        <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785575080/4524785575080_1_s.jpg" alt="スターバックス リザーブ 御朱印帳 クラッカーボード">
+      </a>
+    </div>
+    <div class="card__inner__text online-store__card__inner__text">
+      <a href="//menu.starbucks.co.jp/4524785575080">
+        <div class="card__inner__text-header">
+          <div class="text-limit">スターバックス リザーブ 御朱印帳 クラッカーボード</div>
+        </div>
+      </a>
+      <div class="card__inner__text-footer">
+        <span class="english">￥4,000</span>
+          <button type="button" class="button online-store__card-button button--secondary-S js-cartform-instock-submit js-cartform-instock">カートに入れる</button>
+      </div>
+    </div>
+  </div>
+</li>
+                                                                      </ul>
                 <div class="swiper-btn-wrap">
                   <div class="swiper-prev_btn-wrap swiper-hidden">
                     <div class="swiper-button-prev swiper-seasonalOffering-button-prev"></div>
@@ -2234,6 +2218,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <h2 class="notification__block__title text-bold text-center text-noti-japan">
           重要なお知らせ
         </h2>
+                  <a href="/notice/20255389.php">
+            <div class="notification-item">
+              <div class="notification-item__time english">25.02.04</div>
+              <div class="notification-item__content">チョコレートケーキの販売停止に伴う調査結果及び 販売再開に関するお知らせ</div>
+            </div>
+          </a>
                   <a href="/notice/20255386.php">
             <div class="notification-item">
               <div class="notification-item__time english">25.02.03</div>
@@ -2244,12 +2234,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="notification-item">
               <div class="notification-item__time english">25.01.27</div>
               <div class="notification-item__content">スターバックス ジャパン公式モバイルアプリ 最新バージョン(5.4.5)へのアップデートのお願い</div>
-            </div>
-          </a>
-                  <a href="/notice/20255371.php">
-            <div class="notification-item">
-              <div class="notification-item__time english">25.01.24</div>
-              <div class="notification-item__content">【重要】セキュリティ対策の推奨のお知らせ（1/24更新）</div>
             </div>
           </a>
                 <div class="text-link-wrapper">

@@ -2,18 +2,19 @@ GET https://cart.starbucks.co.jp
 
 
 < HTTP/1.1 200 OK
-< X-Frame-Options: SAMEORIGIN
-< Date: Tue, 04 Feb 2025 00:47:06 GMT
 < Cache-Control: max-age=10, stale-while-revalidate
-< Content-Type: text/html; charset=utf-8
-< X-Powered-By: Next.js
-< Etag: "sp75p0q06jldx"
-< Vary: Accept-Encoding
-< Vary: Origin
-< X-Queueit-Connector: cloudfront
-< X-Amz-Cf-Id: x35XjYWBvur99Y7OJLGvPXumyqd3KEGk2jtp2EpnNQ00WRbg9C6OaA==
-< Server: CloudFront
 < X-Amz-Cf-Pop: LHR62-C3
 < X-Amz-Cf-Pop: CDG52-P3
-< X-Cache: RefreshHit from cloudfront
-< Via: 1.1 c176cabe132d03e00f152d5649d68e96.cloudfront.net (CloudFront), 1.1 b9be112f943e38c2e5a51c01b6f32d6e.cloudfront.net (CloudFront)
+< Server: CloudFront
+< X-Queueit-Connector: cloudfront
+< Age: 2
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: Next.js
+< Via: 1.1 1d61815344be6df2eace7e0cbeebe716.cloudfront.net (CloudFront), 1.1 58038df21a3eb85aa1578a513327eb26.cloudfront.net (CloudFront)
+< Date: Tue, 04 Feb 2025 17:13:47 GMT
+< Etag: "xj1u22v149l4p"
+< Vary: Accept-Encoding
+< Vary: Origin
+< X-Amz-Cf-Id: vVvm0he23DFjn6v0yxoVOflwWt8E53kdQFfxGXhBc-vy4vmBQJ3n6g==
+< Content-Type: text/html; charset=utf-8
+< X-Cache: Hit from cloudfront
