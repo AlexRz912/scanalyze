@@ -1,14 +1,15 @@
 import os
 import asyncio
 from banner import display_banner
-from utils.outputUtils.clearScreenUtil import clear_screen_util
+from utils.ioUtils.clearScreenUtil import clear_screen_util
 
 clear_screen_util()
 from controllers.mainLoopController import run_main_loop
 
 display_banner()
 
-run_main_loop()
+start = True
+run_main_loop(start)
 
 #project_config = modules.handle_start_menu()
 

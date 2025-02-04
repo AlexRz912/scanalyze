@@ -31,13 +31,17 @@ def action_controller(menu):
     
 def start_menu_action(action):
     if (action == "1"):
-        createProjectHandler.create()
+        project_path = createProjectHandler.create()
+        config = loadProjectHandler.project_config_path(project_path)
+        project_config_path = configHelper.load_config_path("project", project_path)
+
+        projectStateHandler.set_state(project_config_path, project_path, config)
     elif (action == "2"):
         project_path = loadProjectHandler.load()
         config = loadProjectHandler.project_config_path(project_path)
         project_config_path = configHelper.load_config_path("project", project_path)
-        # Ici mettre à jour la config avant de set le state du project
-        projectStateHandler.set_state(project_config_path, project_path, config) # project_state devrait être set ici
+        
+        projectStateHandler.set_state(project_config_path, project_path, config)
     elif (action == "3"):
         DeleteProjectHandler.delete()
     else:

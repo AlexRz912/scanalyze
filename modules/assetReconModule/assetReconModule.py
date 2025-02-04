@@ -11,6 +11,5 @@ def start():
         sh_exec(project_path, tools["asset_recon_tools"][i])
 
 def sh_exec(path, tool):
-    print(path)
     tool = tool.replace("project_path", path)
     os.system(tool)

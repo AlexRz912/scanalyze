@@ -3,10 +3,11 @@ from helpers.domainFileHelpers import compareToPreviousHelper
 from helpers.domainFileHelpers import buildDomainPathHelper
 from helpers import configHelper
 from utils.fileUtils import lineNumUtil
+from utils.ioUtils import inputUtil
 
 def get_state(recon):
     recon_state = {}
-
+    add_new_domains = False
     recon_state["initial_domain_recon_completed"] = False
     recon_state["initial_asset_recon_completed"] = False
     
@@ -23,19 +24,18 @@ def get_state(recon):
 
     recon_state["pending_domain_recon"] = start_domain_recon_or_continue(pending_recon_exists, recon_state)
     recon_state["pending_asset_recon"] = start_asset_recon_or_continue(pending_recon_exists, recon_state)
-    
-    return recon_state
+
+    if recon_state["initial_domain_recon_completed"] and recon_state["initial_asset_recon_completed"]:
+        add_new_domains = inputUtil.get_input("do you wish to add new domains to search for new assets?")
+    return recon_state, add_new_domains
 
 def check_pending_domain_recon(pending):
     if (pending == 1):
-        print("new domains were brought for recon, do you wish to discover content? (y/else)\n")
-        choice = input()
-        return True if choice == "y" else False
+        return inputUtil.get_input("new domains were brought for recon, do you wish to discover content? (y/else)\n")
+
 def check_pending_asset_recon(pending):
     if (pending == 1):
-        print("new assets were brought for recon, do you wish to discover new assets (y/else)\n")
-        choice = input()
-        return True if choice == "y" else False
+        return inputUtil.get_input("new assets were brought for recon, do you wish to discover new assets (y/else)\n")
 
 def start_asset_recon_or_continue(do_recon, state): # -> reconHelpers in near future
     if do_recon:
@@ -89,5 +89,4 @@ def domain_file_is_different(path):
 
 def domains_file_empty(path):
     domain_file = buildDomainPathHelper.build_path(path, True)
-    print(lineNumUtil.get_line_num(domain_file))
     return True if lineNumUtil.get_line_num(domain_file) < 2 else False

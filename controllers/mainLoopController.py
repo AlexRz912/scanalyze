@@ -7,9 +7,12 @@ from config.configLoader import *
 
 
 
-def run_main_loop():
+def run_main_loop(start):
     while (True):
-        start_action = action_controller("start")
+        start_action = None
+        if start:
+            start_action = action_controller("start")
+        start = False
         if (start_action == "3"):
             continue
         elif (start_action == "quit"):
