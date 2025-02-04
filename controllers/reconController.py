@@ -12,5 +12,4 @@ def recon_controller():
     set_project_state_handler(config["project_path"], project_config)
 
     state = get_project_state_handler(project_config["recon"])
-    
     run_tools_handler(state)

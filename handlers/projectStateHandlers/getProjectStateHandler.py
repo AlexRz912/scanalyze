@@ -1,5 +1,3 @@
-import time
-
 def get_project_state_handler(recon):
     recon_state = {}
     recon_state["initial_domain_recon_completed"] = False

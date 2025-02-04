@@ -1,6 +1,6 @@
 {
     "working_path": "./projects",
-    "project_path": "./projects/can",
+    "project_path": "./projects/Carry_Poter",
     "tool_routine": {
         "assetfinder": "cat input_placeholder | assetfinder --subs-only | tee output_placeholder",
         "httpx": "cat input_placeholder | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee output_placeholder",
@@ -22,13 +22,13 @@
         "fff": "fff/results/",
         "gf": "gf/results"
     },
-    "asset_recon_tool": {
-        "assetfinder": "cat domains | assetfinder --subs-only | tee assetfinder/results",
-        "httpx": "cat assetfinder/results | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee httpx/results",
-        "awk": "awk '{print $1}' httpx/results | anew awk/results"
+    "asset_recon_tools": {
+        "assetfinder": "cat project_path/domains | assetfinder --subs-only | tee project_path/assetfinder/results",
+        "httpx": "cat project_path/assetfinder/results | httpx -follow-host-redirects -title -status-code -cdn -tech-detect | tee project_path/httpx/results",
+        "awk": "awk '{print $1}' project_path/httpx/results | anew project_path/awk/results"
     },
-    "domain_recon_tool": {
-        "fff":"cat awk/results | fff -d 1 -S -o fff/results",
-        "gf":"find fff/results -type f -name \"*.headers\" -exec cat {} + | gf meg-headers | sort -u > gf/results"
+    "domain_recon_tools": {
+        "fff": "cat awk/results | fff -d 1 -S -o fff/results",
+        "gf": "find fff/results -type f -name \"*.headers\" -exec cat {} + | gf meg-headers | sort -u > gf/results"
     }
 }

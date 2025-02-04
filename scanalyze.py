@@ -1,9 +1,11 @@
 import os
 import asyncio
 from banner import display_banner
+from utils.outputUtils.clearScreenUtil import clear_screen_util
+
+clear_screen_util()
 from controllers.mainLoopController import run_main_loop
 
-os.system("cls" if os.name == "nt" else "clear")
 display_banner()
 
 run_main_loop()
