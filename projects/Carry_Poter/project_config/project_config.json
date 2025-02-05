@@ -8,11 +8,13 @@
     "recon": {
         "asset_recon": {
             "initial_recon_completed": 1,
-            "pending_recon": 0
+            "pending_recon": 0,
+            "recon_completed": 1
         },
         "domain_recon": {
             "initial_recon_completed": 1,
-            "pending_recon": 0
+            "pending_recon": 0,
+            "recon_completed": 1
         }
     }
 }

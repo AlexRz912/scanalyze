@@ -1,6 +1,6 @@
 import os
-import time
 from helpers.configHelper import config_get
+from utils.ioUtils import shExecUtil
 
 
 def start():
@@ -9,9 +9,4 @@ def start():
     project_path = path["project_path"]
     for i in tools["domain_recon_tools"].keys():
         os.system(f"mkdir {project_path}/{i}")
-        sh_exec(project_path, tools["domain_recon_tools"][i])
-
-def sh_exec(path, tool):
-    print(path)
-    tool = tool.replace("project_path", path)
-    os.system(tool)
+        shExecUtil.exec(project_path, tools["domain_recon_tools"][i])

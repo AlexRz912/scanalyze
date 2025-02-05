@@ -1,3 +1,4 @@
+import time
 from views import startMenuView
 from views import mainMenuView
 
@@ -31,17 +32,11 @@ def action_controller(menu):
     
 def start_menu_action(action):
     if (action == "1"):
-        project_path = createProjectHandler.create()
-        config = loadProjectHandler.project_config_path(project_path)
-        project_config_path = configHelper.load_config_path("project", project_path)
-
-        projectStateHandler.set_state(project_config_path, project_path, config)
-    elif (action == "2"):
-        project_path = loadProjectHandler.load()
-        config = loadProjectHandler.project_config_path(project_path)
-        project_config_path = configHelper.load_config_path("project", project_path)
+        load_config_for_state_handling(createProjectHandler.create())
         
-        projectStateHandler.set_state(project_config_path, project_path, config)
+    elif (action == "2"):
+        load_config_for_state_handling(loadProjectHandler.load())
+        
     elif (action == "3"):
         DeleteProjectHandler.delete()
     else:
@@ -53,5 +48,14 @@ def main_menu_action(action):
     if (action == "1"):
         config = configLoader.load_config("app")
         project_config = configLoader.load_config("project")
+        print(project_config)
+        time.sleep(100)
         recon_controller(config, project_config)
     return action
+
+def load_config_for_state_handling(path=None, project=None):
+    config = loadProjectHandler.project_config_path(path)
+    project_config_path = configHelper.load_config_path("project", path)
+    print(project_config_path)
+    time.sleep(100)
+    projectStateHandler.set_state(project_config_path, path, config)

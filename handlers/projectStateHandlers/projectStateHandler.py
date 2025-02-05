@@ -1,41 +1,42 @@
 import os
+import time
+from helpers.reconHelpers import pendingReconHelper
+from helpers.reconHelpers import reconStateHelpers
 from helpers.domainFileHelpers import compareToPreviousHelper
 from helpers.domainFileHelpers import buildDomainPathHelper
 from helpers import configHelper
 from utils.fileUtils import lineNumUtil
-from utils.ioUtils import inputUtil
+from utils.ioUtils import inputUtils
 
 def get_state(recon):
     recon_state = {}
-    add_new_domains = False
-    recon_state["initial_domain_recon_completed"] = False
-    recon_state["initial_asset_recon_completed"] = False
     
-    if (recon["domain_recon"]["initial_recon_completed"] == 1):
-        print("you've already gathered data for specific domains")
-        recon_state["initial_domain_recon_completed"] = True
+    recon_state["domain_recon_completed"] = reconStateHelpers.get_recon_state(recon["domain_recon"]["initial_recon_completed"])
+    recon_state["asset_recon_completed"] = reconStateHelpers.get_recon_state(recon["asset_recon"]["initial_recon_completed"])
 
-    if (recon["asset_recon"]["initial_recon_completed"] == 1):
-        print("you've already gathered data in relation to provided scope")
-        recon_state["initial_asset_recon_completed"] = True
+    if recon_state["asset_recon_completed"]:
+        reconStateHelpers.print_asset_recon_completed()
+    if recon_state["domain_recon_completed"]:
+        reconStateHelpers.print_domain_recon_completed()  
+    
+    domain_recon_state = reconStateHelpers.get_recon_state(recon["domain_recon"]["pending_recon"])
+    do_domain_recon = pendingReconHelper.ask_for_domain_recon(domain_recon_state)
 
-    pending_recon_exists = check_pending_domain_recon(recon["domain_recon"]["pending_recon"])
-    pending_recon_exists = check_pending_asset_recon(recon["asset_recon"]["pending_recon"])
+    asset_recon_state = reconStateHelpers.get_recon_state(recon["asset_recon"]["pending_recon"])
+    do_asset_recon = pendingReconHelper.ask_for_asset_recon(asset_recon_state)
+    
+    recon_state["pending_domain_recon"] = pendingReconHelper.do_pending(do_domain_recon)
+    recon_state["pending_asset_recon"] = pendingReconHelper.do_pending(do_asset_recon)
 
-    recon_state["pending_domain_recon"] = start_domain_recon_or_continue(pending_recon_exists, recon_state)
-    recon_state["pending_asset_recon"] = start_asset_recon_or_continue(pending_recon_exists, recon_state)
+    do_pending = False
 
-    if recon_state["initial_domain_recon_completed"] and recon_state["initial_asset_recon_completed"]:
-        add_new_domains = inputUtil.get_input("do you wish to add new domains to search for new assets?")
-    return recon_state, add_new_domains
+    if do_domain_recon or do_asset_recon:
+        do_pending = True
 
-def check_pending_domain_recon(pending):
-    if (pending == 1):
-        return inputUtil.get_input("new domains were brought for recon, do you wish to discover content? (y/else)\n")
-
-def check_pending_asset_recon(pending):
-    if (pending == 1):
-        return inputUtil.get_input("new assets were brought for recon, do you wish to discover new assets (y/else)\n")
+    if recon_state["domain_recon_completed"] and recon_state["asset_recon_completed"] and not do_pending:
+        recon_state["add_new_domains"] = inputUtils.get_choice("do you wish to add new domains to search for new assets?")
+        
+    return recon_state
 
 def start_asset_recon_or_continue(do_recon, state): # -> reconHelpers in near future
     if do_recon:
@@ -89,4 +90,5 @@ def domain_file_is_different(path):
 
 def domains_file_empty(path):
     domain_file = buildDomainPathHelper.build_path(path, True)
-    return True if lineNumUtil.get_line_num(domain_file) < 2 else False
+    return lineNumUtil.get_line_num(domain_file) < 2
+

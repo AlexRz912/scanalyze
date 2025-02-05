@@ -1,6 +1,19 @@
 import os
 import time
+
 from helpers.configHelper import config_get
+from helpers.domainFileHelpers import appendToHelper
+from helpers.domainFileHelpers import extractFromListHelper
+from helpers.domainFileHelpers import duplicateDomainHelper
+
+from utils.fileUtils import existUtils
+from utils.fileUtils import getPathUtil
+from utils.fileUtils import trailingNewlineUtils 
+
+from utils.ioUtils import inputUtils
+from utils.ioUtils import shExecUtil
+
+from utils.parsingUtils import whitespaceUtils
 
 def start():
     tools = config_get("app", ["asset_recon_tools"])
@@ -8,8 +21,22 @@ def start():
     project_path = path["project_path"]
     for i in tools["asset_recon_tools"].keys():
         os.system(f"mkdir {project_path}/{i}")
-        sh_exec(project_path, tools["asset_recon_tools"][i])
+        shExecUtil.exec(project_path, tools["asset_recon_tools"][i])
 
-def sh_exec(path, tool):
-    tool = tool.replace("project_path", path)
-    os.system(tool)
+def provide_new_domains():
+
+    path = config_get("app", ["project_path"])
+    domain_path = getPathUtil.build_path(path["project_path"], "domains")
+    if existUtils.file_exists(domain_path):
+        provided_domains = inputUtils.get_input("Provide a comma separated list of domains")
+        provided_domains = whitespaceUtils.remove_whitespaces(provided_domains)
+
+        while not provided_domains == "":
+            provided_domains, domain = extractFromListHelper.get_first_domain(provided_domains)
+            if not trailingNewlineUtils.has_trailing_newline(domain_path):
+                trailingNewlineUtils.add_trailing_newline(domain_path)
+            if not duplicateDomainHelper.is_dupe(domain_path, domain):
+                appendToHelper.append_to(domain_path, domain)
+    else:
+        raise ValueError("The domain file doesn't exist")
+    return

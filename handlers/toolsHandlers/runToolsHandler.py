@@ -2,12 +2,11 @@ import time
 from modules.assetReconModule import assetReconModule
 from modules.domainReconModule import domainReconModule
 
-def run_tools_handler(state, add_new_domains):
+def run_tools_handler(state):
     print(state)
-    if not state["initial_asset_recon_completed"]: # supprimer la notion d'initial et indiquer que la recon est à refaire si il y a du pending recon
+    if not state["asset_recon_completed"] or state["pending_asset_recon"]: 
         assetReconModule.start()
-    if not state["initial_domain_recon_completed"]: # supprimer la notion d'initial et indiquer à refaire si pending_recon
+    if not state["domain_recon_completed"] or state ["pending_domain_recon"]:
         domainReconModule.start()
-        # appelle domainReconModule en allant chercher le premier outil d'asset recon depuis
-    if add_new_domains:
-        print("bah on va appeler la fonction qui permet d'ajouter des domaines !")
+    if state["add_new_domains"]:
+        assetReconModule.provide_new_domains()

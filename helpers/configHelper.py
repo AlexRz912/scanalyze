@@ -53,7 +53,6 @@ def update_project_path(working_path, project):
     print(f"Project path successfully updated : {project_path}")
     return project_path
 
-
 def init_project_config(data, project_path):
     os.system(f"mkdir {project_path}/project_config")
     os.system(f"touch {project_path}/project_config/project_config.json")
