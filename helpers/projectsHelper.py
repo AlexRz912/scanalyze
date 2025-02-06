@@ -28,6 +28,7 @@ def new_project(project_name, working_path):
                 "suggestions_mode": 0,
                 "automatic_mode": 0
             },
+            "new_project": True,
             "recon":{
                 "asset_recon":{
                     "initial_recon_completed": 0,

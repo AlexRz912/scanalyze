@@ -1,0 +1,18 @@
+GET https://verify.arkoselabs.com
+
+
+< HTTP/1.1 404 Not Found
+< Via: 1.1 b3d672c454c45e15da48dfcb26c8e40e.cloudfront.net (CloudFront)
+< Referrer-Policy: strict-origin-when-cross-origin
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Server: cloudfront
+< Alt-Svc: h3=":443"; ma=86400
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
+< Content-Length: 0
+< Date: Thu, 06 Feb 2025 17:47:32 GMT
+< X-Amz-Cf-Id: DH00EDuO7IRW-Rgfj4khvE63gb1HY7-U4WxBu8ONWGASD6K43AFZvg==
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Pop: CDG50-C1
+< Vary: Origin

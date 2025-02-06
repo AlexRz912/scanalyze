@@ -1,0 +1,17 @@
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
+< Alt-Svc: h3=":443"; ma=86400
+< Content-Length: 0
+< Date: Thu, 06 Feb 2025 16:34:07 GMT
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: cloudfront
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Vary: Origin
+< Via: 1.1 4c636d1acba4193747390c896124ffcc.cloudfront.net (CloudFront)
+< Via: 1.1 67bbe30c2f887b8968a0f0c3b05ac564.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: kXOsYYnYA8dJhyZhpFHGDhUyZEHpD3d-Q3tosgR0eS9c0CB9V455IA==
+< X-Amz-Cf-Id: zJUbUXvcsA7oS_6D3gvxPm1X5mJu7CvIBC_s9b1nA7wIvZ9iUwq9eA==
+< X-Amz-Cf-Pop: CDG50-C1
+< X-Amz-Cf-Pop: CDG52-P4
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block

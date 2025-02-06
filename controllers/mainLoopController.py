@@ -5,13 +5,10 @@ from .actionController import action_controller
 
 from config.configLoader import *
 
-
-
 def run_main_loop(start):
     while (True):
-        start_action = None
         if start:
-            start_action = action_controller("start")
+            start_action, project_path = action_controller("start")
         start = False
         if (start_action == "3"):
             continue

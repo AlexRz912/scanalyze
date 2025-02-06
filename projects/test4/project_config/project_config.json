@@ -1,0 +1,19 @@
+{
+    "project_name": "test4",
+    "settings": {
+        "tutorial_mode": 0,
+        "suggestions_mode": 0,
+        "automatic_mode": 0
+    },
+    "new_project": false,
+    "recon": {
+        "asset_recon": {
+            "initial_recon_completed": 1,
+            "pending_recon": 0
+        },
+        "domain_recon": {
+            "initial_recon_completed": 1,
+            "pending_recon": 0
+        }
+    }
+}
