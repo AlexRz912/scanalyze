@@ -29,7 +29,15 @@ def provide_new_domains(newly_created=False):
         print("You need to add domains to the domain file, you can do it here or manually later.")
 
     path = config_get("app", ["project_path"])
+    print("---------------------------------------")
+    print(path)
+    time.sleep(2)
+    print("---------------------------------------")
     domain_path = getPathUtil.build_path(path["project_path"], "domains")
+    print("---------------------------------------")
+    print(domain_path)
+    time.sleep(2)
+    print("---------------------------------------")
 
     if existUtils.file_exists(domain_path):
         provided_domains = inputUtils.get_input("Provide a comma separated list of domains")
@@ -51,7 +59,7 @@ def add_domains_while_provided_domains_not_empty():
 def format_domain_file_if_not_newly_created_project(path, domain, new_project):
     if not new_project:
         add_trailing_newline_if_not_existant(path)
-        append_domain_if_not_dupe(path, domain)
+    append_domain_if_not_dupe(path, domain)
 
 def add_trailing_newline_if_not_existant(path):
         if not trailingNewlineUtils.has_trailing_newline(path):

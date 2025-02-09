@@ -2,6 +2,8 @@ import time
 from views import startMenuView
 from views import mainMenuView
 
+from modules.assetReconModule import assetReconModule
+
 from handlers.menuHandlers.startMenuActionsHandlers import createProjectHandler
 from handlers.menuHandlers.startMenuActionsHandlers import loadProjectHandler
 from handlers.menuHandlers.startMenuActionsHandlers import deleteProjectHandler
@@ -37,7 +39,9 @@ def start_menu_action(action):
     if (action == "1"):
         project_path = createProjectHandler.create()
         conf, project_path, project_config_path = load_necessary_config()
-        
+        assetReconModule.provide_new_domains(True)
+
+        # provide new domains on new project
     elif (action == "2"):
 
         loadProjectHandler.load()

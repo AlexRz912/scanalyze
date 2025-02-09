@@ -1,0 +1,59 @@
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
+< Accept-Ranges: bytes
+< Alt-Svc: h3=":443"; ma=86400
+< Cache-Control: max-age=600, must-revalidate
+< Cache-Tag: customer-portal-ui
+< Cf-Cache-Status: DYNAMIC
+< Cf-Ray: 90f3a46b9b222a1c-CDG
+< Content-Length: 0
+< Content-Length: 1232
+< Content-Security-Policy: default-src 'self' *.arkoselabs.com https://arkoselabs.us.auth0.com/; script-src 'self' *.arkoselabs.com https://client-api.arkoselabs.com https://arkoselabs.us1app.churnzero.net https://arkoselabs-dev.us1app.churnzero.net https://www.googletagmanager.com 'sha256-Qt+HTYR7aAj77VTKujO4O+psr58G1EEnuJIzTa/CWUQ='; style-src 'self' data: 'unsafe-inline' fonts.googleapis.com https://*.churnzero.net blob:; img-src 'self' data: blob: https://*.churnzero.net https://*.zendesk.com https://*.zdusercontent.com https://*.slack-edge.com https://*.arkoselabs.com https://*.amazonaws.com https://support.arkoselabs.com/; font-src 'self' data: fonts.gstatic.com/ https://*.churnzero.net; connect-src 'self' *.arkoselabs.com/ https://portal-prod.arkoselabs.com/ https://*.churnzero.net https://www.google-analytics.com https://arkoselabs.us.auth0.com/oauth/token; object-src 'self'; child-src https://*.churnzero.net; media-src https://*.churnzero.net; frame-src *.arkoselabs.com https://client-api.arkoselabs.com https://dataswan.arkoselabs.com/
+< Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:
+< Content-Type: text/html
+< Content-Type: text/html; charset=UTF-8
+< Cross-Origin-Opener-Policy: same-origin
+< Cross-Origin-Resource-Policy: cross-origin
+< Date: Sun, 09 Feb 2025 11:50:30 GMT
+< Date: Sun, 09 Feb 2025 11:50:31 GMT
+< Date: Sun, 09 Feb 2025 11:50:32 GMT
+< Etag: "0906f0a16f5772d89f107bff20eb0e62"
+< Last-Modified: Tue, 28 Jan 2025 15:57:23 GMT
+< Link: <https://www.arkoselabs.com/>; rel=shortlink
+< Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+< Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), browsing-topics=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=()
+< Permissions-Policy: accelerometer=(),autoplay=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(self),usb=(),web-share=(),xr-spatial-tracking=()
+< Referrer-Policy: no-referrer
+< Referrer-Policy: origin-when-cross-origin
+< Referrer-Policy: strict-origin-when-cross-origin
+< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=7twhEP%2Fr2dMrTqQAVKT%2BrXyhBm2P6FyISDz80lAunXI4iUqV1V8qEHIAIHg%2Fdyu1ozgOytccYjIw3jIP6eSk5deB8ONZ7qCoHERtr4R1C%2FRA3IPHAEDFrKNEEoAzFBR5KvUFSrg%3D"}],"group":"cf-nel","max_age":604800}
+< Server: cloudflare
+< Server: cloudfront
+< Server-Timing: cfL4;desc="?proto=TCP&rtt=6327&min_rtt=4786&rtt_var=2896&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3095&recv_bytes=474&delivery_rate=907647&cwnd=192&unsent_bytes=0&cid=804cbafb3f07bca2&ts=961&x=0"
+< Strict-Transport-Security: max-age=31536000;
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Vary: Accept-Encoding
+< Vary: Accept-Encoding,Cookie
+< Vary: Origin
+< Via: 1.1 10138b7f7e9a868032a16788e533ba0e.cloudfront.net (CloudFront)
+< Via: 1.1 9c36058178daae8c1fd0721123db3b7c.cloudfront.net (CloudFront)
+< Via: 1.1 ad6a8626693b859ee3661bdf278729f2.cloudfront.net (CloudFront)
+< Via: 1.1 fab151d68d1a2f6afb087e422136c6fe.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: 0kXZ_3JvLSdrCYqdedsJ9cSu9hETTm3q6N2xn-IghFUwB_KPNdSrDw==
+< X-Amz-Cf-Id: 9DfYQypQKVMO8NdLoMlB1KuPTb6M4AWoEY1LaQ5Yld8PDwWiXQc9mA==
+< X-Amz-Cf-Id: gdGGiinuGPgYm4QFLWismXAGovPaMzVAsIqir1dbPGsHypndqKlIMQ==
+< X-Amz-Cf-Id: uuM_4PjJbL0myHz7ebTVNVGxMsOKkBGPdVjYulxvMczp8Klm7KIj2Q==
+< X-Amz-Cf-Pop: CDG50-C1
+< X-Amz-Cf-Pop: CDG52-P1
+< X-Amz-Cf-Pop: CDG52-P4
+< X-Amz-Server-Side-Encryption: AES256
+< X-Amz-Version-Id: null
+< X-Cacheable: SHORT
+< X-Cache-Group: normal
+< X-Cache: HIT: 276
+< X-Cache: Miss from cloudfront
+< X-Cache: RefreshHit from cloudfront
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: WP Engine
+< X-Ua-Compatible: IE=edge
+< X-Xss-Protection: 1; mode=block
