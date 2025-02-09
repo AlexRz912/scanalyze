@@ -1,0 +1,23 @@
+GET https://iframe.arkoselabs.com
+
+
+< HTTP/1.1 200 OK
+< Age: 7269
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
+< Set-Cookie: _cfuvid=2Tcy_EqLJ0qhYnviOGCTm_1P9sZBMu9.hAx5FSqz2z4-1717104076479-0.0.1.1-604800000; Path=/; Secure; SameSite=None; Domain=.arkoselabs.com;
+< Content-Security-Policy: default-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; connect-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; font-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; frame-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; img-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com data:; script-src 'self' 'unsafe-inline' iframe.arkoselabs.com client-api.arkoselabs.com; style-src 'self' 'unsafe-inline' iframe.arkoselabs.com client-api.arkoselabs.com;
+< Permissions-Policy: accelerometer=*, autoplay=*, camera=*, display-capture=*, encrypted-media=*, fullscreen=*, geolocation=*, gyroscope=*, midi=*, payment=*, picture-in-picture=*, sync-xhr=*, usb=*
+< Alt-Svc: h3=":443"; ma=86400
+< X-Cache: Hit from cloudfront
+< Vary: Accept-Encoding
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: cloudfront
+< Date: Sun, 09 Feb 2025 09:18:27 GMT
+< Content-Type: text/html
+< Cache-Control: 
+< Via: 1.1 10de7dc52d3d7cd9c88ea5102d141a22.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: CDG52-P5
+< X-Amz-Cf-Id: yVwFtiKXi9H5xFGL6jjw287OsrzV1gR3hw-RPf_8ovuQdU6xEjXRQQ==
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

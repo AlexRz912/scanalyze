@@ -1,8 +1,7 @@
 import os
-import time
-def save(path, domain_file):
-    os.system(f"mkdir {path}")
-    os.system(f"cp {domain_file} {path}/domains")
 
-def previous_folder_exists(path):
-    return os.path.isdir(path)
+def save(domain_file, path):
+    os.system(f"cp {domain_file} {path}/previous/domains")
+
+def previous_domain_file_exists(path, domain_file):
+    return os.path.exists({path}/domains)

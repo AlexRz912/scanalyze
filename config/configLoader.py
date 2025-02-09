@@ -26,7 +26,7 @@ def load_config(config_type):
                 "project_name",
                 "settings",
                 "new_project",
-                "recon"
+                "pending_recon"
             ],
             project_path
         )

@@ -23,38 +23,40 @@ def start():
         os.system(f"mkdir {project_path}/{i}")
         shExecUtil.exec(project_path, tools["asset_recon_tools"][i])
 
+
 def provide_new_domains(newly_created=False):
-    
     if newly_created:
-        print("-------------------------------------------------")
-        print("message from provide_new_domains in assetReconModule")
-        print("when project is newly created, it asks to add domains to the domain file")
-        print("-------------------------------------------------")
-        time.sleep(5)
         print("You need to add domains to the domain file, you can do it here or manually later.")
-        
-    else:
-        print("-------------------------------------------------")
-        print("message from provide_new_domains in assetReconModule")
-        print("when user wants to provide new domains, it is called from ")
-        print("-------------------------------------------------")
-        time.sleep(5)
 
     path = config_get("app", ["project_path"])
     domain_path = getPathUtil.build_path(path["project_path"], "domains")
+
     if existUtils.file_exists(domain_path):
         provided_domains = inputUtils.get_input("Provide a comma separated list of domains")
         provided_domains = whitespaceUtils.remove_whitespaces(provided_domains)
 
         while not provided_domains == "":
+
             provided_domains, domain = extractFromListHelper.get_first_domain(provided_domains)
-            if not newly_created:
-                if not trailingNewlineUtils.has_trailing_newline(domain_path):
-                    trailingNewlineUtils.add_trailing_newline(domain_path)
-                if not duplicateDomainHelper.is_dupe(domain_path, domain):
-                    appendToHelper.append_to(domain_path, domain)
-            appendToHelper.append_to(domain_path, domain)
+            format_domain_file_if_not_newly_created_project(domain_path, domain, newly_created)
+
         return True
     else:
         raise ValueError("The domain file doesn't exist")
     return False
+
+def add_domains_while_provided_domains_not_empty():
+    return
+
+def format_domain_file_if_not_newly_created_project(path, domain, new_project):
+    if not new_project:
+        add_trailing_newline_if_not_existant(path)
+        append_domain_if_not_dupe(path, domain)
+
+def add_trailing_newline_if_not_existant(path):
+        if not trailingNewlineUtils.has_trailing_newline(path):
+            trailingNewlineUtils.add_trailing_newline(path)
+
+def append_domain_if_not_dupe(path, domain):
+    if not duplicateDomainHelper.is_dupe(path, domain):
+        appendToHelper.append_to(path, domain)

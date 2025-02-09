@@ -2,17 +2,17 @@ GET https://customer-sessions.arkoselabs.com
 
 
 < HTTP/1.1 404 Not Found
-< Date: Thu, 06 Feb 2025 16:04:41 GMT
-< X-Cache: Miss from cloudfront
-< Via: 1.1 f328a0489a804ca030fedcbc744c4bf6.cloudfront.net (CloudFront)
-< Content-Length: 0
-< X-Amz-Cf-Pop: CDG52-P4
-< Vary: Origin
-< Server: cloudfront
 < Alt-Svc: h3=":443"; ma=86400
-< X-Amz-Cf-Id: WHesrBxq2PI12EC-8aqqO4n-4xeWDXhv26FN7iE_iA1s-qKGiVG1wQ==
-< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
 < X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
+< Via: 1.1 b2ba040f19ad0239b9239a26b1640b9e.cloudfront.net (CloudFront)
+< Vary: Origin
+< Content-Length: 0
+< Date: Sat, 08 Feb 2025 20:10:20 GMT
+< Server: cloudfront
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: a7wiLvoLbwZlnByb5KCqFeXZLlAAcorelax8lxMYstMnJrHHu1ya0Q==
+< X-Amz-Cf-Pop: CDG52-P4
 < Referrer-Policy: strict-origin-when-cross-origin
 < X-Content-Type-Options: nosniff
-< Strict-Transport-Security: max-age=31536000; includeSubDomains

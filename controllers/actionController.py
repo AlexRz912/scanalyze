@@ -6,9 +6,11 @@ from handlers.menuHandlers.startMenuActionsHandlers import createProjectHandler
 from handlers.menuHandlers.startMenuActionsHandlers import loadProjectHandler
 from handlers.menuHandlers.startMenuActionsHandlers import deleteProjectHandler
 
-from handlers.projectStateHandlers import projectStateHandler
+from handlers import domainFileHandler
 
 from .reconController import recon_controller
+
+from .projectStateController import *
 
 from config import configLoader
 
@@ -17,12 +19,11 @@ from helpers.domainFileHelpers import savePrevDomainFileHelpers
 
 """
 This is no MVC as there is no Models in relation to Database but I use the word Controller
-because it is the file that manages
-all of the logic that starts from menu feature from, view
+because it is the file that manages all of the logic that starts from menu feature from, view
 to specific action handlers
 """
 
-def action_controller(menu, load_state=True):
+def action_controller(menu):
     if (menu == "start"):
         startMenuView.display_start_menu()
         choice = input()
@@ -30,58 +31,68 @@ def action_controller(menu, load_state=True):
     elif (menu == "main"):
         mainMenuView.display_main_menu()
         choice = input()
-        return main_menu_action(choice, load_state)
+        return main_menu_action(choice)
     
 def start_menu_action(action):
-    project_path = None
     if (action == "1"):
         project_path = createProjectHandler.create()
-        print("start menu creation calls load_config_for_state_handling with provided to false and project path")
-        time.sleep(5)
-        load_config_for_state_handling(False, project_path)
+        conf, project_path, project_config_path = load_necessary_config()
+        
     elif (action == "2"):
-        project_path = loadProjectHandler.load()
-        load_config_for_state_handling(False, project_path)
+
+        loadProjectHandler.load()
+        conf, project_path, project_config_path = load_necessary_config()
+        conf["project_config"] = unset_new_on_existing_recon_result(project_path, project_config_path, conf["project_config"])
+        set_pending_on_new_domains(conf["project_config"], project_config_path, project_path)
+        
     elif (action == "3"):
         deleteProjectHandler.delete()
+
     else:
         print("see ya")
         action = "quit"
-    return action, project_path
-
-def main_menu_action(action, load_state=True):
-    if (action == "1"):
-        config = configLoader.load_config("app")
-        project_config = configLoader.load_config("project")
-
-        domains_provided = recon_controller(config, project_config)
-        load_config_for_state_handling(domains_provided)
     return action
 
-def load_config_for_state_handling(provided, path=None):
-    if path == None:
-        print("-------------------------------------------")
-        print("when there's no project path provided we're loading config")
-        print("-------------------------------------------")
-        time.sleep(10)
-        config = configHelper.config_get("app", ["project_path"])
-        path = config["project_path"]
-    
+def main_menu_action(action):
 
-    config = loadProjectHandler.project_config_path(path)
-    project_config_path = configHelper.load_config_path("project", path)
+    if (action == "1"):
+        conf, project_path, project_config_path = load_necessary_config()
+        set_pending_on_new_domains(conf["project_config"], project_config_path, project_path)
+        recon_successful = recon_controller(project_path, conf["project_config"])
+        
+        update_project_vitals(
 
-    if not projectStateHandler.is_new_project(config):
-        print("-----------------------------------------------")
-        print("if project is not a new project we set previous_folder and domains_file")
-        print("-----------------------------------------------")
-        time.sleep(15)
-        # in all case I do verify if it's not a new project
-        previous_folder = (f"{path}/previous")
-        domains_file = (f"{path}/domains")
-    else:
-        print("--------------------------------------------")
-        print("project is a new project, therefore we don't need to verify if there are new domains provided")
-        print("--------------------------------------------")
-        time.sleep(15)
-    projectStateHandler.set_state(project_config_path, path, config, provided)
+            project_config_path, 
+            conf["project_config"], 
+            f"{project_path}", 
+            recon_successful
+
+        )
+    return action
+
+
+def load_necessary_config():
+    config = {}
+    config["app_config"] = configLoader.load_config("app")
+    config["project_config"] = configLoader.load_config("project")
+
+    return config, config["app_config"]["project_path"], f"{config['app_config']['project_path']}/project_config/project_config.json"
+
+def unset_new_on_existing_recon_result(path, project_config_path, project_config):
+    if httpx_results_exist(f"{path}/httpx"):
+        return state_unset_new(project_config_path, project_config)
+    return project_config
+
+def set_pending_on_new_domains(project_config, project_config_path, project_path):
+    different = domainFileHandler.domain_file_has_changed(project_path)
+    state_set_pending(project_config_path, project_config, different)
+
+def update_project_vitals(project_config_path, project_config, path, success):
+    update_prev_domains_file(success, path)
+    project_config = unset_new_on_existing_recon_result(path, project_config_path, project_config)
+    state_unset_pending(project_config_path, project_config, success)
+
+def update_prev_domains_file(success, path):
+    print(path)
+    if success:
+        savePrevDomainFileHelpers.save(f"{path}/domains", path)

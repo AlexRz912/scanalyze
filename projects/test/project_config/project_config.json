@@ -1,19 +1,10 @@
 {
     "project_name": "test",
     "settings": {
-        "tutorial_mode": 0,
-        "suggestions_mode": 0,
-        "automatic_mode": 0
+        "tutorial_mode": false,
+        "suggestions_mode": false,
+        "automatic_mode": false
     },
-    "new_project": false,
-    "recon": {
-        "asset_recon": {
-            "initial_recon_completed": 1,
-            "pending_recon": 1
-        },
-        "domain_recon": {
-            "initial_recon_completed": 1,
-            "pending_recon": 0
-        }
-    }
+    "new_project": true,
+    "pending_recon": true
 }

@@ -16,29 +16,24 @@ def select_project(action):
 def new_project(project_name, working_path):
     if os.path.isdir(working_path):
         os.system(f"mkdir {working_path}/{project_name}")
+        os.system(f"mkdir {working_path}/{project_name}/previous")
         os.system(f"touch {working_path}/{project_name}/domains")
+        os.system(f"touch {working_path}/{project_name}/previous/domains")
         os.system(f"mkdir {working_path}/{project_name}/project_config")
         os.system(f"touch {working_path}/{project_name}/project_config/project_config.json")
+        
         config_path = (f"{working_path}/{project_name}/project_config/project_config.json")
 
         data = {
             "project_name": project_name,
             "settings": {
-                "tutorial_mode": 0,
-                "suggestions_mode": 0,
-                "automatic_mode": 0
+                "tutorial_mode": False,
+                "suggestions_mode": False,
+                "automatic_mode": False
             },
             "new_project": True,
-            "recon":{
-                "asset_recon":{
-                    "initial_recon_completed": 0,
-                    "pending_recon": 0
-                },
-                "domain_recon":{
-                    "initial_recon_completed": 0,
-                    "pending_recon": 0
-                }
-            }
+            "pending_recon": False
+            
         }
 
         with open(config_path, 'w') as file:

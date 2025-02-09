@@ -1,0 +1,10 @@
+{
+    "project_name": "scandalyze",
+    "settings": {
+        "tutorial_mode": false,
+        "suggestions_mode": false,
+        "automatic_mode": false
+    },
+    "new_project": true,
+    "pending_recon": false
+}

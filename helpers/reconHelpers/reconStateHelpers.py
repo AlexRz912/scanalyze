@@ -1,6 +1,3 @@
-def get_recon_state(recon):
-    return recon == 1
-
 def print_domain_recon_completed():
     print("you've already gathered infos in relation to live domains")
 
