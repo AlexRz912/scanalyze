@@ -11,6 +11,7 @@ from handlers.menuHandlers.startMenuActionsHandlers import deleteProjectHandler
 from handlers import domainFileHandler
 
 from .reconController import recon_controller
+from .sortingMenuController import sorting_controller
 
 from .projectStateController import *
 
@@ -34,6 +35,10 @@ def action_controller(menu):
         mainMenuView.display_main_menu()
         choice = input()
         return main_menu_action(choice)
+    elif (menu == "sorting"):
+        projectSortingViews.display_sorting_menu()
+        choice = input()
+        return sorting_menu_action(choice)
     
 def start_menu_action(action):
     if (action == "1"):
@@ -65,15 +70,17 @@ def main_menu_action(action):
         recon_successful = recon_controller(project_path, conf["project_config"])
         
         update_project_vitals(
-
             project_config_path, 
             conf["project_config"], 
             f"{project_path}", 
             recon_successful
-
         )
-    return action
 
+    if (action == "2"):
+        _conf, project_path, _project_config_path = load_necessary_config()
+        sorting_menu_controller(project_path)
+
+    return action
 
 def load_necessary_config():
     config = {}

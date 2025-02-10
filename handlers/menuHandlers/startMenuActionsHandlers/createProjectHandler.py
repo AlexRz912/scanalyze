@@ -7,3 +7,6 @@ def create():
     project = input("Choose a project name\n")
     new_project(project, config["working_path"])
     return update_project_path(config["working_path"], project)
+
+def new(project_name, working_path):
+        return
