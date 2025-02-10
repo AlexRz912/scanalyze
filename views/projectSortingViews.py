@@ -5,6 +5,7 @@ def display_sorting_menu():
     print("custom sorting                      : press 2\n")
     print("display folder tree                 : press 3\n")
     print("display a file's content            : press 4\n")
+    print("quit sorting                        : press 5\n")
     
 def display_project_tree(project_path):
     outputUtils.tree_folders(project_path)

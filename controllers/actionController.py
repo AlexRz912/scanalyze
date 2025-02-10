@@ -11,7 +11,7 @@ from handlers.menuHandlers.startMenuActionsHandlers import deleteProjectHandler
 from handlers import domainFileHandler
 
 from .reconController import recon_controller
-from .sortingMenuController import sorting_controller
+from .sortingLoopController import run_sorting_loop
 
 from .projectStateController import *
 
@@ -78,7 +78,7 @@ def main_menu_action(action):
 
     if (action == "2"):
         _conf, project_path, _project_config_path = load_necessary_config()
-        sorting_menu_controller(project_path)
+        run_sorting_loop(project_path)
 
     return action
 

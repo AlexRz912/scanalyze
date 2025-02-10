@@ -15,4 +15,3 @@ def delete():
     project = list_projects_into_action(config["working_path"], "delete")
     delete_flag = delete_confirmation(project)
     delete_project_on_confirmation(delete_flag, project)
-    
