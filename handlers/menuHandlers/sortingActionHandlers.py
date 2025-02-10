@@ -41,14 +41,14 @@ def find_files_and_print_content(path, file):
     
     if file_status_or_file == "file_found_flag":
         file_to_print = read_temp_file(temp_file)
-        print(file_to_print)
-        time.sleep(4)
         print_file(file_to_print)
         delete_temp_file(temp_file)
+        inputUtils.get_input("\n\npress enter to continue")
 
     elif file_status_or_file:
         print_file(file_status_or_file)
         delete_temp_file(temp_file)
+        inputUtils.get_input("\n\npress enter to continue")
     else:
         file_status_or_file = None
         delete_temp_file(temp_file)
@@ -75,7 +75,9 @@ def delete_temp_file(file_to_delete):
     deleteUtil.delete(file_to_delete)
 
 def read_temp_file(file_to_read):
-    return readUtil.read(file_to_read)
+    file_content = readUtil.read(file_to_read)[0]
+    return file_content
+    
 
 def print_file(file_to_print):
     printUtil.print(file_to_print)
