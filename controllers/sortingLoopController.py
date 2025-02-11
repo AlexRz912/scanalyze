@@ -20,8 +20,7 @@ def sorting_action(choice, path):
         sortingActionHandlers.custom_sort()
         return False
     elif (choice == "3"):
-
-        sortingActionHandlers.display_specific_folder_tree()
+        sortingActionHandlers.display_specific_folder_tree(path)
         return False
     elif (choice == "4"):
         sortingActionHandlers.display_file_content(path)
