@@ -24,19 +24,21 @@ def custom_sort(path):
         
         if folder:
             folder_path = tempFileHelpers.read(f"{path}/temp/found")
+            folder_path = folder_path.strip()
             list_temp_file = create_temp_folder(path, "list")
-            tempFileHelpers.list_files_into_temp(folder_path, list_temp_file)
-            tempFileHelpers.delete(f"{path}/temp")
+
+            tempFileHelpers.list_files_into_temp(folder_path, list_temp_file, sort_string)
+
+            # pour chaque ligne de notre fichier temporaire, on lit le fichier correspondant
+            # On trouve le fichier pour ensuite le copier dans notre fichier de résultat
+            # tempFileHelpers.delete(f"{path}/temp")
             break
         else:
             tempFileHelpers.delete(f"{path}/temp")
             continue
             
-    
 def find_folder(path, folder, sort_string):
-
     line_num, temp_file = get_printed_line_num_from_temp_file(path, folder, "found")
-
     folder_found = checkStatus.check_folder_status_to_return_folder_path(line_num, temp_file)
 
     if folder_found:
@@ -53,7 +55,7 @@ def create_temp_folder(path, temp_file):
     tempFileHelpers.create_folder(temp_path)
     tempFileHelpers.create_file(f"{temp_path}{temp_file}")
 
-    return f"{temp_path}/{temp_file}"
+    return f"{temp_path}{temp_file}"
 
 def get_printed_line_num_from_temp_file(path, folder, name):
     found_temp_file = create_temp_folder(path, name)
@@ -103,11 +105,11 @@ def find_files_and_print_content(path, file):
     
     if file_status_or_file == "file_found_flag":
         file_to_print = tempFileHelpers.read(found_temp_file)
-        tempFileHelpers.print(file_to_print)
+        tempFileHelpers.cat(file_to_print)
         inputUtils.get_input("\n\npress enter to continue")
 
     elif file_status_or_file:
-        tempFileHelpers.print(file_status_or_file)
+        tempFileHelpers.cat(file_status_or_file)
         inputUtils.get_input("\n\npress enter to continue")
     else:
         file_status_or_file = None
