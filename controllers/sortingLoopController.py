@@ -17,7 +17,7 @@ def sorting_action(choice, path):
         sortingActionHandlers.sort_on_preset()
         return False
     elif (choice == "2"):
-        sortingActionHandlers.custom_sort()
+        sortingActionHandlers.custom_sort(path)
         return False
     elif (choice == "3"):
         sortingActionHandlers.display_specific_folder_tree(path)
