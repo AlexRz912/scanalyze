@@ -24,14 +24,14 @@ def cat(file):
     printUtil.print(file)
 
 def list_files_into_temp(path, file, sort_string):  
-    print("message from list files into temp")
-    print(file)
-    time.sleep(4)
-    print(path)
-    time.sleep(4)
-    print(sort_string)
-    time.sleep(3)
-    shExecUtil.cmd_exec(f"grep -rlw '{sort_string}' {path} | anew {file}")
+    print(f"grep -rlw '{sort_string}' {path} | anew {file}")
+    shExecUtil.cmd_exec(f"grep -rl '{sort_string}' {path} | anew {file}")
+    # -rlE '\\200\\b' 
 
+def create_temp_folder(path, temp_file):
+    temp_path = f"{path}/temp/"
     
-    # -rlE '\\200\\b'
+    create_folder(temp_path)
+    create_file(f"{temp_path}{temp_file}")
+
+    return f"{temp_path}{temp_file}"
