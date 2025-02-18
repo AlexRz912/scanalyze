@@ -1,0 +1,23 @@
+GET https://iframe.arkoselabs.com
+
+
+< HTTP/1.1 200 OK
+< Server: cloudfront
+< Date: Mon, 10 Feb 2025 09:30:43 GMT
+< Cache-Control: 
+< Permissions-Policy: accelerometer=*, autoplay=*, camera=*, display-capture=*, encrypted-media=*, fullscreen=*, geolocation=*, gyroscope=*, midi=*, payment=*, picture-in-picture=*, sync-xhr=*, usb=*
+< Referrer-Policy: strict-origin-when-cross-origin
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Amz-Cf-Id: ObrPHbUsWXdKzn1jHrypbwllTvyv9mRk2Ji2OJrFDDG4TlHJ9GFWig==
+< Content-Type: text/html
+< Vary: Accept-Encoding
+< Via: 1.1 a80ee30b9571c32300f689b0f07dc880.cloudfront.net (CloudFront)
+< Alt-Svc: h3=":443"; ma=86400
+< Age: 18986
+< Set-Cookie: _cfuvid=2Tcy_EqLJ0qhYnviOGCTm_1P9sZBMu9.hAx5FSqz2z4-1717104076479-0.0.1.1-604800000; Path=/; Secure; SameSite=None; Domain=.arkoselabs.com;
+< X-Cache: Hit from cloudfront
+< Content-Security-Policy: default-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; connect-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; font-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; frame-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com; img-src 'self' iframe.arkoselabs.com client-api.arkoselabs.com data:; script-src 'self' 'unsafe-inline' iframe.arkoselabs.com client-api.arkoselabs.com; style-src 'self' 'unsafe-inline' iframe.arkoselabs.com client-api.arkoselabs.com;
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
+< X-Amz-Cf-Pop: CDG52-P5
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff

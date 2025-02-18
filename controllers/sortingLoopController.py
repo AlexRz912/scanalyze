@@ -51,9 +51,9 @@ def custom_sort(path):
     customSortActionHandler.create_sorting_results_folder(path, sorting_results_folder)
 
     while True:
-        folder_name = inputUtils.get_input("Choose a folder to work with: \n")
+        results_folder = inputUtils.get_input("Choose a folder to work with: \n")
         
-        folder = customSortActionHandler.find_folder(path, folder_name, sort_string)
+        folder = customSortActionHandler.find_folder(path, results_folder, sort_string)
         
         if folder:
             folder_path = tempFileHelpers.read(f"{path}/temp/found")
@@ -61,10 +61,14 @@ def custom_sort(path):
             list_temp_file = tempFileHelpers.create_temp_folder(path, "list")
 
             tempFileHelpers.list_files_into_temp(folder_path, list_temp_file, sort_string)
-            # get file corresponding lines, whole file or above directory? (l/f/a)
+
+            scope_choice = customSortActionHandler.get_sorting_scope()
+            customSortActionHandler.process_sorting_scope_choice(scope_choice, list_temp_file, path, sorting_results_folder)
+        
+            # get file corresponding lines, whole file or above directory? (l/f/d)
             # read_temp_into_copying_file
             # On trouve le fichier pour ensuite le copier dans notre fichier de résultat
-            # tempFileHelpers.delete(f"{path}/temp")
+            tempFileHelpers.delete(f"{path}/temp")
             break
         else:
             tempFileHelpers.delete(f"{path}/temp")

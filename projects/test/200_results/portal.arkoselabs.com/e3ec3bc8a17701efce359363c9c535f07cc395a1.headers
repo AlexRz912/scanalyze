@@ -1,0 +1,27 @@
+GET https://portal.arkoselabs.com
+
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Tue, 28 Jan 2025 15:57:23 GMT
+< Cache-Tag: customer-portal-ui
+< Content-Security-Policy: default-src 'self' *.arkoselabs.com https://arkoselabs.us.auth0.com/; script-src 'self' *.arkoselabs.com https://client-api.arkoselabs.com https://arkoselabs.us1app.churnzero.net https://arkoselabs-dev.us1app.churnzero.net https://www.googletagmanager.com 'sha256-Qt+HTYR7aAj77VTKujO4O+psr58G1EEnuJIzTa/CWUQ='; style-src 'self' data: 'unsafe-inline' fonts.googleapis.com https://*.churnzero.net blob:; img-src 'self' data: blob: https://*.churnzero.net https://*.zendesk.com https://*.zdusercontent.com https://*.slack-edge.com https://*.arkoselabs.com https://*.amazonaws.com https://support.arkoselabs.com/; font-src 'self' data: fonts.gstatic.com/ https://*.churnzero.net; connect-src 'self' *.arkoselabs.com/ https://portal-prod.arkoselabs.com/ https://*.churnzero.net https://www.google-analytics.com https://arkoselabs.us.auth0.com/oauth/token; object-src 'self'; child-src https://*.churnzero.net; media-src https://*.churnzero.net; frame-src *.arkoselabs.com https://client-api.arkoselabs.com https://dataswan.arkoselabs.com/
+< X-Amz-Version-Id: null
+< Date: Mon, 10 Feb 2025 14:47:11 GMT
+< Referrer-Policy: no-referrer
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Accept-Ch: Device-Memory, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-DPR, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-Viewport-Width, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-Width, Sec-CH-UA-Form-Factors
+< Content-Type: text/html
+< X-Amz-Server-Side-Encryption: AES256
+< X-Cache: RefreshHit from cloudfront
+< X-Amz-Cf-Pop: CDG52-P1
+< Content-Length: 1232
+< Accept-Ranges: bytes
+< Permissions-Policy: accelerometer=(),autoplay=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(self),usb=(),web-share=(),xr-spatial-tracking=()
+< Alt-Svc: h3=":443"; ma=86400
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< X-Amz-Cf-Id: H0naUS4JRgXyHjkIPXWuNdWagDjtQswGBcem8h3Iw59cERM4Pna4qA==
+< Server: cloudfront
+< Etag: "0906f0a16f5772d89f107bff20eb0e62"
+< Via: 1.1 6d865250c628e9708a223a07778aa5b8.cloudfront.net (CloudFront)

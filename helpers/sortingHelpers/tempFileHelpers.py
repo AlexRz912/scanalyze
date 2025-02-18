@@ -20,6 +20,10 @@ def read(file):
     file_content = readUtil.read(file)[0]
     return file_content
 
+def read_entire_file(file):
+    file_content = readUtil.read(file)
+    return file_content
+
 def cat(file):
     printUtil.print(file)
 
